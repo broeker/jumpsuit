@@ -11,8 +11,10 @@ mainpitch:
     easier. Instead, our lives have become more difficult. Our projects more
     expensive. Our products more difficult to support and manage.  
 description: >-
-  Imagine a world where our tools are actually simple and easy to use. A world
-  where clients enjoy interacting with their content. A world where your...
+  Imagine a world where our tools are [simple and easy to
+  use](http://google.com). A world content -- not content management -- comes
+  first A world where clients enjoy interacting with their website, and where
+  developers **discover joy** in building.
 intro:
   blurbs:
     - image: /img/coffee.png
