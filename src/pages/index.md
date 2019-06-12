@@ -4,7 +4,7 @@ title: high speed racing
 subheading: with citizen tim
 image: /img/jumpsuit_header.jpg
 mainpitch:
-  title: ''
+  title: Hear now.
   description: >-
     From the dawn of time, web developers have sought to make things better.
     Instead, our lives have become more difficult. Our projects more expensive.
