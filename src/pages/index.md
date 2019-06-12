@@ -2,21 +2,16 @@
 templateKey: index-page
 title: high speed racing
 image: /img/jumpsuit_header.jpg
-heading: Foomanchu
-subheading: how to build a better web
+subheading: zoom zoom
+heading: Meet the modern web
 mainpitch:
   title: Why Kaldi
   description: >-
-    Jumpsuits to me represent many diverse qualities from action and adventure
-    to manual labor. Jumpsuits are worn by people who push the envelope like
-    skydivers, downhill skiers, astronauts, and high speed racers. Also, people
-    incarcerated in institutions that are full of life’s most dangerous
-    criminals who made their own rules
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+    From the dawn of time, web developers hath sought to make things better.
+    Faster. Smarter. Easier. Instead our lives have become more difficult, our
+    projects more expensive, and our products more difficult to support and
+    manage. 
+description: 'The number of people who love interacting with their CMS is near zero. '
 intro:
   blurbs:
     - image: /img/coffee.png
