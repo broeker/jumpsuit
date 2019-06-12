@@ -1,14 +1,15 @@
 ---
 templateKey: index-page
-title: high speed racing
+title: high speed racing and other ephemera
 subheading: with citizen tim
 image: /img/jumpsuit_header.jpg
 mainpitch:
   title: Hear now.
   description: >-
     From the dawn of time, web developers have sought to make things better.
-    Instead, our lives have become more difficult. Our projects more expensive.
-    Our products more difficult to support and manage.  
+    Instead our lives have become more difficult. Our projects are more
+    expensive and more difficult to manage.  Everything has become MORE
+    complicated, not less.
 heading: We can do better.
 description: >-
   Imagine a world where our tools are [simple and easy to
