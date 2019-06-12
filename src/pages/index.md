@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: high speed racing and other ephemera
+title: high speed racing
 subheading: with citizen tim
 image: /img/jumpsuit_header.jpg
 mainpitch:
