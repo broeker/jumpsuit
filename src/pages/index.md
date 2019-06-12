@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: jumpsuit.life
-image: /img/home-jumbotron.jpg
+image: /img/jumpsuit_header.jpg
 heading: an exploration of how we build the web
 subheading: an exploration of how we build the web
 mainpitch:
