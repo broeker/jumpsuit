@@ -3,14 +3,17 @@ templateKey: index-page
 title: high speed racing
 image: /img/jumpsuit_header.jpg
 subheading: zoom zoom
-heading: Meet the modern web
+heading: Meet the new web
 mainpitch:
   title: Why Kaldi
   description: >-
     From the dawn of time, web developers hath sought to make things better.
-    Faster. Smarter. Easier. Instead our lives have become more difficult. Our
-    projects more expensive. Our products more difficult to support and manage. 
-description: Th
+    Faster. Smarter. Easier. Instead, our lives have become more difficult. Our
+    projects are more expensive. Despite their power, our products are difficult
+    to support and manage. 
+description: >-
+  A technological revolution that began in roughly 2014 is now fully upon us,
+  and those who recognize it now
 intro:
   blurbs:
     - image: /img/coffee.png
