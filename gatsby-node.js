@@ -88,11 +88,13 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       node,
       value,
     })
-  }
-  const markdown = node.frontmatter.description;
-  node.frontmatter.description = remark()
+
+    const markdown = node.frontmatter.description;
+    node.frontmatter.description = remark()
     .use(remarkHTML)
     .processSync(markdown)
     .toString();
-  return node;
+    return node;
+  }
+
 }
