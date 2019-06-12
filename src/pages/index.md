@@ -3,17 +3,16 @@ templateKey: index-page
 title: high speed racing
 image: /img/jumpsuit_header.jpg
 subheading: zoom zoom
-heading: Meet the new web
+heading: We can do better.
 mainpitch:
   title: Why Kaldi
   description: >-
-    From the dawn of time, web developers have sought to make things better.
-    Faster. Smarter. Easier. Instead, our lives have become more difficult. Our
-    projects more expensive. Our products more difficult to support and
-    manage.  
+    From the dawn of time, web developers have sought to make things simpler and
+    easier. Instead, our lives have become more difficult. Our projects more
+    expensive. Our products more difficult to support and manage.  
 description: >-
-  A technological revolution that began in roughly 2014 is now fully upon us,
-  and those who recognize it now
+  Imagine a world where our tools are actually simple and easy to use. A world
+  where clients enjoy interacting with their content. A world where your...
 intro:
   blurbs:
     - image: /img/coffee.png
