@@ -1,16 +1,17 @@
 ---
 templateKey: index-page
-title: building the next generation web
+title: high speed racing
 image: /img/jumpsuit_header.jpg
 heading: Foomanchu
-subheading: high speed racers
+subheading: how to build a better web
 mainpitch:
   title: Why Kaldi
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+  description: >-
+    Jumpsuits to me represent many diverse qualities from action and adventure
+    to manual labor. Jumpsuits are worn by people who push the envelope like
+    skydivers, downhill skiers, astronauts, and high speed racers. Also, people
+    incarcerated in institutions that are full of life’s most dangerous
+    criminals who made their own rules
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
