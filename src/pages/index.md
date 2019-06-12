@@ -4,25 +4,21 @@ title: high speed racing
 subheading: with citizen tim
 image: /img/jumpsuit_header.jpg
 mainpitch:
-  title: fdasdf
+  title: ''
   description: >-
     From the dawn of time, web developers have sought to make things better.
     Instead our lives have become more difficult. Our projects are more
     expensive. More difficult to manage.  Everything has become MORE
     complicated, not less.
 intro:
-  heading: What we offer
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+  heading: 'We can do better. '
+  description: >-
+    Imagine a world where our tools are [simple and easy to
+    use](http://google.com). A world content -- not content management -- comes
+    first A world where clients enjoy interacting with their website, and where
+    developers **discover joy** in building.
 heading: We can do better.
-description: >-
-  Imagine a world where our tools are [simple and easy to
-  use](http://google.com). A world content -- not content management -- comes
-  first A world where clients enjoy interacting with their website, and where
-  developers **discover joy** in building.
+description: asdf
 introx:
   blurbs: []
   heading: asdf
