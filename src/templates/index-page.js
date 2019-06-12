@@ -167,7 +167,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         image {
-          childImageSharp n{
+          childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {
               ...GatsbyImageSharpFluid
             }
@@ -180,6 +180,10 @@ export const pageQuery = graphql`
           description
         }
         description
+        main {
+          heading 
+          description
+          }
         intro {
           blurbs {
             image {
@@ -194,11 +198,6 @@ export const pageQuery = graphql`
           heading
           description
         }
-        main {
-          heading
-          description
-        }
-          
       }
     }
   }
