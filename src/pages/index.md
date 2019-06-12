@@ -4,11 +4,12 @@ title: high speed racing
 subheading: with citizen tim
 image: /img/jumpsuit_header.jpg
 mainpitch:
-  title: Hear me now.
+  title: ''
   description: >-
     From the dawn of time, web developers have sought to make things better. Yet
-    our projects are more expensive. More difficult to manage. Everything has
-    become MORE complicated and harder to work with, not less.
+    today our world is more difficult than ever. Our projects are more
+    expensive. More difficult to manage. Everything has become MORE complicated
+    and harder to work with, not less.
 intro:
   blurbs:
     - image: /img/coffee-gear.png
@@ -16,12 +17,12 @@ intro:
   description: Hear me now.
   heading: Hear me roar.
 main:
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
-  heading: Great coffee with no compromises
+  description: >-
+    When we began building the web more than a quarter of a century ago, things
+    were simple. And fun. We built things by hand, with intention. The world was
+    filled with optimism and incredible potential, and out of thin air we began
+    creating and imagining and building.
+  heading: In the beginning.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg
