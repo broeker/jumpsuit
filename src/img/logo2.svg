@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="150"
+   width="240"
    height="24"
-   viewBox="0 0 39.687491 6.3500002"
+   viewBox="0 0 63.499985 6.3500002"
    version="1.1"
    id="svg146"
    inkscape:version="0.92.4 (unknown)"
-   sodipodi:docname="logo.svg">
+   sodipodi:docname="logo2.svg">
   <defs
      id="defs140" />
   <sodipodi:namedview
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.33"
-     inkscape:cx="134.99088"
-     inkscape:cy="29.942721"
+     inkscape:cx="60.131597"
+     inkscape:cy="-7.5807309"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -45,7 +45,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -60,9 +60,7 @@
        x="0.45642412"
        y="311.16336"
        id="text150"
-       transform="scale(1.0507691,0.95168387)"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
+       transform="scale(1.0507691,0.95168387)"><tspan
          sodipodi:role="line"
          id="tspan148"
          x="0.45642412"
