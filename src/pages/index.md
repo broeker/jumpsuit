@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: jumpsuit.life
+title: building the next generation web
 image: /img/jumpsuit_header.jpg
-heading: an exploration of how we build the web
-subheading: an exploration of how we build the web
+heading: Foomanchu
+subheading: high speed racers
 mainpitch:
   title: Why Kaldi
   description: >
