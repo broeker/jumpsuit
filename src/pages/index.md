@@ -8,10 +8,9 @@ mainpitch:
   title: Why Kaldi
   description: >-
     From the dawn of time, web developers hath sought to make things better.
-    Faster. Smarter. Easier. Instead our lives have become more difficult, our
-    projects more expensive, and our products more difficult to support and
-    manage. 
-description: 'The number of people who love interacting with their CMS is near zero. '
+    Faster. Smarter. Easier. Instead our lives have become more difficult. Our
+    projects more expensive. Our products more difficult to support and manage. 
+description: Th
 intro:
   blurbs:
     - image: /img/coffee.png
