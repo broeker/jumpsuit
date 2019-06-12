@@ -6,9 +6,9 @@ image: /img/jumpsuit_header.jpg
 mainpitch:
   title: ''
   description: >-
-    From the dawn of time, web developers have sought to make things simpler and
-    easier. Instead, our lives have become more difficult. Our projects more
-    expensive. Our products more difficult to support and manage.  
+    From the dawn of time, web developers have sought to make things better.
+    Instead, our lives have become more difficult. Our projects more expensive.
+    Our products more difficult to support and manage.  
 heading: We can do better.
 description: >-
   Imagine a world where our tools are [simple and easy to
