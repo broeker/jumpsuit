@@ -2,7 +2,7 @@
 templateKey: index-page
 title: high speed racing
 image: /img/jumpsuit_header.jpg
-subheading: with Citizen Tim
+subheading: with citizen tim
 heading: We can do better.
 mainpitch:
   title: Why Kaldi
