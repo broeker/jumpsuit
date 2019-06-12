@@ -9,15 +9,33 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="150"
+   width="205"
    height="24"
-   viewBox="0 0 39.687491 6.3500002"
+   viewBox="0 0 54.239572 6.3500002"
    version="1.1"
    id="svg146"
    inkscape:version="0.92.4 (unknown)"
    sodipodi:docname="logo.svg">
   <defs
-     id="defs140" />
+     id="defs140">
+    <font
+       horiz-adv-x="1024"
+       id="font822"
+       inkscape:label="font 1"
+       horiz-origin-x="0"
+       horiz-origin-y="0"
+       vert-origin-x="45"
+       vert-origin-y="90"
+       vert-adv-y="90">
+      <font-face
+         units-per-em="1024"
+         id="font-face824"
+         font-family="SVGFont 1" />
+      <missing-glyph
+         d="M0,0h1000v1024h-1000z"
+         id="missing-glyph826" />
+    </font>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -26,16 +44,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.33"
-     inkscape:cx="134.99088"
+     inkscape:cx="121.38863"
      inkscape:cy="29.942721"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      inkscape:window-width="1920"
-     inkscape:window-height="1025"
+     inkscape:window-height="1052"
      inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-y="0"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata143">
@@ -54,19 +72,88 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-290.64998)">
+    <g
+       aria-label="LIFE"
+       transform="matrix(1.0406234,0,0,0.96096244,0.52916662,0)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.95020866px;line-height:1.25;font-family:'Tofino Personal';-inkscape-font-specification:'Tofino Personal, weight=480';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ac9d93;fill-opacity:0.54587157;stroke:none;stroke-width:0.25425467"
+       id="text838">
+      <path
+         d="m 37.877975,308.15182 h 3.322199 v -1.49429 h -1.626348 v -3.57936 h -1.695851 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.95020866px;font-family:'Tofino Personal';-inkscape-font-specification:'Tofino Personal, weight=480';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ac9d93;fill-opacity:0.54587157;stroke-width:0.25425467"
+         id="path855"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 41.583848,308.15182 h 1.695851 v -5.07365 h -1.695851 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.95020866px;font-family:'Tofino Personal';-inkscape-font-specification:'Tofino Personal, weight=480';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ac9d93;fill-opacity:0.54587157;stroke-width:0.25425467"
+         id="path857"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 43.972982,308.15182 h 1.69585 v -1.68195 h 1.522096 v -1.27188 h -1.522096 v -0.76453 h 1.869607 v -1.35529 h -3.565457 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.95020866px;font-family:'Tofino Personal';-inkscape-font-specification:'Tofino Personal, weight=480';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ac9d93;fill-opacity:0.54587157;stroke-width:0.25425467"
+         id="path859"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 47.950347,308.15182 h 3.760063 v -1.35529 h -2.064212 v -0.57686 h 1.6611 v -1.23019 h -1.6611 v -0.55602 h 2.00861 v -1.35529 h -3.704461 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.95020866px;font-family:'Tofino Personal';-inkscape-font-specification:'Tofino Personal, weight=480';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ac9d93;fill-opacity:0.54587157;stroke-width:0.25425467"
+         id="path861"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="JUMPSUIT"
+       transform="matrix(1.0507691,0,0,0.95168387,-0.52916662,0)"
+       style="font-style:normal;font-weight:normal;font-size:13.74481773px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.34362042"
+       id="text150">
+      <path
+         d="m 3.3915349,308.72919 v -2.71638 H 1.6699796 v 2.71638 c 0,0.81845 -0.2116667,0.94545 -0.69849998,0.94545 H 0.49875745 v 1.48872 h 0.47272217 c 2.22249978,0 2.42005528,-0.61383 2.42005528,-2.43417 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555487px;font-family:'Tofino Personal';-inkscape-font-specification:'Tofino Personal, weight=480';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ff6600;stroke-width:0.34362042"
+         id="path4531"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 8.3296516,308.78564 v -2.77283 H 6.5939852 v 2.63172 c 0,1.05128 -0.1199445,1.143 -0.4162778,1.143 -0.2822222,0 -0.4162777,-0.0917 -0.4162777,-1.143 v -2.63172 H 4.0398743 v 2.77283 c 0,1.78505 0.3245555,2.53294 2.1448887,2.53294 1.8414998,0 2.1448886,-0.74789 2.1448886,-2.53294 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555487px;font-family:'Tofino Personal';-inkscape-font-specification:'Tofino Personal, weight=480';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ff6600;stroke-width:0.34362042"
+         id="path4533"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 9.0085284,311.16336 h 1.6298336 l -0.141112,-3.33728 0.804334,3.33728 h 1.827388 l 0.867834,-3.34433 -0.134056,3.34433 h 1.643944 v -5.15055 h -2.652888 l -0.613833,3.16088 -0.649112,-3.16088 H 9.0085284 Z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555487px;font-family:'Tofino Personal';-inkscape-font-specification:'Tofino Personal, weight=480';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ff6600;stroke-width:0.34362042"
+         id="path4535"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 16.215667,311.16336 h 1.721556 v -1.23472 h 0.07055 c 2.144889,0 2.758722,-0.42333 2.758722,-1.96145 0,-1.53811 -0.613833,-1.95438 -2.758722,-1.95438 h -1.792111 z m 1.721556,-3.80294 h 0.296333 c 0.522111,0 0.754944,0.0635 0.754944,0.59266 0,0.52917 -0.232833,0.59267 -0.754944,0.59267 h -0.296333 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555487px;font-family:'Tofino Personal';-inkscape-font-specification:'Tofino Personal, weight=480';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ff6600;stroke-width:0.34362042"
+         id="path4537"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 25.626014,309.58997 c 0,-1.97555 -2.744611,-1.43933 -2.744611,-2.04611 0,-0.21872 0.148167,-0.3175 0.472722,-0.3175 0.381,0 0.543278,0.23989 0.543278,0.60678 h 1.651 c 0,-1.34761 -0.635,-1.98261 -2.201333,-1.98261 -1.502833,0 -2.166056,0.67028 -2.180167,1.74272 -0.02822,1.9685 2.723444,1.48167 2.723444,2.06728 0,0.26105 -0.275166,0.30339 -0.444499,0.30339 -0.373945,0 -0.656167,-0.16228 -0.656167,-0.635 H 21.12457 c 0,1.31233 0.705555,1.98966 2.236611,1.98966 1.559277,0 2.264833,-0.60677 2.264833,-1.72861 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555487px;font-family:'Tofino Personal';-inkscape-font-specification:'Tofino Personal, weight=480';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ff6600;stroke-width:0.34362042"
+         id="path4539"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 30.419601,308.78564 v -2.77283 h -1.735666 v 2.63172 c 0,1.05128 -0.119945,1.143 -0.416278,1.143 -0.282222,0 -0.416278,-0.0917 -0.416278,-1.143 v -2.63172 h -1.721555 v 2.77283 c 0,1.78505 0.324555,2.53294 2.144889,2.53294 1.841499,0 2.144888,-0.74789 2.144888,-2.53294 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555487px;font-family:'Tofino Personal';-inkscape-font-specification:'Tofino Personal, weight=480';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ff6600;stroke-width:0.34362042"
+         id="path4541"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 31.098478,311.16336 h 1.721555 v -5.15055 h -1.721555 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555487px;font-family:'Tofino Personal';-inkscape-font-specification:'Tofino Personal, weight=480';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ff6600;stroke-width:0.34362042"
+         id="path4543"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 34.469269,311.16336 h 1.721555 v -3.63361 h 1.262944 v -1.51694 h -4.247444 v 1.51694 h 1.262945 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555487px;font-family:'Tofino Personal';-inkscape-font-specification:'Tofino Personal, weight=480';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ff6600;stroke-width:0.34362042"
+         id="path4545"
+         inkscape:connector-curvature="0" />
+    </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:13.74481773px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.34362042"
-       x="0.45642412"
-       y="311.16336"
-       id="text150"
-       transform="scale(1.0507691,0.95168387)"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
+       style="font-style:normal;font-weight:normal;font-size:10.58333206px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="42.79002"
+       y="295.61005"
+       id="text834"><tspan
          sodipodi:role="line"
-         id="tspan148"
-         x="0.45642412"
-         y="311.16336"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555487px;font-family:'Tofino Personal';-inkscape-font-specification:'Tofino Personal, weight=480';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ff6600;stroke-width:0.34362042">JUMPSUIT</tspan></text>
+         id="tspan832"
+         x="42.79002"
+         y="304.97382"
+         style="stroke-width:0.26458332" /></text>
   </g>
 </svg>
