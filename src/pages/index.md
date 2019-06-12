@@ -4,11 +4,11 @@ title: high speed racing
 subheading: with citizen tim
 image: /img/jumpsuit_header.jpg
 mainpitch:
-  title: Hear now.
+  title: ''
   description: >-
     From the dawn of time, web developers have sought to make things better.
     Instead our lives have become more difficult. Our projects are more
-    expensive and more difficult to manage.  Everything has become MORE
+    expensive. More difficult to manage.  Everything has become MORE
     complicated, not less.
 heading: We can do better.
 description: >-
