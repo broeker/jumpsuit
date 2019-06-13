@@ -4,12 +4,12 @@ title: high speed racing
 subheading: with citizen tim
 image: /img/jumpsuit_header.jpg
 mainpitch:
-  title: ''
   description: >-
     From the dawn of time, web developers have sought to make things better. But
     today our world is more difficult than ever. Our projects are more
     expensive. Harder to manage. Less fun to work on. Everything has become MORE
     complicated, not less. 
+  title: ''
 main:
   description: >-
     When we started building the web more than a quarter of a century ago,
@@ -31,13 +31,9 @@ intro:
   blurbs:
     - image: /img/coffee-gear.png
       text: Fooch.
+    - image: /img/jumpsuit.svg
+      text: Together we shall rock.
   description: Hear me now.
   heading: Hear me roar.
-description: >-
-  Imagine a world where our tools are [simple and easy to
-  use](http://google.com). A world content -- not content management -- comes
-  first A world where clients enjoy interacting with their website, and where
-  developers **discover joy** in building.
-heading: We can do better.
 ---
 
