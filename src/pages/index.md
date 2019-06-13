@@ -17,7 +17,7 @@ main:
     piece of hand-coded markup had a purpose. The world was filled with optimism
     and incredible potential. We collectively and rapidly created an entire new
     universe of pages and links and resources and tools. It was fun.
-  heading: Let's have fun again.
+  heading: We can do better.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/jumpsuit.png
