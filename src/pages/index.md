@@ -29,7 +29,7 @@ main:
     image: /img/products-grid1.jpg
 intro:
   blurbs:
-    - image: /img/coffee-gear.png
+    - image: /img/jumpsuit.svg
       text: >-
         Don't want to set these clouds on fire. Wind it up, blend it together.
         Painting used to drive me crazy. Sometimes it's fun to play little games
