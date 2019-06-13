@@ -8,14 +8,8 @@ mainpitch:
   description: >-
     From the dawn of time, web developers have sought to make things better. Yet
     today our world is more difficult than ever. Our projects are more
-    expensive. More difficult to manage. Everything has become MORE complicated
-    and harder to work with, not less. 
-intro:
-  blurbs:
-    - image: /img/coffee-gear.png
-      text: Fooch.
-  description: Hear me now.
-  heading: Hear me roar.
+    expensive. Harder to manage. Less fun to work on. Everything has become MORE
+    complicated, not less. 
 main:
   description: >-
     When we started building the web more than a quarter of a century ago,
@@ -35,6 +29,12 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
+intro:
+  blurbs:
+    - image: /img/coffee-gear.png
+      text: Fooch.
+  description: Hear me now.
+  heading: Hear me roar.
 description: >-
   Imagine a world where our tools are [simple and easy to
   use](http://google.com). A world content -- not content management -- comes
