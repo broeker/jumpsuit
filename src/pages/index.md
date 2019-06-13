@@ -4,14 +4,20 @@ title: high speed racing
 subheading: with citizen tim
 image: /img/jumpsuit_header.jpg
 mainpitch:
-  title: ''
+  title: In the beginning.
   description: >-
     From the dawn of time, web developers have sought to make things better. Yet
     today our world is more difficult than ever. Our projects are more
     expensive. Harder to manage. Less fun to work on. Everything has become MORE
-    complicated, not less. 
+    complicated, not less. We can do it  better.
 main:
   description: >-
+    Most of the world has been building the web using the same basic technique
+    for more than 20 years: monolithic, database-driven content management
+    systems 
+
+
+
     When we started building the web more than a quarter of a century ago,
     things were simple. And fun. We built things by hand, with intention. Every
     piece of hand-coded markup had a purpose. The world was filled with optimism
