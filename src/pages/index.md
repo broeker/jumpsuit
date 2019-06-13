@@ -9,7 +9,7 @@ mainpitch:
     From the dawn of time, web developers have sought to make things better. Yet
     today our world is more difficult than ever. Our projects are more
     expensive. More difficult to manage. Everything has become MORE complicated
-    and harder to work with, not less.
+    and harder to work with, not less. 
 intro:
   blurbs:
     - image: /img/coffee-gear.png
@@ -18,11 +18,14 @@ intro:
   heading: Hear me roar.
 main:
   description: >-
-    When we began building the web more than a quarter of a century ago, things
-    were simple. And fun. We built things by hand, with intention. The world was
-    filled with optimism and incredible potential, and out of thin air we began
-    creating and imagining and building.
-  heading: In the beginning.
+    When we started building the web more than a quarter of a century ago,
+    things were simple. And fun. We built things by hand, with intention. Every
+    piece of hand-coded markup had a purpose. The world was filled with optimism
+    and incredible potential. With the help of view-source, we collectively and
+    rapidly created an entire new universe of page and links and resources and
+    tools that today represent the collective sum of human knowledge as we know
+    it and the 
+  heading: Let's have some fun again.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg
