@@ -29,7 +29,7 @@ main:
     image: /img/products-grid1.jpg
 intro:
   blurbs:
-    - image: /img/coffee-gear.png
+    - image: /img/jumpsuit.svg
       text: Fooch.
     - image: /img/stree.jpg
       text: Together we shall rock.
