@@ -12,16 +12,12 @@ mainpitch:
     complicated, not less. 
 main:
   description: >-
-    Most of the world has been building the web using the same basic technique
-    for more than 20 years: monolithic, database-driven content management
-    systems  When we started building the web more than a quarter of a century
-    ago, things were simple. And fun. We built things by hand, with intention.
-    Every piece of hand-coded markup had a purpose. The world was filled with
-    optimism and incredible potential. With the help of view-source, we
-    collectively and rapidly created an entire new universe of page and links
-    and resources and tools that today represent the collective sum of human
-    knowledge as we know it and the 
-  heading: Let's have some fun again.
+    When we started building the web more than a quarter of a century ago,
+    things were simple. And fun. We built things by hand, with intention. Every
+    piece of hand-coded markup had a purpose. The world was filled with optimism
+    and incredible potential. We collectively and rapidly created an entire new
+    universe of pages and links and resources and tools. It was fun.
+  heading: Let's have fun again.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg
