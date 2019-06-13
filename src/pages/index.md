@@ -31,7 +31,7 @@ intro:
   blurbs:
     - image: /img/coffee-gear.png
       text: Fooch.
-    - image: /img/jumpsuit.svg
+    - image: /img/stree.jpg
       text: Together we shall rock.
   description: Hear me now.
   heading: Hear me roar.
