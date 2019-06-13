@@ -2,7 +2,7 @@
 templateKey: index-page
 title: high speed racing
 subheading: with citizen tim
-foo: fook
+foo: Fooker
 image: /img/jumpsuit_header.jpg
 mainpitch:
   description: >-
