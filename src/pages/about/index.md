@@ -1,10 +1,13 @@
 ---
-templateKey: 'about-page'
-path: /about
-title: About our values
+templateKey: about-page
+title: Jumpsuit Living
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+Welcome to my website and blog, wherein we discuss Gatsby, React, the JAMstack, and better living through the jumpsuit lifestyle. My name is Tim Broeker (aka Citizen Tim.) I began building web the in 1994. My first browser was an early copy of Mosiac, until a nerd at the University of Minnesota computer lab scofnded ad handed me a floppy disk loaded with the first release of Netscape. 
+
+Today I am the co-founder and technical director of a great digital agency called Electric Citizen. We serve the civic sector just as I have throughout my entire career, helping message-driven....blah
+
+### Early days: The Renaissance
+The timing of my life 
 
 ### Single origin
 Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
