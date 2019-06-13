@@ -29,13 +29,13 @@ main:
     image: /img/products-grid1.jpg
 intro:
   blurbs:
-    - image: /img/blog-index.jpg
-      text: The best
     - image: /img/stree.jpg
       text: >-
         Don't want to set these clouds on fire. Wind it up, blend it together.
         Painting used to drive me crazy. Sometimes it's fun to play little games
         in your mountains. 
+    - image: /img/blog-index.jpg
+      text: The best
   description: Hear me now.
   heading: Hear me roar.
 ---
