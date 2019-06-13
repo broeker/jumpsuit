@@ -4,12 +4,12 @@ title: high speed racing
 subheading: with citizen tim
 image: /img/jumpsuit_header.jpg
 mainpitch:
-  title: In the beginning was the web.
+  title: In the beginning it was fun.
   description: >-
     From the dawn of time, web developers have sought to make things better. But
     today our world is more difficult than ever. Our projects are more
     expensive. Harder to manage. Less fun to work on. Everything has become MORE
-    complicated, not less. We can do it  better.
+    complicated, not less. 
 main:
   description: >-
     Most of the world has been building the web using the same basic technique
@@ -21,7 +21,7 @@ main:
     collectively and rapidly created an entire new universe of page and links
     and resources and tools that today represent the collective sum of human
     knowledge as we know it and the 
-  heading: A race to the future.
+  heading: Let's race again.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg
