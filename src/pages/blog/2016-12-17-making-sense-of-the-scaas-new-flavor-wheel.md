@@ -1,10 +1,13 @@
 ---
 templateKey: blog-post
-title: Making sense of the SCAA’s new Flavor Wheel
-date: 2016-12-17T15:04:10.000Z
+title: The Death of the Mega Menu
+date: 2019-06-12T14:04:00.000Z
+description: >
+  The "menu" has played a central role in the web since the beginning, often
+  used to this day as the primary means for navigating deep into a website in
+  order to locate specific content. 
 featuredpost: false
 featuredimage: /img/flavor_wheel.jpg
-description: The Coffee Taster’s Flavor Wheel, the official resource used by coffee tasters, has been revised for the first time this year.
 tags:
   - flavor
   - tasting
