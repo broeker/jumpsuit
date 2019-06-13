@@ -6,7 +6,7 @@ image: /img/jumpsuit_header.jpg
 mainpitch:
   title: In the beginning.
   description: >-
-    From the dawn of time, web developers have sought to make things better. Yet
+    From the dawn of time, web developers have sought to make things better. But
     today our world is more difficult than ever. Our projects are more
     expensive. Harder to manage. Less fun to work on. Everything has become MORE
     complicated, not less. We can do it  better.
