@@ -4,7 +4,7 @@ title: high speed racing
 subheading: with citizen tim
 image: /img/jumpsuit_header.jpg
 mainpitch:
-  title: In the beginning.
+  title: In the beginning was the web.
   description: >-
     From the dawn of time, web developers have sought to make things better. But
     today our world is more difficult than ever. Our projects are more
@@ -21,7 +21,7 @@ main:
     collectively and rapidly created an entire new universe of page and links
     and resources and tools that today represent the collective sum of human
     knowledge as we know it and the 
-  heading: 'Let''s race, man.'
+  heading: A race to the future.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg
