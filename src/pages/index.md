@@ -20,7 +20,7 @@ main:
   heading: Let's have fun again.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    image: /img/jumpsuit.png
   image2:
     alt: A green cup of a coffee on a wooden table
     image: /img/products-grid2.jpg
