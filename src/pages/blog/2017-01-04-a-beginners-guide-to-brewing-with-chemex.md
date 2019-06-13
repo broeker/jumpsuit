@@ -1,10 +1,13 @@
 ---
 templateKey: blog-post
-title: A beginners’ guide to brewing with Chemex
+title: How the Cache Saved Us All
 date: 2017-01-04T15:04:10.000Z
+description: >-
+  The vast majority of the web would collapse under the weight of the of the
+  world today, if not for the miracles of caching mechanisms, from Varnish and
+  Redis to Memcache 
 featuredpost: false
 featuredimage: /img/chemex.jpg
-description: Brewing with a Chemex probably seems like a complicated, time-consuming ordeal, but once you get used to the process, it becomes a soothing ritual that's worth the effort every time.
 tags:
   - brewing
   - chemex
