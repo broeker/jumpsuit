@@ -25,7 +25,7 @@ main:
     rapidly created an entire new universe of page and links and resources and
     tools that today represent the collective sum of human knowledge as we know
     it and the 
-  heading: It's time to race again.
+  heading: Let's race.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg
