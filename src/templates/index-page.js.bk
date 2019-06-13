@@ -93,19 +93,25 @@ export const IndexPageTemplate = ({
                     />
                   </div>
 
-
                 </div>
 
-                <div className="has-text-centered">
-                  <div
-                    style={{
-                    width: '75vh',
-                    display: 'inline-block',
+
+                <div className="container">
+                    <PreviewCompatibleImage imageInfo={main.image1} />
+                </div>
+
+                <div
+                  className="full-width-image-container"
+                  style={{
+                    backgroundImage: `url(${
+                      main.image1.childImageSharp
+                        ? main.image1.childImageSharp.fluid.src
+                        : main.image1 
+                    })`,
                   }}
-                  >
-                  <PreviewCompatibleImage imageInfo={main.image1} />
-                  </div>
-                </div>
+                />
+
+
 
                 <Features gridItems={intro.blurbs} />
                 <div className="columns">
@@ -144,6 +150,13 @@ IndexPageTemplate.propTypes = {
   description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
+  }),
+  main: PropTypes.shape({
+    heading: PropTypes.string,
+    description: PropTypes.string,
+    image1: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+    image2: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+    image3: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   }),
 }
 
@@ -196,18 +209,41 @@ export const pageQuery = graphql`
         }
         description
         main {
-          heading 
+          heading
           description
           image1 {
+            alt
             image {
-             childImageSharp {
-              fluid(maxWidth: 800, quality: 94) {
-                ...GatsbyImageSharpFluid
+              childimagesharp {
+                fluid(maxwidth: 526, quality: 92) {
+                  ...gatsbyimagesharpfluid
+                }
               }
-             }
-            } 
-           }
+            }
           }
+          image2 {
+            alt
+            image {
+              childImageSharp {
+                fluid(maxWidth: 526, quality: 92) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          image3 {
+            alt
+            image {
+              childImageSharp {
+                fluid(maxWidth: 1075, quality: 72) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+        }
+        
+        
         intro {
           blurbs {
             image {
