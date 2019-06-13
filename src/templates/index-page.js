@@ -5,14 +5,13 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 export const IndexPageTemplate = ({
   image,
   title,
-  heading,
   subheading,
   mainpitch,
-  description,
   main,
   intro,
 }) => (
@@ -93,7 +92,20 @@ export const IndexPageTemplate = ({
                       dangerouslySetInnerHTML={{ __html: main.description }}
                     />
                   </div>
+
+
                 </div>
+                <div className="has-text-centered">
+            <div
+              style={{
+                width: '75vh',
+                display: 'inline-block',
+              }}
+            >
+              <PreviewCompatibleImage imageInfo={main.image1} />
+            </div>
+                </div>
+
                 <Features gridItems={intro.blurbs} />
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
@@ -185,6 +197,15 @@ export const pageQuery = graphql`
         main {
           heading 
           description
+          image1 {
+            image {
+             childImageSharp {
+              fluid(maxWidth: 800, quality: 94) {
+                ...GatsbyImageSharpFluid
+              }
+             }
+            } 
+           }
           }
         intro {
           blurbs {
