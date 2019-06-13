@@ -48,6 +48,16 @@ export const ProductPageTemplate = ({
               <p>{description}</p>
             </div>
           </div>
+          <div className="has-text-centered">
+                  <div
+                    style={{
+                    width: '25vh',
+                    display: 'inline-block',
+                  }}
+                  >
+                  <PreviewCompatibleImage imageInfo={fullImage} />
+                  </div>
+              </div>
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <Features gridItems={intro.blurbs} />
@@ -81,16 +91,8 @@ export const ProductPageTemplate = ({
                 </div>
               </div>
               <Testimonials testimonials={testimonials} />
-              <div
-                className="full-width-image-container"
-                style={{
-                  backgroundImage: `url(${
-                    fullImage.childImageSharp
-                      ? fullImage.childImageSharp.fluid.src
-                      : fullImage
-                  })`,
-                }}
-              />
+
+
               <h2 className="has-text-weight-semibold is-size-2">
                 {pricing.heading}
               </h2>

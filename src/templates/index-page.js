@@ -15,6 +15,8 @@ export const IndexPageTemplate = ({
   main,
   intro,
   foo,
+  fooimage,
+
 }) => (
   <div>
     <div
@@ -70,10 +72,21 @@ export const IndexPageTemplate = ({
         <div className="section">
           <div className="columns">
             <div className="column is-10 is-offset-1">
+              <div className="has-text-centered">
+                  <div
+                    style={{
+                    width: '75vh',
+                    display: 'inline-block',
+                  }}
+                  >
+                  <PreviewCompatibleImage imageInfo={fooimage} />
+                  </div>
+              </div>
               <div className="content">
                 <div className="content">
 
                   <h6>{foo}</h6>
+
                   {mainpitch.title ?
                     <div className="tile">
                     <h1 className="title">{mainpitch.title}</h1>
@@ -162,6 +175,7 @@ const IndexPage = ({ data }) => {
         description={frontmatter.description}
         intro={frontmatter.intro}
         foo={frontmatter.foo}
+        fooimage={frontmatter.fooimage}
       />
     </Layout>
   )
@@ -191,6 +205,13 @@ export const pageQuery = graphql`
         }
         heading
         foo
+        fooimage {
+              childImageSharp {
+                fluid(maxWidth: 240, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
         subheading
         mainpitch {
           title
