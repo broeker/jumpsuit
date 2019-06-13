@@ -14,6 +14,7 @@ export const IndexPageTemplate = ({
   mainpitch,
   main,
   intro,
+  foo,
 }) => (
   <div>
     <div
@@ -72,6 +73,7 @@ export const IndexPageTemplate = ({
               <div className="content">
                 <div className="content">
 
+                  <h6>{foo}</h6>
                   {mainpitch.title ?
                     <div className="tile">
                     <h1 className="title">{mainpitch.title}</h1>
@@ -92,8 +94,6 @@ export const IndexPageTemplate = ({
                       dangerouslySetInnerHTML={{ __html: main.description }}
                     />
                   </div>
-
-
                 </div>
 
                 <div className="has-text-centered">
@@ -161,6 +161,7 @@ const IndexPage = ({ data }) => {
         main={frontmatter.main}
         description={frontmatter.description}
         intro={frontmatter.intro}
+        foo={frontmatter.foo}
       />
     </Layout>
   )
@@ -189,6 +190,7 @@ export const pageQuery = graphql`
           }
         }
         heading
+        foo
         subheading
         mainpitch {
           title
