@@ -30,9 +30,15 @@ main:
 intro:
   blurbs:
     - image: /img/coffee-gear.png
-      text: Fooch.
+      text: >-
+        Don't want to set these clouds on fire. Wind it up, blend it together.
+        Painting used to drive me crazy. Sometimes it's fun to play little games
+        in your mountains. 
     - image: /img/stree.jpg
-      text: Together we shall rock.
+      text: >-
+        Don't want to set these clouds on fire. Wind it up, blend it together.
+        Painting used to drive me crazy. Sometimes it's fun to play little games
+        in your mountains. 
   description: Hear me now.
   heading: Hear me roar.
 ---
