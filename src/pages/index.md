@@ -13,7 +13,7 @@ mainpitch:
 main:
   description: >-
     There is a new and better way to build the web. Led by frameworks such as
-    Gatsby, the rise of managed services, and the emergence of hosting platforms
+    Gatsby, the rise of managed services, and the emergence of dynamic platforms
     like Netlify, we are now in the early stages of a coming storm that is
     quickly and dramatically changing how and what we build. Achievements that
     were extremely difficult even 2-3 years ago are now becoming magically
@@ -47,5 +47,6 @@ intro:
         layer of liquid clear. 
   description: Hear me now.
   heading: Hear me roar.
+flurbs: []
 ---
 
