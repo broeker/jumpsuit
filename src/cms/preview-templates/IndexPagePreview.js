@@ -2,11 +2,25 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { IndexPageTemplate } from '../../templates/index-page'
 
+const remarkHTML = require('remark-html');
+
+const remark = require('remark');
+
 const IndexPagePreview = ({ entry, getAsset }) => {
   const data = entry.getIn(['data']).toJS()
 
+  var foo = data.main.description
+
+  const markdown = data.main.description;
+  var moo =  data.main.description = remark()
+    .use(remarkHTML)
+    .processSync(foo)
+    .toString();
+
+
   if (data) {
     return (
+
       <IndexPageTemplate
         image={data.image}
         title={data.title}
@@ -15,11 +29,9 @@ const IndexPagePreview = ({ entry, getAsset }) => {
         description={data.description}
         intro={data.intro || { blurbs: [] }}
         mainpitch={data.mainpitch || {}}
-        foo={data.foo}
-        fooimage={data.fooimage}
         main={{
         heading: entry.getIn(['data', 'main', 'heading']),
-        description: entry.getIn(['data', 'main', 'description']),
+        description: moo,
         image1: {
           image: getAsset(entry.getIn(['data', 'main', 'image1', 'image'])),
           alt: entry.getIn(['data', 'main', 'image1', 'alt']),

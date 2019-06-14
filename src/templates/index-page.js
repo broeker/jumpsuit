@@ -14,8 +14,6 @@ export const IndexPageTemplate = ({
   mainpitch,
   main,
   intro,
-  foo,
-  fooimage,
 
 }) => (
   <div>
@@ -72,21 +70,8 @@ export const IndexPageTemplate = ({
         <div className="section">
           <div className="columns">
             <div className="column is-10 is-offset-1">
-              <div className="has-text-centered">
-                  <div
-                    style={{
-                    width: '75vh',
-                    display: 'inline-block',
-                  }}
-                  >
-                  <PreviewCompatibleImage imageInfo={fooimage} />
-                  </div>
-              </div>
               <div className="content">
                 <div className="content">
-
-                  <h6>{foo}</h6>
-
                   {mainpitch.title ?
                     <div className="tile">
                     <h1 className="title">{mainpitch.title}</h1>
@@ -95,7 +80,7 @@ export const IndexPageTemplate = ({
                     null
                   }
                   <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
+                    <h3 className="subtitle" dangerouslySetInnerHTML={{ __html: mainpitch.description }} />
                   </div>
                 </div>
                 <div className="columns">
@@ -112,8 +97,10 @@ export const IndexPageTemplate = ({
                 <div className="has-text-centered">
                   <div
                     style={{
-                    width: '75vh',
+                    width: '50vh',
                     display: 'inline-block',
+                    margin: '2em 0',
+                    "min-width": '320px',
                   }}
                   >
                   <PreviewCompatibleImage imageInfo={main.image1} />
@@ -154,6 +141,7 @@ IndexPageTemplate.propTypes = {
   heading: PropTypes.string,
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
+  main: PropTypes.object,
   description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
@@ -174,8 +162,6 @@ const IndexPage = ({ data }) => {
         main={frontmatter.main}
         description={frontmatter.description}
         intro={frontmatter.intro}
-        foo={frontmatter.foo}
-        fooimage={frontmatter.fooimage}
       />
     </Layout>
   )
@@ -204,14 +190,6 @@ export const pageQuery = graphql`
           }
         }
         heading
-        foo
-        fooimage {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
         subheading
         mainpitch {
           title
@@ -249,3 +227,4 @@ export const pageQuery = graphql`
     }
   }
 `
+

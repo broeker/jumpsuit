@@ -23,6 +23,9 @@ exports.createPages = ({ actions, graphql }) => {
               tags
               templateKey
               description
+              main {
+                description 
+              } 
             }
           }
         }
@@ -89,8 +92,8 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       value,
     })
 
-    const markdown = node.frontmatter.description;
-    node.frontmatter.description = remark()
+    const markdown = node.frontmatter.main.description;
+    node.frontmatter.main.description = remark()
     .use(remarkHTML)
     .processSync(markdown)
     .toString();

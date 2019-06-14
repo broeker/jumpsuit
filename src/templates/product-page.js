@@ -55,7 +55,7 @@ export const ProductPageTemplate = ({
                     display: 'inline-block',
                   }}
                   >
-                  <PreviewCompatibleImage imageInfo={fullImage} />
+                  <PreviewCompatibleImage imageInfo={main.image1} />
                   </div>
               </div>
           <div className="columns">
@@ -92,7 +92,16 @@ export const ProductPageTemplate = ({
               </div>
               <Testimonials testimonials={testimonials} />
 
-
+              <div
+                className="full-width-image-container"
+                style={{
+                  backgroundImage: `url(${
+                    fullImage.childImageSharp
+                      ? fullImage.childImageSharp.fluid.src
+                      : fullImage
+                  })`,
+                }}
+              />
               <h2 className="has-text-weight-semibold is-size-2">
                 {pricing.heading}
               </h2>
