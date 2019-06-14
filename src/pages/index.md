@@ -7,23 +7,18 @@ mainpitch:
   description: >-
     From the dawn of time, web developers have sought to make things better. But
     today our world is more difficult than ever. Our projects are more
-    expensive. Harder to manage. Less fun to work on.
-  title: ''
+    expensive. Harder to manage. Less fun to build. Slower and more complicated
+    to use.
+  title: Zoom zoom
 main:
   description: >-
-    When we started building the web more than a quarter of a century ago,
-    things were simple. And fun. We built things by hand, with intention. Every
-    piece of hand-coded markup had a purpose. The world was filled with optimism
-    and potential. We collectively and rapidly created an entire new universe of
-    pages and links and resources and tools.
-
-
-    When we started building the web more than a quarter of a century ago,
-    things were simple. And fun. We built things by hand, with intention. Every
-    piece of hand-coded markup had a purpose. The world was filled with optimism
-    and potential. We collectively and rapidly created an entire new universe of
-    pages and links and resources and tools.
-  heading: Let's have fun some again.
+    There is a new and better way to build the web. Led by frameworks such as
+    Gatsby, the rise of managed services, and the emergence of hosting platforms
+    like Netlify, we are now in the very early stages of a coming storm is
+    quickly and dramatically changing how and what we build. Achievements that
+    were extremely difficult even 2-3 years ago are now becoming magically
+    simple.
+  heading: Let's have some fun again.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/jumpsuit.png
