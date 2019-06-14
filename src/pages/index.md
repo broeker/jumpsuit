@@ -17,8 +17,8 @@ main:
     When we started building the web more than a quarter of a century ago,
     things were simple. And fun. We built things by hand, with intention. Every
     piece of hand-coded markup had a purpose. The world was filled with optimism
-    and incredible potential. We collectively and rapidly created an entire new
-    universe of pages and links and resources and tools. 
+    and **incredible potentia**l. We collectively and rapidly created an entire
+    new universe of pages and links and resources and tools. 
 
 
 
