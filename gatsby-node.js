@@ -72,7 +72,7 @@ exports.createPages = ({ actions, graphql }) => {
         component: path.resolve(`src/templates/tags.js`),
         context: {
           tag,
-        },
+        },//
       })
     })
   })
@@ -90,12 +90,12 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       value,
     })
 
-    const markdown = node.frontmatter.main.description;
-    node.frontmatter.main.description = remark()
-    .use(remarkHTML)
-    .processSync(markdown)
-    .toString();
-    return node;
+    //const markdown = node.frontmatter.main.description;
+    //node.frontmatter.main.description = remark()
+    //.use(remarkHTML)
+    //.processSync(markdown)
+    //.toString();
+    //return node;
   }
 
 }

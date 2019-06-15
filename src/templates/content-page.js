@@ -24,16 +24,17 @@ export const ContentPageTemplate = ({
     <>
       {helmet || ''}
       <div>
-    <div
-      className="full-width-image margin-top-0"
-      style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
-        backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`,
-      }}
-    >
+
+        <div
+          className="full-width-image margin-top-0"
+          style={{
+            backgroundImage: `url(${
+              !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+            })`,
+            backgroundPosition: `top left`,
+            backgroundAttachment: `fixed`,
+          }}
+        >
       <div
         style={{
           display: 'flex',
@@ -90,18 +91,6 @@ export const ContentPageTemplate = ({
                     <h3 className="subtitle" dangerouslySetInnerHTML={{ __html: mainpitch.description }} />
                   </div>
                 </div>
-
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
-                  </h3>
-                  <BlogRoll />
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
-                      Read more
-                    </Link>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -141,7 +130,6 @@ const ContentPage = ({ data }) => {
             />
           </Helmet>
         }
-        tags={post.frontmatter.tags}
         title={post.frontmatter.title}
         mainpitch={post.frontmatter.mainpitch}
       />
@@ -178,7 +166,6 @@ export const pageQuery = graphql`
           description
         }
         description
-        tags
       }
     }
   }
