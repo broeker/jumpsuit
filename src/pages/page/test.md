@@ -1,7 +1,7 @@
 ---
 templateKey: content-page
 title: Test
-subheading: That's when I reached for my revolver.
+subheading: That's when I reach for my revolver.
 image: /img/jumpsuit_header.jpg
 mainpitch:
   description: asf
