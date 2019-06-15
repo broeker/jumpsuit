@@ -28,14 +28,16 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "content-page"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Subheading", name: subheading, widget: string}
+      - {label: "Image", name: image, widget: image}
+      - {label: "Mainpitch", name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string, required: false}, {label: Description, name: description, widget: markdown}]}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
   - name: "pages-global"
-    label: "Global pages"
+    label: "Global"
     files:
       - file: "src/pages/index.md"
         label: "Homepage"
