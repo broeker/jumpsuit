@@ -6,6 +6,12 @@ image: /img/jumpsuit_header.jpg
 mainpitch:
   title: And together.
   description: We shall be victorious.
+main:
+  - description: I am main body.
+    heading: I am main
+    image1:
+      alt: Main image.
+      image: /img/blog-index.jpg
 description: This is the desc.
 featuredpost: true
 featuredimage: /img/blog-index.jpg
