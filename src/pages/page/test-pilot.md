@@ -10,7 +10,7 @@ mainpitch:
     even done anything to it yet. This piece of canvas is your world. There
     comes a nice little fluffer.
 main:
-  blurbs:
+  content:
     - header: This is a happy place
       image: /img/chemex.jpg
       text: >-

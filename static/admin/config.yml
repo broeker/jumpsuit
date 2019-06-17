@@ -32,9 +32,9 @@ collections:
       - {label: "Image", name: image, widget: image}
       - {label: "Mainpitch", name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string, required: false}, {label: Description, name: description, widget: markdown}]}
       - {label: "Main", name: main, widget: object, fields: [
-              {label: Blurbs, name: blurbs, widget: list, fields: [
-                {label: Image, name: image, widget: image},
-                {label: Header, name: header, widget: string},
+              {label: Content, name: content, widget: list, fields: [
+                {label: Image, name: image, widget: image, required: false},
+                {label: Header, name: header, widget: string, required: false},
                 {label: Text, name: text, widget: markdown}]}]}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Post", name: "featuredpost", widget: "boolean"}

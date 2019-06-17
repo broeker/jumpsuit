@@ -88,7 +88,7 @@ export const ContentPageTemplate = ({
                     <h3 className="subtitle" dangerouslySetInnerHTML={{ __html: mainpitch.description }} />
                   </div>
                 </div>
-                {main.blurbs.map(item => (
+                {main.content.map(item => (
                 <div key={item.text}>
                   <div className="has-text-centered">
                     <div
@@ -123,12 +123,10 @@ ContentPageTemplate.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
-  cobra: PropTypes.array,
 }
 
 const ContentPage = ({ data }) => {
   const { markdownRemark: post } = data
-
   return (
     <Layout>
       <ContentPageTemplate
@@ -179,7 +177,7 @@ export const pageQuery = graphql`
           }
         }
         main {
-          blurbs {
+          content {
             image {
               childImageSharp {
                 fluid(maxWidth: 1200, quality: 64) {
@@ -188,6 +186,7 @@ export const pageQuery = graphql`
               }
             }
             text
+            header
           }
         }
         mainpitch {
