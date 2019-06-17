@@ -94,7 +94,18 @@ export const ContentPageTemplate = ({
         </div>
       </div>
     </section>
-
+      <div className="column is-6">
+          <div className="has-text-centered">
+            <div
+              style={{
+                width: '240px',
+                display: 'inline-block',
+              }}
+            >
+              {cobra.description}
+            </div>
+          </div>
+      </div>
   </div>
     </>
   )

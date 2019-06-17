@@ -12,11 +12,6 @@ cobra:
     image1:
       alt: Main image.
       image: /img/blog-index.jpg
-  - description: I shall rule the planet.
-    heading: I am the mother main.
-    image1:
-      alt: foo
-      image: /img/chemex.jpg
 description: This is the desc.
 featuredpost: true
 featuredimage: /img/blog-index.jpg
