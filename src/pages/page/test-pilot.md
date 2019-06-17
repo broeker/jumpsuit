@@ -12,7 +12,7 @@ mainpitch:
 main:
   blurbs:
     - header: This is a happy place
-      image: /img/meeting-space.png
+      image: /img/chemex.jpg
       text: >-
         This is a happy place, little squirrels live here and play. Isn't it
         fantastic that you can change your mind and create all these happy
