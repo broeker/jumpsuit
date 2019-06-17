@@ -94,7 +94,8 @@ export const ContentPageTemplate = ({
         </div>
       </div>
     </section>
-      <div className="column is-6">
+      {cobra.map(item => (
+      <div key={item.heading} className="column is-6">
           <div className="has-text-centered">
             <div
               style={{
@@ -102,10 +103,12 @@ export const ContentPageTemplate = ({
                 display: 'inline-block',
               }}
             >
-              {cobra.description}
+              <h3>{item.heading}</h3>
+              {item.description}
             </div>
           </div>
       </div>
+    ))}
   </div>
     </>
   )

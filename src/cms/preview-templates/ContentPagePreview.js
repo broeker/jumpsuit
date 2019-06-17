@@ -9,7 +9,6 @@ const ContentPagePreview = ({ entry, getAsset, widgetFor }) => {
 const data = entry.getIn(['data']).toJS()
   if (data) {
     return (
-
   <ContentPageTemplate
     image={entry.getIn(['data', 'image'])}
     subheading={entry.getIn(['data', 'subheading'])}
@@ -22,10 +21,11 @@ const data = entry.getIn(['data']).toJS()
       description: entry.getIn(['data', 'mainpitch', 'description']),
     }}
     cobra={{
-        heading: entry.getIn(['data', 'main', 'heading']),
+        heading: entry.getIn(['data', 'cobra', 'heading']),
+        description: entry.getIn(['data', 'cobra', 'description']),
         image1: {
-          image: getAsset(entry.getIn(['data', 'main', 'image1', 'image'])),
-          alt: entry.getIn(['data', 'main', 'image1', 'alt']),
+          image: getAsset(entry.getIn(['data', 'cobra', 'image1', 'image'])),
+          alt: entry.getIn(['data', 'cobra', 'image1', 'alt']),
         },
       }}
 
