@@ -14,8 +14,8 @@ main:
     - header: This is a happy place
       image: /img/chemex.jpg
       text: >-
-        This is a happy place, little squirrels live here and play. Isn't it
-        fantastic that you can change your mind and create all these happy
+        This is a happy place, little squirrels live here and play. **Isn't it
+        fantastic that you can** change your mind and create all these happy
         things? The light is your friend. Preserve it. Making all those little
         fluffies that live in the clouds. Zip. That easy. You better get your
         coat out, this is going to be a cold painting.
