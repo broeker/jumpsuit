@@ -6,7 +6,7 @@ image: /img/jumpsuit_header.jpg
 mainpitch:
   title: And together.
   description: We shall be victorious.
-main:
+cobra:
   - description: I am main body.
     heading: I am main
     image1:

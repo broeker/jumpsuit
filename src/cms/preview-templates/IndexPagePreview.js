@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import { IndexPageTemplate } from '../../templates/index-page'
 
 const remarkHTML = require('remark-html');
-
 const remark = require('remark');
 
 const IndexPagePreview = ({ entry, getAsset }) => {

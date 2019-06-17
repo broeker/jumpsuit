@@ -5,20 +5,17 @@ import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
-import BlogRoll from '../components/BlogRoll'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 export const ContentPageTemplate = ({
-  content,
   contentComponent,
-  description,
   image,
   subheading,
+  cobra,
   mainpitch,
   title,
   helmet,
   }) => {
-  const PostContent = contentComponent || Content
 
   return (
     <>
@@ -97,6 +94,7 @@ export const ContentPageTemplate = ({
         </div>
       </div>
     </section>
+
   </div>
     </>
   )
@@ -131,6 +129,7 @@ const ContentPage = ({ data }) => {
           </Helmet>
         }
         title={post.frontmatter.title}
+        cobra={post.frontmatter.cobra}
         mainpitch={post.frontmatter.mainpitch}
       />
     </Layout>
@@ -161,6 +160,19 @@ export const pageQuery = graphql`
             }
           }
         }
+        cobra {
+          heading 
+          description
+          image1 {
+            image {
+             childImageSharp {
+              fluid(maxWidth: 800, quality: 94) {
+                ...GatsbyImageSharpFluid
+              }
+             }
+            } 
+          }
+        }  
         mainpitch {
           title
           description

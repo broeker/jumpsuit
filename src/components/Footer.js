@@ -17,8 +17,25 @@ const Footer = class extends React.Component {
             alt="Kaldi"
             style={{ width: '14em', height: '10em' }}
           />
-          <p>
-          Jumpsuits to me...</p>
+          <div
+            className="has-text-weight-bold container hast-text-centered"
+            style={{
+            boxShadow:
+              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
+            backgroundColor: '#333',
+            fontColor: '#CFD8DC',
+              fontSize: '1.4em',
+            lineHeight: '2',
+            padding: '2em',
+            width: '40vw',
+              minWidth: '400px',
+              marginBottom: '6em',
+            }}
+          >
+            Jumpsuits to me represent many diverse qualities from action and adventure to manual labor. Jumpsuits are worn by people who push the envelope like skydivers, downhill skiers, astronauts, and high speed racers. Also, people incarcerated in institutions that are full of life’s most dangerous criminals who made their own rules."
+           <br /> — Jeff Hilliard, made in Los Angeles, CA
+          </div>
+
         </div>
 
         <div className="content has-text-centered has-background-black has-text-white-ter">

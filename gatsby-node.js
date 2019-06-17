@@ -78,6 +78,18 @@ exports.createPages = ({ actions, graphql }) => {
   })
 }
 
+exports.sourceNodes = ({ actions, schema }) => {
+  const { createTypes } = actions
+  createTypes(`
+    type MarkdownRemarkFrontmatter {
+      description: String 
+    }
+
+    type MarkdownRemark implements Node {
+      frontmatter: MarkdownRemarkFrontmatter
+    }
+  `)
+}
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
