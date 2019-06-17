@@ -11,7 +11,7 @@ export const ContentPageTemplate = ({
   contentComponent,
   image,
   subheading,
-  cobra,
+  main,
   mainpitch,
   title,
   helmet,
@@ -94,21 +94,6 @@ export const ContentPageTemplate = ({
         </div>
       </div>
     </section>
-      {cobra.map(item => (
-      <div key={item.heading} className="column is-6">
-          <div className="has-text-centered">
-            <div
-              style={{
-                width: '240px',
-                display: 'inline-block',
-              }}
-            >
-              <h3>{item.heading}</h3>
-              {item.description}
-            </div>
-          </div>
-      </div>
-    ))}
   </div>
     </>
   )
@@ -120,6 +105,7 @@ ContentPageTemplate.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
+  cobra: PropTypes.array,
 }
 
 const ContentPage = ({ data }) => {
@@ -143,7 +129,7 @@ const ContentPage = ({ data }) => {
           </Helmet>
         }
         title={post.frontmatter.title}
-        cobra={post.frontmatter.cobra}
+        main={post.frontmatter.main}
         mainpitch={post.frontmatter.mainpitch}
       />
     </Layout>
@@ -174,19 +160,18 @@ export const pageQuery = graphql`
             }
           }
         }
-        cobra {
-          heading 
-          description
-          image1 {
+        main {
+          blurbs {
             image {
-             childImageSharp {
-              fluid(maxWidth: 800, quality: 94) {
-                ...GatsbyImageSharpFluid
+              childImageSharp {
+                fluid(maxWidth: 1200, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
               }
-             }
-            } 
+            }
+            text
           }
-        }  
+        }
         mainpitch {
           title
           description

@@ -6,12 +6,17 @@ image: /img/jumpsuit_header.jpg
 mainpitch:
   title: And together.
   description: We shall be victorious.
-cobra:
-  - description: I am cobra kai.
-    heading: I am cobra
-    image1:
-      alt: Main image.
-      image: /img/blog-index.jpg
+main:
+  blurbs:
+    - image: /img/meeting-space.png
+      text: >-
+        You need to understand nature. A thin, and let me say that again, a THIN
+        layer of liquid clear. 
+    - image: /img/coffee.png
+      text: >-
+        Don't want to set these clouds on fire. Wind it up, blend it together.
+        Painting used to drive me crazy. Sometimes it's fun to play little games
+        in your mountains. 
 description: This is the desc.
 featuredpost: true
 featuredimage: /img/blog-index.jpg

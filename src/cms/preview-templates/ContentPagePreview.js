@@ -16,6 +16,7 @@ const data = entry.getIn(['data']).toJS()
     description={entry.getIn(['data', 'description'])}
     tags={entry.getIn(['data', 'tags'])}
     title={entry.getIn(['data', 'title'])}
+    main={data.main || { blurbs: [] }}
     mainpitch={{
       title: entry.getIn(['data', 'mainpitch', 'title']),
       description: entry.getIn(['data', 'mainpitch', 'description']),
