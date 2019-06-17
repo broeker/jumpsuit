@@ -5,7 +5,10 @@ subheading: I shall fly.
 image: /img/jumpsuit_header.jpg
 mainpitch:
   title: And together.
-  description: We shall be victorious.
+  description: >-
+    We'll have a super time. What the devil. It's beautiful - and we haven't
+    even done anything to it yet. This piece of canvas is your world. There
+    comes a nice little fluffer.
 main:
   blurbs:
     - image: /img/meeting-space.png
@@ -19,13 +22,6 @@ main:
         in your mountains. 
 description: This is the desc.
 featuredpost: true
-featuredimage: /img/blog-index.jpg
 date: 2019-06-15T01:56:02.612Z
 ---
-I shall be the body.
 
-![sadf](/img/apple-touch-icon.png "asdf")
-
-```
-fasfdasdsafd <?phpasdf >
-```
