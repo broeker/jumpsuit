@@ -93,13 +93,15 @@ export const ContentPageTemplate = ({
                   <div className="has-text-centered">
                     <div
                       style={{
-                      width: '240px',
+                      width: '600px',
                       display: 'inline-block',
                       }}
                     >
                     <PreviewCompatibleImage imageInfo={item} />
                     </div>
                   </div>
+
+                  <h3 className="title">{item.header}</h3>
                   <p>{item.text}</p>
                 </div>
                 ))}
