@@ -7,8 +7,8 @@ mainpitch:
   title: And together.
   description: We shall be victorious.
 cobra:
-  - description: I am main body.
-    heading: I am main
+  - description: I am cobra kai.
+    heading: I am cobra
     image1:
       alt: Main image.
       image: /img/blog-index.jpg
