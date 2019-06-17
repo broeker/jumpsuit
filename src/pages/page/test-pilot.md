@@ -6,14 +6,9 @@ image: /img/jumpsuit_header.jpg
 mainpitch:
   title: And together.
   description: We shall be victorious.
-main:
-  - description: I am main body.
-    heading: I am main
-    image1:
-      alt: Main image.
-      image: /img/blog-index.jpg
-  - description: I shall rule the planet.
-    heading: I am the mother main.
+cobra:
+  - description: Kai
+    heading: Cobra
     image1:
       alt: foo
       image: /img/chemex.jpg
