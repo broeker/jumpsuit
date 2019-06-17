@@ -88,6 +88,21 @@ export const ContentPageTemplate = ({
                     <h3 className="subtitle" dangerouslySetInnerHTML={{ __html: mainpitch.description }} />
                   </div>
                 </div>
+                {main.blurbs.map(item => (
+                <div key={item.text}>
+                  <div className="has-text-centered">
+                    <div
+                      style={{
+                      width: '240px',
+                      display: 'inline-block',
+                      }}
+                    >
+                    <PreviewCompatibleImage imageInfo={item} />
+                    </div>
+                  </div>
+                  <p>{item.text}</p>
+                </div>
+                ))}
               </div>
             </div>
           </div>
@@ -95,6 +110,7 @@ export const ContentPageTemplate = ({
       </div>
     </section>
   </div>
+
     </>
   )
 }

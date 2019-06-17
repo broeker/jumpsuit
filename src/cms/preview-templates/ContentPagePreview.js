@@ -12,7 +12,6 @@ const data = entry.getIn(['data']).toJS()
   <ContentPageTemplate
     image={entry.getIn(['data', 'image'])}
     subheading={entry.getIn(['data', 'subheading'])}
-    content={widgetFor('body')}
     description={entry.getIn(['data', 'description'])}
     tags={entry.getIn(['data', 'tags'])}
     title={entry.getIn(['data', 'title'])}
@@ -21,15 +20,6 @@ const data = entry.getIn(['data']).toJS()
       title: entry.getIn(['data', 'mainpitch', 'title']),
       description: entry.getIn(['data', 'mainpitch', 'description']),
     }}
-    cobra={{
-        heading: entry.getIn(['data', 'cobra', 'heading']),
-        description: entry.getIn(['data', 'cobra', 'description']),
-        image1: {
-          image: getAsset(entry.getIn(['data', 'cobra', 'image1', 'image'])),
-          alt: entry.getIn(['data', 'cobra', 'image1', 'alt']),
-        },
-      }}
-
   />
     )}
 }
