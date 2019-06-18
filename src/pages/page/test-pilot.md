@@ -6,7 +6,7 @@ image: /img/jumpsuit_header.jpg
 mainpitch:
   title: And together.
   description: >-
-    We'll have a super time. What the devil. It's beautiful - and we haven't
+    We'll have a super time. _What the devil._ It's beautiful - and we haven't
     even done anything to it yet. This piece of canvas is your world. There
     comes a nice little fluffer.
 main:
