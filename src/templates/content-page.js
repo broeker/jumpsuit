@@ -76,33 +76,32 @@ export const ContentPageTemplate = ({
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
-                <div className="content">
+                  <div className="mainpitch">
                   {mainpitch.title ?
-                    <div className="tile">
                     <h1 className="title">{mainpitch.title}</h1>
-                    </div>
                     :
                     null
                   }
-                  <div className="tile">
                     <h3 className="subtitle" dangerouslySetInnerHTML={{ __html: mainpitch.description }} />
                   </div>
-                </div>
                 {main.content.map(item => (
                 <div key={item.text}>
                   <div className="has-text-centered">
                     <div
                       style={{
-                      width: '600px',
-                      display: 'inline-block',
+                        width: '100%',
+                        maxWidth: 240,
+                        display: 'inline-block',
                       }}
                     >
-                    <PreviewCompatibleImage imageInfo={item} />
+                      <div className="inline-image">
+                      <PreviewCompatibleImage imageInfo={item} />
+                      </div>
                     </div>
                   </div>
 
                   <h3 className="title">{item.header}</h3>
-                  <p>{item.text}</p>
+                  FOO: <div dangerouslySetInnerHTML={{ __html: item.text}} />
                 </div>
                 ))}
               </div>
@@ -181,7 +180,9 @@ export const pageQuery = graphql`
             image {
               childImageSharp {
                 fluid(maxWidth: 1200, quality: 64) {
+                  presentationWidth
                   ...GatsbyImageSharpFluid
+                  
                 }
               }
             }

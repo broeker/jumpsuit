@@ -10,7 +10,7 @@ mainpitch:
     expensive. Harder to manage. Less fun to build. Slower and more complicated
     to use.
   title: Zoom zoom
-main:
+mainbody:
   description: >-
     There is a new and better way to build the web. **Led by frameworks such as
     Gatsby**, the rise of managed services, and the emergence of dynamic

@@ -8,10 +8,10 @@ const remark = require('remark');
 const IndexPagePreview = ({ entry, getAsset }) => {
   const data = entry.getIn(['data']).toJS()
 
-  var foo = data.main.description
+  var foo = data.mainbody.description
 
-  const markdown = data.main.description;
-  var moo =  data.main.description = remark()
+  const markdown = data.mainbody.description;
+  var moo =  data.mainbody.description = remark()
     .use(remarkHTML)
     .processSync(foo)
     .toString();
@@ -29,19 +29,11 @@ const IndexPagePreview = ({ entry, getAsset }) => {
         intro={data.intro || { blurbs: [] }}
         mainpitch={data.mainpitch || {}}
         main={{
-        heading: entry.getIn(['data', 'main', 'heading']),
+        heading: entry.getIn(['data', 'mainbody', 'heading']),
         description: moo,
         image1: {
           image: getAsset(entry.getIn(['data', 'main', 'image1', 'image'])),
-          alt: entry.getIn(['data', 'main', 'image1', 'alt']),
-        },
-        image2: {
-          image: getAsset(entry.getIn(['data', 'main', 'image2', 'image'])),
-          alt: entry.getIn(['data', 'main', 'image2', 'alt']),
-        },
-        image3: {
-          image: getAsset(entry.getIn(['data', 'main', 'image3', 'image'])),
-          alt: entry.getIn(['data', 'main', 'image3', 'alt']),
+          alt: entry.getIn(['data', 'mainbody', 'image1', 'alt']),
         },
       }}
       />

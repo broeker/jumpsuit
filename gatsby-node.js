@@ -90,24 +90,28 @@ exports.sourceNodes = ({ actions, schema }) => {
     }
   `)
 }
-
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
   fmImagesToRelative(node) // convert image paths for gatsby images
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode })
+
+    console.log('FOO: ' . node)
+
     createNodeField({
       name: `slug`,
       node,
       value,
     })
 
-    //const markdown = node.frontmatter.main.description;
-    //node.frontmatter.main.description = remark()
-    //.use(remarkHTML)
-    //.processSync(markdown)
-    //.toString();
-    //return node;
-  }
+      const markdown = node.frontmatter.mainbody.description;
+      node.frontmatter.mainbody.description = remark()
+        .use(remarkHTML)
+        .processSync(markdown)
+        .toString();
+
+      return node;
+    }
 
 }
+

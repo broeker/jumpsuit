@@ -141,7 +141,7 @@ IndexPageTemplate.propTypes = {
   heading: PropTypes.string,
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
-  main: PropTypes.object,
+  mainbody: PropTypes.object,
   description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
@@ -159,7 +159,7 @@ const IndexPage = ({ data }) => {
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
-        main={frontmatter.main}
+        main={frontmatter.mainbody}
         description={frontmatter.description}
         intro={frontmatter.intro}
       />
@@ -196,7 +196,7 @@ export const pageQuery = graphql`
           description
         }
         description
-        main {
+        mainbody {
           heading 
           description
           image1 {
