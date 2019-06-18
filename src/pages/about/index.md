@@ -1,6 +1,12 @@
 ---
 templateKey: about-page
 title: Jumpsuit Living
+mainpitch:
+  title: And together.
+  description: >-
+    We'll have a super time. _What the devil._ It's beautiful - and we haven't
+    even done anything to it yet. This piece of canvas is your world. There
+    comes a nice little fluffer.
 ---
 Welcome to my website and blog, wherein we discuss Gatsby, React, the JAMstack, and better living through the jumpsuit lifestyle. My name is Tim Broeker (aka Citizen Tim.) I began building web the in 1994. My first browser was an early copy of Mosiac.
 

@@ -8,6 +8,12 @@ description: >
   order to locate specific content. 
 featuredpost: false
 featuredimage: /img/flavor_wheel.jpg
+mainpitch:
+  title: And together.
+  description: >-
+    We'll have a super time. _What the devil._ It's beautiful - and we haven't
+    even done anything to it yet. This piece of canvas is your world. There
+    comes a nice little fluffer.
 tags:
   - flavor
   - tasting

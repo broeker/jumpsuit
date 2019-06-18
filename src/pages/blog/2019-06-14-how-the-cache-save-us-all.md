@@ -7,6 +7,12 @@ description: >-
   cache.
 featuredpost: true
 featuredimage: /img/apple-touch-icon.png
+mainpitch:
+  title: And together.
+  description: >-
+    We'll have a super time. _What the devil._ It's beautiful - and we haven't
+    even done anything to it yet. This piece of canvas is your world. There
+    comes a nice little fluffer.
 tags:
   - monolith
 ---
