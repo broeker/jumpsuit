@@ -7,8 +7,8 @@ mainpitch:
   description: >-
     From the dawn of time, web developers have sought to make things better. But
     today our world is more difficult than ever_._ Our projects are more
-    expensive. Harder to manage. Less fun to build. Slower and more complicated
-    to use.
+    expensive. Harder to manage and maintain. Less fun to build. Slower and more
+    complicated to use.
   title: Zoom zoom
 mainbody:
   description: >-
