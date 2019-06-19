@@ -12,13 +12,13 @@ mainpitch:
   title: Zoom zoom
 mainbody:
   description: >-
-    There is a new and better way to build the web. For anybody who has been
-    building the web since the 1990s, it may remind you a lot of the old way.
-    Led by frameworks such as Gatsby, the rise of managed services, and the
-    emergence of dynamic platforms like Netlify, we are now in the early stages
-    of a very large storm that is quickly and dramatically changing how and what
-    we build. Achievements that were extremely difficult even 2-3 years ago are
-    now becoming magically simple. Better yet, building this next generation of
+    There is a new and better way to build the web. For people who been building
+    the web since the 1990s, it may remind you a lot of the old way. Led by
+    frameworks such as Gatsby, the rise of managed services, and the emergence
+    of dynamic platforms like Netlify, we are now in the early stages of a
+    Category 5 storm that is quickly and dramatically changing how and what we
+    build. Achievements that were extremely difficult even 2-3 years ago are now
+    becoming magically simple. Better yet, building this next generation of
     websites and applications is simply fun in way that we have been missing for
     a long time.
   heading: Let's have some fun again.
