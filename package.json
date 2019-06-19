@@ -32,6 +32,7 @@
     "react-helmet": "^5.2.0",
     "remark": "^10.0.1",
     "remark-html": "^9.0.0",
+    "showdown": "^1.9.0",
     "uuid": "^3.2.1"
   },
   "keywords": [
@@ -43,7 +44,7 @@
     "clean": "rimraf .cache public",
     "start:app": "npm run develop",
     "start:lambda": "netlify-lambda serve src/lambda",
-    "start": "run-p start:**",
+    "start": "npm run css-watch",
     "build:app": "npm run clean && gatsby build",
     "build:lambda": "netlify-lambda build src/lambda",
     "build": "run-p build:**",
@@ -52,8 +53,7 @@
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "css-build": "node-sass --omit-source-map-url sass/styles.scss css/styles.css",
-    "css-watch": "npm run css-build -- --watch",
-    "start": "npm run css-watch"
+    "css-watch": "npm run css-build -- --watch"
   },
   "devDependencies": {
     "http-proxy-middleware": "^0.19.1",

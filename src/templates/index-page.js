@@ -6,6 +6,7 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import MarkdownConvert from '../components/MarkdownConvert'
 
 export const IndexPageTemplate = ({
   image,
@@ -80,7 +81,9 @@ export const IndexPageTemplate = ({
                     null
                   }
                   <div className="tile">
-                    <h3 className="subtitle" dangerouslySetInnerHTML={{ __html: mainpitch.description }} />
+                    <MarkdownConvert
+                      className="subtitle"
+                      content={mainpitch.description } />
                   </div>
                 </div>
                 <div className="columns">

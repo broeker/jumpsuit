@@ -92,73 +92,23 @@ exports.sourceNodes = ({ actions, schema }) => {
 }
 
 
-exports.onCreateNode = ({ node, actions, createNodeId, getNode, createContentDigest }) => {
-  const { createNode, createNodeField } = actions
-  fmImagesToRelative(node) // convert image paths for gatsby images
-  if (node.internal.type === `MarkdownRemark`) {
-
-    const value = createFilePath({ node, getNode })
-
-    const newNode = createNode({
-      id: createNodeId(`${node.id} markdown field`),
-      children: [],
-      parent: node.id,
-      internal: {
-        mediaType: `text/markdown`,
-        content: node.frontmatter.mainpitch.description,
-        contentDigest: createContentDigest(node.frontmatter.mainpitch.description),
-        type: `MarkdownRemarkField`,
-      },
-    })
-
-    // Add link to the new node
-    createNodeField({
-      node,
-      name: `markdownNode___NODE`,
-      value: newNode.id,
-    })
-    createNodeField({
-      name: `slug`,
-      node,
-      value,
-    })
-
-    createNodeField({
-      name: `myfoo`,
-      node,
-      value: 'is here.',
-    })
-  }
-}
 
 
-/*
+
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
   fmImagesToRelative(node) // convert image paths for gatsby images
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode })
-
-    console.log('FOO: ' . node)
-
     createNodeField({
       name: `slug`,
       node,
       value,
     })
-
-      node.frontmatter.main.content.map(item => (
-
-        node.frontmatter.main.content.text = remark()
-        .use(remarkHTML)
-        .processSync(item.text)
-        .toString()
-
-  ))
       return node;
     }
 
 }
 
- */
+
 
