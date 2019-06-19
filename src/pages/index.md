@@ -5,8 +5,8 @@ subheading: with citizen tim
 image: /img/jumpsuit_header.jpg
 mainpitch:
   description: >-
-    From the dawn of time, web developers have sought to make things better. But
-    today our world is more difficult than ever. Our projects are more
+    From the dawn of time, web developers have sought to make things better.
+    _But today our world is more difficult than ever._ Our projects are more
     expensive. Harder to manage. Less fun to build. Slower and more complicated
     to use.
   title: Zoom zoom
