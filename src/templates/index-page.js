@@ -82,7 +82,7 @@ export const IndexPageTemplate = ({
                   }
                   <div className="tile">
                     <MarkdownConvert
-                      className="subtitle"
+                      className="mainpitch"
                       content={mainpitch.description } />
                   </div>
                 </div>
@@ -91,9 +91,10 @@ export const IndexPageTemplate = ({
                     <h3 className="has-text-weight-semibold is-size-2">
                       { main.heading }
                     </h3>
-                    <div
-                      dangerouslySetInnerHTML={{ __html: main.description }}
-                    />
+                    <MarkdownConvert
+                      className="maindescription"
+                      content={main.description}
+                      />
                   </div>
                 </div>
 
