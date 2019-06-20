@@ -5,31 +5,32 @@ subheading: with citizen tim
 image: /img/jumpsuit_header.jpg
 mainpitch:
   description: >-
-    From the dawn of time, web developers have sought to make things better. But
-    today our world is more difficult than ever_._ Our projects are more
+    From the dawn of time, web developers hath sought to make things better. But
+    today our world is more difficult than ever. Our projects are more
     expensive. Harder to manage and maintain. Less fun to build. Slower and more
     complicated to use.
   title: Zoom zoom
 mainbody:
   content: >-
-    From the dawn of time, web developers have sought to make things better. But
-    today our world is more difficult than ever. Our projects are more
-    expensive. Harder to manage and maintain. Less fun to build. Slower and more
-    complicated to use.
+    Today we can be build better, faster, and smarter web applications that are
+    less costly to build, quicker to develop, easier to maintain and support,
+    and more flexible than our current status quo. Better yet, building this
+    next generation of websites and applications is simply fun in way that we
+    have been missing for a long time.
   heading: Let's have some fun again.
   image1:
     alt: Jumpsuit diagram
     image: /img/jumpsuit.png
   intro: >-
-    There is a new and better way to build the web. For people who been building
-    the web since the 1990s, it may remind you a lot of the old way. Led by
-    frameworks such as Gatsby, the rise of managed services, and the emergence
-    of dynamic platforms like Netlify, we are now in the early stages of a
-    Category 5 storm that is quickly and dramatically changing how and what we
-    build. Achievements that were extremely difficult even 2-3 years ago are now
-    becoming magically simple. Better yet, building this next generation of
-    websites and applications is simply fun in way that we have been missing for
-    a long time.
+    There is a new and smarter way to build the web. Led by frameworks such as
+    Gatsby and React, the rise of managed services, and the emergence of dynamic
+    platforms like Netlify, we are now in the early stages of a second
+    Industrial Revolution that is quickly and dramatically changing how and what
+    we build. Achievements that were extremely difficult even 2-3 years ago are
+    now becoming simple. Similar to the real-life [Second Industrial
+    Revolution](https://en.wikipedia.org/wiki/Second_Industrial_Revolution), we
+    now have access to electric light, better ways of making steel, railroads,
+    and interchangeable parts.
 intro:
   blurbs:
     - image: /img/favicon-32x32.png
