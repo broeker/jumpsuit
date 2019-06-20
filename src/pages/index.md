@@ -2,7 +2,7 @@
 templateKey: index-page
 title: high speed racing
 subheading: with citizen tim
-image: /img/jumpsuit_header.jpg
+image: /img/jsheader.jpg
 mainpitch:
   description: >-
     From the dawn of time, web developers hath sought to make things better. But
