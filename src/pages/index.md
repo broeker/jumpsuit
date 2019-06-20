@@ -36,11 +36,12 @@ mainbody:
     and interchangeable parts.
 intro:
   blurbs:
-    - image: /img/favicon-32x32.png
+    - image: /img/gatsby.png
       text: >-
-        Don't want to set these clouds on fire. Wind it up, blend it together.
-        Painting used to drive me crazy. Sometimes it's fun to play little games
-        in your mountains. 
+        I was first introduced to Gatsby JS at BadCamp session in 2018 by Gatsby
+        founder Kyle Matthews. At the time I was mildly impressed, and made a
+        note to further investigate the growing popularity of "static" site
+        generators. 
     - image: /img/meeting-space.png
       text: >-
         You need to understand nature. A thin, and let me say that again, a THIN
