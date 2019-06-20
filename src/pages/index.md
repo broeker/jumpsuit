@@ -12,11 +12,13 @@ mainpitch:
   title: Zoom zoom
 mainbody:
   content: >-
-    Today we can be build better, faster, and smarter web applications that are
+    Today we can build better, faster, and smarter web applications that are
     less costly to build, quicker to develop, easier to maintain and support,
-    and more flexible than our current status quo. Better yet, building this
-    next generation of websites and applications is simply fun in way that we
-    have been missing for a long time.
+    and more flexible than our current status quo. This new world is not about a
+    specific tool, or any particular framework, but rather a new and different
+    way of thinking about how we build the web. Best yet, building this next
+    generation of websites and applications is simply fun in way that we have
+    been missing for a long time.
   heading: Let's have some fun again.
   image1:
     alt: Jumpsuit diagram
