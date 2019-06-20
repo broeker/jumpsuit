@@ -17,7 +17,7 @@ mainbody:
     expensive. Harder to manage and maintain. Less fun to build. Slower and more
     complicated to use.
   heading: Let's have some fun again.
-  image:
+  image1:
     alt: Jumpsuit diagram
     image: /img/jumpsuit.svg
   intro: >-

@@ -107,7 +107,7 @@ export const IndexPageTemplate = ({
                     "min-width": '320px',
                   }}
                   >
-                  <PreviewCompatibleImage imageInfo={main.image} />
+                  <PreviewCompatibleImage imageInfo={main.image1} />
                   </div>
                 </div>
 
@@ -209,7 +209,8 @@ export const pageQuery = graphql`
           heading 
           intro
           content 
-          image {
+          image1 {
+            alt
             image {
              childImageSharp {
               fluid(maxWidth: 800, quality: 94) {
