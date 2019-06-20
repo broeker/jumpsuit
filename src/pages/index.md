@@ -2,7 +2,7 @@
 templateKey: index-page
 title: high speed racing
 subheading: with citizen tim
-image: /img/jumpsuit_header.jpg
+image: /img/jsheader.jpg
 mainpitch:
   description: >-
     From the dawn of time, web developers hath sought to make things better. But
@@ -38,10 +38,10 @@ intro:
   blurbs:
     - image: /img/gatsby.png
       text: >-
-        I was first introduced to Gatsby JS at BadCamp session in 2018 by Gatsby
-        founder Kyle Matthews. At the time I was mildly impressed, and made a
-        note to further investigate the growing popularity of "static" site
-        generators. 
+        I was first introduced to Gatsby JS at a BadCamp session in 2018 by
+        Gatsby founder Kyle Matthews. At the time I was mildly impressed, and
+        made a note to further investigate the growing popularity of "static"
+        site generators. 
     - image: /img/react.png
       text: >-
         I was first introduced to Gatsby JS at BadCamp session in 2018 by Gatsby
