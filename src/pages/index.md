@@ -21,9 +21,6 @@ mainbody:
     becoming magically simple. Better yet, building this next generation of
     websites and applications is simply fun in way that we have been missing for
     a long time.
-
-
-    ![Jumpsuit](/img/jumpsuit.svg "Jumpsuit")
   heading: Let's have some fun again.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
