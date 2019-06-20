@@ -8,6 +8,12 @@ description: >-
   java’s origin and support the farmers that grew it. We take coffee production,
   roasting and brewing seriously and we’re glad to pass that knowledge to
   anyone.
+mainpitch:
+  title: And together.
+  description: >-
+    We'll have a super time. _What the devil._ It's beautiful - and we haven't
+    even done anything to it yet. This piece of canvas is your world. There
+    comes a nice little fluffer.
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -43,12 +49,6 @@ intro:
     java’s origin and support the farmers that grew it. We take coffee
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
-mainpitch:
-  title: And together.
-  description: >-
-    We'll have a super time. _What the devil._ It's beautiful - and we haven't
-    even done anything to it yet. This piece of canvas is your world. There
-    comes a nice little fluffer.
 main:
   heading: Great coffee with no compromises
   description: >
@@ -58,7 +58,7 @@ main:
     optimal for the plants, farmers and the local environment.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    image: /img/gatsby.svg
   image2:
     alt: A green cup of a coffee on a wooden table
     image: /img/products-grid2.jpg
