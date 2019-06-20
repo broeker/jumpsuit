@@ -42,9 +42,11 @@ intro:
         founder Kyle Matthews. At the time I was mildly impressed, and made a
         note to further investigate the growing popularity of "static" site
         generators. 
-    - image: /img/meeting-space.png
+    - image: /img/react.png
       text: >-
-        You need to understand nature. A thin, and let me say that again, a THIN
-        layer of liquid clear.
+        I was first introduced to Gatsby JS at BadCamp session in 2018 by Gatsby
+        founder Kyle Matthews. At the time I was mildly impressed, and made a
+        note to further investigate the growing popularity of "static" site
+        generators.
 ---
 
