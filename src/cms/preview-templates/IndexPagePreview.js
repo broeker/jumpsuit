@@ -30,10 +30,11 @@ const IndexPagePreview = ({ entry, getAsset }) => {
         mainpitch={data.mainpitch || {}}
         main={{
         heading: entry.getIn(['data', 'mainbody', 'heading']),
-        description: moo,
-        image1: {
-          image: getAsset(entry.getIn(['data', 'main', 'image1', 'image'])),
-          alt: entry.getIn(['data', 'mainbody', 'image1', 'alt']),
+        intro: entry.getIn(['data', 'mainbody', 'intro']),
+        content: entry.getIn(['data', 'mainbody', 'content']),
+        image: {
+          image: getAsset(entry.getIn(['data', 'main', 'image', 'image'])),
+          alt: entry.getIn(['data', 'mainbody', 'image', 'alt']),
         },
       }}
       />

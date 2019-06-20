@@ -93,7 +93,7 @@ export const IndexPageTemplate = ({
                     </h3>
                     <MarkdownConvert
                       className="maindescription"
-                      content={main.description}
+                      content={main.intro}
                       />
                   </div>
                 </div>
@@ -107,9 +107,14 @@ export const IndexPageTemplate = ({
                     "min-width": '320px',
                   }}
                   >
-                  <PreviewCompatibleImage imageInfo={main.image1} />
+                  <PreviewCompatibleImage imageInfo={main.image} />
                   </div>
                 </div>
+
+                <MarkdownConvert
+                      className="maindescription"
+                      content={main.content}
+                      />
 
                 <Features gridItems={intro.blurbs} />
                 <div className="columns">
@@ -202,8 +207,9 @@ export const pageQuery = graphql`
         description
         mainbody {
           heading 
-          description
-          image1 {
+          intro
+          content 
+          image {
             image {
              childImageSharp {
               fluid(maxWidth: 800, quality: 94) {
