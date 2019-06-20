@@ -19,7 +19,7 @@ mainbody:
   heading: Let's have some fun again.
   image1:
     alt: Jumpsuit diagram
-    image: /img/jumpsuit.png
+    image: /img/jumpsuit.svg
   intro: >-
     There is a new and better way to build the web. For people who been building
     the web since the 1990s, it may remind you a lot of the old way. Led by
