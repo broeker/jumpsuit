@@ -54,8 +54,9 @@ collections:
           - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string, required: false}, {label: Description, name: description, widget: markdown}]}
           - {label: Mainbody, name: mainbody, widget: object, fields: [
               {label: Heading, name: heading, widget: string},
-              {label: Description, name: description, widget: markdown},
-              {label: Image1, name: image1, widget: object,fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]},
+              {label: Intro, name: intro, widget: markdown},
+              {label: Image, name: image, widget: object,fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]},
+              {label: Content, name: content, widget: markdown},
             ]}
           - {label: Intro, name: intro, widget: object, fields: [
               {label: Heading, name: heading, widget: string},
