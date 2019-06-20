@@ -32,7 +32,7 @@ mainbody:
     a long time.
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/gatsby.svg
       text: >-
         Don't want to set these clouds on fire. Wind it up, blend it together.
         Painting used to drive me crazy. Sometimes it's fun to play little games
