@@ -104,7 +104,6 @@ export const IndexPageTemplate = ({
                     width: '50vh',
                     display: 'inline-block',
                     margin: '2em 0',
-                    "min-width": '320px',
                   }}
                   >
                     <PreviewCompatibleImage imageInfo={mainbody.image1} />
@@ -216,7 +215,12 @@ export const pageQuery = graphql`
               fluid(maxWidth: 800, quality: 94) {
                 ...GatsbyImageSharpFluid
               }
+              
              }
+             extension
+              publicURL
+              
+              
             } 
            }
           }

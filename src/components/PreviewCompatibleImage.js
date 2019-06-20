@@ -4,27 +4,29 @@ import Img from 'gatsby-image'
 
 const PreviewCompatibleImage = ({ imageInfo }) => {
   const imageStyle = { borderRadius: '5px' }
-  const { alt = '', childImageSharp, image } = imageInfo
+  const { alt = '', childImageSharp, extension, publicURL, image} = imageInfo
 
   if (!!image && !!image.childImageSharp) {
     return (
-      <>
       <Img style={imageStyle} fluid={image.childImageSharp.fluid} alt={alt} />
-      </>
     )
+  }
+  // svg support
+  if (!image.childImageSharp && image.extension === 'svg') {
+    return <img style={imageStyle} src={image.publicURL} alt={alt} />
+  }
+  // svg support hack for preview
+  if (image.public_path) {
+    return <img style={imageStyle} src={image.public_path} alt={alt} />
   }
 
   if (!!childImageSharp) {
-
-    return <>oook<Img style={imageStyle} fluid={childImageSharp.fluid} alt={alt} /></>
+    return <Img style={imageStyle} fluid={childImageSharp.fluid} alt={alt} />
   }
 
-  if (!!image)
-    return <>dook<img style={imageStyle} src={image} alt={alt} /></>
+  if (!!image && typeof image === 'string')
+    return <img style={imageStyle} src={image} alt={alt} />
 
-  console.log(image)
-
-  return 'fooking hell!'
   return null
 }
 

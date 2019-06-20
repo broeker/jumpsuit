@@ -2,8 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { IndexPageTemplate } from '../../templates/index-page'
 
-const remarkHTML = require('remark-html');
-const remark = require('remark');
 
 const IndexPagePreview = ({ entry, getAsset }) => {
   const data = entry.getIn(['data']).toJS()
@@ -26,6 +24,8 @@ const IndexPagePreview = ({ entry, getAsset }) => {
         image1: {
           image: getAsset(entry.getIn(['data', 'mainbody', 'image1', 'image'])),
           alt: entry.getIn(['data', 'mainbody', 'image1', 'alt']),
+          extension: entry.getIn(['data', 'mainbody', 'image1', 'image','extension']),
+          publicURL: entry.getIn(['data', 'mainbody', 'image1', 'image','publicURL']),
         },
       }}
       />
