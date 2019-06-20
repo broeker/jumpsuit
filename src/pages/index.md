@@ -21,10 +21,15 @@ mainbody:
     alt: Jumpsuit diagram
     image: /img/jumpsuit.svg
   intro: >-
-    From the dawn of time, web developers have sought to make things better. But
-    today our world is more difficult than ever. Our projects are more
-    expensive. Harder to manage and maintain. Less fun to build. Slower and more
-    complicated to use.
+    There is a new and better way to build the web. For people who been building
+    the web since the 1990s, it may remind you a lot of the old way. Led by
+    frameworks such as Gatsby, the rise of managed services, and the emergence
+    of dynamic platforms like Netlify, we are now in the early stages of a
+    Category 5 storm that is quickly and dramatically changing how and what we
+    build. Achievements that were extremely difficult even 2-3 years ago are now
+    becoming magically simple. Better yet, building this next generation of
+    websites and applications is simply fun in way that we have been missing for
+    a long time.
 intro:
   blurbs:
     - image: /img/meeting-space.png
