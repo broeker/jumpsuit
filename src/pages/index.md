@@ -23,7 +23,7 @@ mainbody:
   heading: Let's have some fun again.
   image1:
     alt: Jumpsuit diagram
-    image: /img/jumpsuit.png
+    image: /img/jumpsuit.svg
   intro: >-
     There is a new and smarter way to build the web. Led by frameworks such as
     Gatsby and React, the rise of managed services, and the emergence of dynamic
