@@ -98,7 +98,18 @@ export const IndexPageTemplate = ({
                   </div>
                 </div>
 
-
+                <div className="has-text-centered">
+                  <div
+                    style={{
+                    width: '50vh',
+                    display: 'inline-block',
+                    margin: '2em 0',
+                    "min-width": '320px',
+                  }}
+                  >
+                  <PreviewCompatibleImage imageInfo={main.image1} />
+                  </div>
+                </div>
 
                 <MarkdownConvert
                       className="maindescription"
