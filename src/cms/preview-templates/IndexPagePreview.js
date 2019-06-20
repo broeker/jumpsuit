@@ -8,15 +8,6 @@ const remark = require('remark');
 const IndexPagePreview = ({ entry, getAsset }) => {
   const data = entry.getIn(['data']).toJS()
 
-  var foo = data.mainbody.description
-
-  const markdown = data.mainbody.description;
-  var moo =  data.mainbody.description = remark()
-    .use(remarkHTML)
-    .processSync(foo)
-    .toString();
-
-
   if (data) {
     return (
 
@@ -28,13 +19,13 @@ const IndexPagePreview = ({ entry, getAsset }) => {
         description={data.description}
         intro={data.intro || { blurbs: [] }}
         mainpitch={data.mainpitch || {}}
-        main={{
+        mainbody={{
         heading: entry.getIn(['data', 'mainbody', 'heading']),
         intro: entry.getIn(['data', 'mainbody', 'intro']),
         content: entry.getIn(['data', 'mainbody', 'content']),
-        image: {
-          image: getAsset(entry.getIn(['data', 'main', 'image', 'image'])),
-          alt: entry.getIn(['data', 'mainbody', 'image', 'alt']),
+        image1: {
+          image: getAsset(entry.getIn(['data', 'mainbody', 'image1', 'image'])),
+          alt: entry.getIn(['data', 'mainbody', 'image1', 'alt']),
         },
       }}
       />

@@ -33,7 +33,10 @@ const Footer = class extends React.Component {
             }}
           >
             Jumpsuits to me represent many diverse qualities from action and adventure to manual labor. Jumpsuits are worn by people who push the envelope like skydivers, downhill skiers, astronauts, and high speed racers. Also, people incarcerated in institutions that are full of life’s most dangerous criminals who made their own rules."
-           <br /> — Jeff Hilliard, made in Los Angeles, CA
+           <br />
+           <span
+             className="has-text-weight-normal"
+             style={{fontSize: '.8em',fontWeight: 'normal' }}>— Jeff Hilliard, made in Los Angeles, CA</span>
           </div>
 
         </div>

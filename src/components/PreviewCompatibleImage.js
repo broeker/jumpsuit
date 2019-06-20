@@ -16,15 +16,15 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
 
   if (!!childImageSharp) {
 
-    return <><Img style={imageStyle} fluid={childImageSharp.fluid} alt={alt} /></>
+    return <>oook<Img style={imageStyle} fluid={childImageSharp.fluid} alt={alt} /></>
   }
 
   if (!!image)
-    return <><img style={imageStyle} src={image} alt={alt} /></>
+    return <>dook<img style={imageStyle} src={image} alt={alt} /></>
 
   console.log(image)
 
-  //return 'fooking hell!'
+  return 'fooking hell!'
   return null
 }
 

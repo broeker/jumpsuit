@@ -13,7 +13,7 @@ export const IndexPageTemplate = ({
   title,
   subheading,
   mainpitch,
-  main,
+  mainbody,
   intro,
 
 }) => (
@@ -89,11 +89,11 @@ export const IndexPageTemplate = ({
                 <div className="columns">
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
-                      { main.heading }
+                      { mainbody.heading }
                     </h3>
                     <MarkdownConvert
                       className="maindescription"
-                      content={main.intro}
+                      content={mainbody.intro}
                       />
                   </div>
                 </div>
@@ -107,13 +107,13 @@ export const IndexPageTemplate = ({
                     "min-width": '320px',
                   }}
                   >
-                  <PreviewCompatibleImage imageInfo={main.image1} />
+                    <PreviewCompatibleImage imageInfo={mainbody.image1} />
                   </div>
                 </div>
 
                 <MarkdownConvert
                       className="maindescription"
-                      content={main.content}
+                      content={mainbody.content}
                       />
 
                 <Features gridItems={intro.blurbs} />
@@ -168,7 +168,7 @@ const IndexPage = ({ data }) => {
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
-        main={frontmatter.mainbody}
+        mainbody={frontmatter.mainbody}
         description={frontmatter.description}
         intro={frontmatter.intro}
       />

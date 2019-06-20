@@ -59,12 +59,9 @@ collections:
               {label: Content, name: content, widget: markdown},
             ]}
           - {label: Intro, name: intro, widget: object, fields: [
-              {label: Heading, name: heading, widget: string},
-              {label: Description, name: description, widget: text},
               {label: Blurbs, name: blurbs, widget: list, fields: [
                 {label: Image, name: image, widget: image},
                 {label: Text, name: text, widget: text}]}]}
-          - {label: Flurbs, name: flurbs, widget: list, fields: [ {label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
