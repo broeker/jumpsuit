@@ -14,7 +14,7 @@ export const IndexPageTemplate = ({
   subheading,
   mainpitch,
   mainbody,
-  intro,
+  blurbs,
 
 }) => (
   <div>
@@ -117,6 +117,13 @@ export const IndexPageTemplate = ({
 
                 <Features gridItems={blurbs.blocks} />
 
+                <div className="columns">
+                  <div className="column is-12 has-text-centered">
+                    <Link className="btn" to="/products">
+                      See all products
+                    </Link>
+                  </div>
+                </div>
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
                     Latest stories
@@ -137,18 +144,7 @@ export const IndexPageTemplate = ({
   </div>
 )
 
-IndexPageTemplate.propTypes = {
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  title: PropTypes.string,
-  heading: PropTypes.string,
-  subheading: PropTypes.string,
-  mainpitch: PropTypes.object,
-  mainbody: PropTypes.object,
-  description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
-}
+
 
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
@@ -163,7 +159,7 @@ const IndexPage = ({ data }) => {
         mainpitch={frontmatter.mainpitch}
         mainbody={frontmatter.mainbody}
         description={frontmatter.description}
-        intro={frontmatter.intro}
+        blurbs={frontmatter.blurbs}
       />
     </Layout>
   )
@@ -212,9 +208,7 @@ export const pageQuery = graphql`
               
              }
              extension
-              publicURL
-              
-              
+             publicURL
             } 
            }
           }
@@ -229,8 +223,6 @@ export const pageQuery = graphql`
             }
             text
           }
-          heading
-          description
         }
       }
     }
