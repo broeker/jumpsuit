@@ -33,19 +33,22 @@ mainbody:
     now have access to electric light, better ways of making steel, railroads,
     and interchangeable parts. Achievements that were extremely difficult even
     2-3 years ago are now becoming simple.
+full_image: /img/space.jpg
 blurbs:
   blocks:
-    - image: /img/gatsby.png
+    - heading: Meet Gatsby
+      image: /img/gatsby.png
       text: >-
-        I was first introduced to Gatsby JS at a BadCamp session in 2018 by
-        Gatsby founder Kyle Matthews. At the time I was mildly impressed, and
-        made a note to further investigate the growing popularity of "static"
-        site generators. 
-    - image: /img/react.png
+        I was first introduced to [Gatsby JS](https://www.gatsbyjs.org) at a
+        BadCamp session in 2018 by Gatsby founder Kyle Matthews. At the time I
+        was mildly impressed, and made a note to further investigate the growing
+        popularity of "static" site generators.
+    - heading: 'Super Power: React'
+      image: /img/react.png
       text: >-
-        I was first introduced to Gatsby JS at BadCamp session in 2018 by Gatsby
-        founder Kyle Matthews. At the time I was mildly impressed, and made a
-        note to further investigate the growing popularity of "static" site
-        generators.
+        Choose React. It is over. [React has won](https://reactjs.org/).
+        WordPress and Drupal. Choose React. It is over. React has won. WordPress
+        and Drupal. Choose React. It is over. React has won. WordPress and
+        Drupal. Choose React. It is over. React has won. WordPress and Drupal.
 ---
 
