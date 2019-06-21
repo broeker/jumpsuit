@@ -1,6 +1,8 @@
 ---
 templateKey: blog-post
 title: How the Cache Saved Us All
+subheading: I shall fly.
+image: /img/jsheader.jpg
 date: 2017-01-04T15:04:10.000Z
 description: >-
   The vast majority of the web would collapse under the weight of the of the

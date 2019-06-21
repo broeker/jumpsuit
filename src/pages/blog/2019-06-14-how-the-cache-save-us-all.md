@@ -1,6 +1,8 @@
 ---
 templateKey: blog-post
 title: How the cache save us all
+subheading: I shall fly.
+image: /img/jsheader.jpg
 date: 2019-06-14T23:20:21.325Z
 mainpitch:
   title: And together.

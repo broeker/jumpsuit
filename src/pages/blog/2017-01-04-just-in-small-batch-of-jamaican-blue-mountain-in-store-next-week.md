@@ -1,6 +1,8 @@
 ---
 templateKey: 'blog-post'
 title: 'Just in: small batch of Jamaican Blue Mountain in store next week'
+subheading: I shall fly.
+image: /img/jsheader.jpg
 date: 2017-01-04T15:04:10.000Z
 featuredpost: true
 description: >-
