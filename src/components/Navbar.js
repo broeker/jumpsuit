@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
 import logo from '../img/logo.svg'
+import Headroom from 'react-headroom'
+
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -34,6 +36,7 @@ const Navbar = class extends React.Component {
 
   render() {
     return (
+      <Headroom>
       <nav
         className="navbar is-transparent"
         role="navigation"
@@ -79,6 +82,7 @@ const Navbar = class extends React.Component {
           </div>
         </div>
       </nav>
+        </Headroom>
     )
   }
 }

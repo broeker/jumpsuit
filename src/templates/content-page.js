@@ -26,7 +26,7 @@ export const ContentPageTemplate = ({
           className="full-width-image margin-top-0"
           style={{
             backgroundImage: `url(${
-              !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+              !!image ? image.childImageSharp.fluid.src : null 
             })`,
             backgroundPosition: `top left`,
             backgroundAttachment: `fixed`,

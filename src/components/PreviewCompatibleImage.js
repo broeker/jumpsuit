@@ -12,11 +12,11 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
     )
   }
   // svg support
-  if (!image.childImageSharp && image.extension === 'svg') {
+  if (image && image.extension === 'svg') {
     return <img style={imageStyle} src={image.publicURL} alt={alt} />
   }
   // svg support hack for preview
-  if (image.public_path) {
+  if (image && image.public_path) {
     return <img style={imageStyle} src={image.public_path} alt={alt} />
   }
 
