@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import MarkdownConvert from '../components/MarkdownConvert'
 
 const FeatureGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
@@ -18,7 +19,9 @@ const FeatureGrid = ({ gridItems }) => (
             </div>
           </div>
           <h3>{item.heading}</h3>
-          <p>{item.text}</p>
+          <MarkdownConvert
+                      className="blurb"
+                      content={item.text} />
         </section>
       </div>
     ))}

@@ -15,6 +15,7 @@ export const IndexPageTemplate = ({
   mainpitch,
   mainbody,
   blurbs,
+  fullImage,
 
 }) => (
   <div>
@@ -117,13 +118,18 @@ export const IndexPageTemplate = ({
 
                 <Features gridItems={blurbs.blocks} />
 
-                <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                      See all products
-                    </Link>
-                  </div>
-                </div>
+                <div
+                className="full-width-image-container"
+                style={{
+                  maxHeight: '220px',
+                  backgroundPosition: 'center',
+                  backgroundImage: `url(${
+                    fullImage.childImageSharp
+                      ? fullImage.childImageSharp.fluid.src
+                      : fullImage
+                  })`,
+                }}
+                />
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
                     Latest stories
@@ -160,6 +166,7 @@ const IndexPage = ({ data }) => {
         mainbody={frontmatter.mainbody}
         description={frontmatter.description}
         blurbs={frontmatter.blurbs}
+        fullImage={frontmatter.full_image}
       />
     </Layout>
   )
@@ -223,6 +230,13 @@ export const pageQuery = graphql`
             }
             heading
             text
+          }
+        }
+        full_image {
+          childImageSharp {
+            fluid(maxWidth: 1600, quality: 95) {
+              ...GatsbyImageSharpFluid
+            }
           }
         }
       }

@@ -17,6 +17,7 @@ const IndexPagePreview = ({ entry, getAsset }) => {
         description={data.description}
         blurbs = {data.blurbs || { blocks: [] }}
         mainpitch={data.mainpitch || {}}
+        fullImage={entry.getIn(['data', 'full_image'])}
         mainbody={{
         heading: entry.getIn(['data', 'mainbody', 'heading']),
         intro: entry.getIn(['data', 'mainbody', 'intro']),

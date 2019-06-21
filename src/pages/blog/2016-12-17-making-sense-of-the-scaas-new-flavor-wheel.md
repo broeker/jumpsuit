@@ -1,6 +1,8 @@
 ---
 templateKey: blog-post
 title: The Death of the Mega Menu
+subheading: I shall fly.
+image: /img/jsheader.jpg
 date: 2019-06-12T14:04:00.000Z
 description: >
   The "menu" has played a central role in the web since the beginning, often
