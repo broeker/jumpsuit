@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: broeker/jumpsuit
   branch: master
 
 media_folder: static/img
@@ -59,8 +60,8 @@ collections:
               {label: Content, name: content, widget: markdown},
             ]}
           - {label: Full_image, name: full_image, widget: image}
-          - {label: Intro, name: intro, widget: object, fields: [
-              {label: Blurbs, name: blurbs, widget: list, fields: [
+          - {label: Blurbs, name: blurbs, widget: object, fields: [
+              {label: Blocks, name: blocks, widget: list, fields: [
                 {label: Image, name: image, widget: image},
                 {label: Text, name: text, widget: text}]}]}
       - file: "src/pages/about/index.md"

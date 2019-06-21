@@ -33,8 +33,8 @@ mainbody:
     now have access to electric light, better ways of making steel, railroads,
     and interchangeable parts. Achievements that were extremely difficult even
     2-3 years ago are now becoming simple.
-intro:
-  blurbs:
+blurbs:
+  blocks:
     - image: /img/gatsby.png
       text: >-
         I was first introduced to Gatsby JS at a BadCamp session in 2018 by
