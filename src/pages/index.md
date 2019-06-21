@@ -12,28 +12,27 @@ mainpitch:
   title: Zoom zoom
 mainbody:
   content: >-
-    Today we can build better, faster, and smarter web applications that are
+    Today we can build better, faster, and smarter web applications. They are
     less costly to build, quicker to develop, easier to maintain and support,
     and more flexible than our current status quo. This new world is not about a
-    specific tool, or any particular framework (well, except it IS all about
-    JavaScript.) Rather it is defined by a new and different way of thinking
-    about how we build the web. Best yet, building this next generation of
-    websites and applications is simply fun in way that we have been missing for
-    a long time.
+    specific tool, or any particular framework. Rather it is about Javascript,
+    and a new and different way of thinking about how we build the web. Best
+    yet, building this next generation of websites and applications is simply
+    fun in way that we have been missing for a long time.
   heading: Let's have some fun again.
   image1:
     alt: Jumpsuit diagram
     image: /img/jumpsuit.svg
   intro: >-
     There is a new and smarter way to build the web. Led by frameworks such as
-    Gatsby and React, the rise of managed services, and the emergence of dynamic
-    platforms like Netlify, we are now in the early stages of a second
-    Industrial Revolution that is quickly and dramatically changing how and what
-    we build. Achievements that were extremely difficult even 2-3 years ago are
-    now becoming simple. Similar to the real-life [Second Industrial
+    Gatsby and React,  dynamic platforms like Netlify, and the rise of managed
+    services we are now in the early stages of a Second Industrial Revolution
+    that is quickly and dramatically changing how and what we build. Similar to
+    the real-life [Second Industrial
     Revolution](https://en.wikipedia.org/wiki/Second_Industrial_Revolution), we
     now have access to electric light, better ways of making steel, railroads,
-    and interchangeable parts.
+    and interchangeable parts. Achievements that were extremely difficult even
+    2-3 years ago are now becoming simple.
 intro:
   blurbs:
     - image: /img/gatsby.png
