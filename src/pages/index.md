@@ -33,7 +33,7 @@ mainbody:
     now have access to electric light, better ways of making steel, railroads,
     and interchangeable parts. Achievements that were extremely difficult even
     2-3 years ago are now becoming simple.
-full_image: /img/race3.jpg
+full_image: /img/moon.jpg
 blurbs:
   blocks:
     - heading: Meet Gatsby
