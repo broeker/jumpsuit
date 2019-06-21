@@ -39,7 +39,7 @@ const TemplateWrapper = ({ children }) => {
         />
 
 
-        <script async type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+        <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         <meta name="theme-color" content="#fff" />
 
         <meta property="og:type" content="business.business" />

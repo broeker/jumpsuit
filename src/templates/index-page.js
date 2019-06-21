@@ -101,7 +101,7 @@ export const IndexPageTemplate = ({
                 <div className="has-text-centered">
                   <div
                     style={{
-                    width: '50vh',
+                    width: '70vh',
                     display: 'inline-block',
                     margin: '2em 0',
                   }}
