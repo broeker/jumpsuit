@@ -2,7 +2,7 @@
 templateKey: content-page
 title: Test Pilot
 subheading: I shall fly.
-image: /img/jumpsuit_header.jpg
+image: /img/jsheader.jpg
 mainpitch:
   title: And together.
   description: >-
