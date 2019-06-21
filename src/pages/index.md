@@ -36,14 +36,14 @@ mainbody:
 full_image: /img/lace.jpg
 blurbs:
   blocks:
-    - heading: Meet Gatsby
+    - heading: 'Super Power One: Gatsby'
       image: /img/gatsby.png
       text: >-
         I was first introduced to [Gatsby JS](https://www.gatsbyjs.org) at a
         BadCamp session in 2018 by Gatsby founder Kyle Matthews. At the time I
         was mildly impressed, and made a note to further investigate the growing
         popularity of "static" site generators.
-    - heading: 'Super Power: React'
+    - heading: 'Super Power Two: React'
       image: /img/react.png
       text: >-
         Choose React. It is over. [React has won](https://reactjs.org/).
