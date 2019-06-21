@@ -50,9 +50,9 @@ const TemplateWrapper = ({ children }) => {
       <div>{children}</div>
       <Footer />
 
+      <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </div>
 
-    <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   )
 }
 
