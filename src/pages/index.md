@@ -17,7 +17,7 @@ mainbody:
     flexible than our current status quo. Best yet, building this next
     generation of websites and applications is simply fun in way that web
     developers have been missing for a very long time.
-  heading: Let's have some fun again.
+  heading: Building a better web
   image1:
     alt: Jumpsuit diagram
     image: /img/jumpsuit.svg
