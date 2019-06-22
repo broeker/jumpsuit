@@ -12,13 +12,12 @@ mainpitch:
   title: Zoom zoom
 mainbody:
   content: >-
-    Achievements that were extremely difficult even 2-3 years ago are now
-    becoming simple. Today we can build faster and smarter web applications that
-    are less costly to build, quicker to market, easier to maintain and support,
-    and more flexible than our current status quo. Best yet, building this next
+    Today we can build faster and smarter web applications that are less costly
+    to build, quicker to market, easier to maintain and support, and more
+    flexible than our current status quo. Best yet, building this next
     generation of websites and applications is simply fun in way that web
     developers have been missing for a very long time.
-  heading: Let's have some fun again.
+  heading: Building a better web
   image1:
     alt: Jumpsuit diagram
     image: /img/jumpsuit.svg
