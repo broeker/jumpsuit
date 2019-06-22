@@ -31,9 +31,11 @@
     "react-dom": "^16.8.4",
     "react-headroom": "^2.2.8",
     "react-helmet": "^5.2.0",
+    "react-lazy-hero": "^2.0.0",
     "remark": "^10.0.1",
     "remark-html": "^9.0.0",
     "showdown": "^1.9.0",
+    "styled-components": "^4.3.2",
     "uuid": "^3.2.1"
   },
   "keywords": [

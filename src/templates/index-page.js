@@ -7,6 +7,7 @@ import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import MarkdownConvert from '../components/MarkdownConvert'
+import LazyHero from 'react-lazy-hero';
 
 export const IndexPageTemplate = ({
   image,
@@ -116,20 +117,30 @@ export const IndexPageTemplate = ({
                       content={mainbody.content}
                       />
 
+                <LazyHero
+                  imageSrc={fullImage.childImageSharp.fluid.src}
+                  parallaxOffset={100}
+                  opacity={.1}
+                  color="black"
+                  minHeight="30vh"
+                  style={{
+                    width: '99.225vw',
+                    position: 'relative',
+                    'margin-left': '-49.59vw',
+                    left: '50%',
+                    display: 'flex',
+                    "justify-content": 'center',
+                    "align-items": 'center',
+                    marginBottom: '2em',
+                    marginTop: '2em',
+                  }}
+                  >
+                  <h1>Super Power</h1>
+                </LazyHero>
                 <Features gridItems={blurbs.blocks} />
 
-                <div
-                className="full-width-image-container"
-                style={{
-                  maxHeight: '220px',
-                  backgroundPosition: 'center',
-                  backgroundImage: `url(${
-                    fullImage.childImageSharp
-                      ? fullImage.childImageSharp.fluid.src
-                      : fullImage
-                  })`,
-                }}
-                />
+
+
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
                     Latest stories
