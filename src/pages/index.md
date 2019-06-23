@@ -16,9 +16,9 @@ mainbody:
     quicker and less costly to build, easier to maintain and support, and more
     flexible than our current status quo. For the youngest generation of web
     developers, none of this is news. For everybody else, there is a sea change
-    underway. It is not related to any specific tool or platform; it is about
-    the rise of JavaScript, managed services, microservices, headless CMS, and a
-    fundamental shift in how we think about building the web.
+    underway. We have officially entered a new era of JavaScript, managed
+    services, microservices, headless CMS, and all of us face a fundamental
+    shift in how we think about building the web.
   heading: Let's build a better web
   image1:
     alt: Jumpsuit diagram
