@@ -21,7 +21,7 @@ mainbody:
     [content
     mesh](https://www.gatsbyjs.org/blog/2018-10-04-journey-to-the-content-mesh/).
     All of us now face a fundamental shift in how we think about building the
-    web \[^1], and it is going to be AWESOME.
+    web [<a name="1">1</a>]. It is going to be AWESOME.
   heading: Zoom zoom.
   image1:
     alt: Jumpsuit diagram
