@@ -12,9 +12,9 @@ mainpitch:
   title: Zoom zoom
 mainbody:
   content: >-
-    Today we can build faster and smarter web applications that are less costly
-    to build, quicker to market, easier to maintain and support, and more
-    flexible than our current status quo. Best yet, building this next
+    Today we can build faster and smarter web applications that are quicker and
+    less costly to build, easier to maintain and support, and more infinitely
+    more flexible than our current status quo. Best yet, building this next
     generation of websites and applications is simply fun in way that web
     developers have been missing for a very long time.
   heading: Let's build a better web
@@ -23,14 +23,13 @@ mainbody:
     image: /img/jumpsuit.svg
   intro: >-
     There is a new and smarter way to build the web. Led by frameworks such as
-    Gatsby JS, dynamic platforms like Netlify, and the rise of managed services
-    we are now in the early stages of Category 5 storm that is quickly and
-    dramatically changing how and what we build. Similar to the real-life
-    [Second Industrial
+    Gatsby JS and Reactd along with dynamic platforms like Netlify and the rise
+    of the JAMstack we are quickly and dramatically changing how and what we
+    build. Similar to the real-life [Second Industrial
     Revolution](https://en.wikipedia.org/wiki/Second_Industrial_Revolution), we
     now have access to electric light, better ways of making steel, railroads,
     and interchangeable parts.
-full_image: /img/backpack4.jpg
+full_image: /img/chuck.jpg
 blurbs:
   blocks:
     - heading: 'Super Power: Gatsby'
