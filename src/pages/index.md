@@ -35,7 +35,7 @@ mainbody:
     changing how and what we build. Similar to the real-life [Second Industrial
     Revolution](https://en.wikipedia.org/wiki/Second_Industrial_Revolution), we
     now have access to electric light, better ways of making steel, railroads,
-    and interchangeable parts.
+    and interchangeable parts. [^2]
 full_image: /img/chuck.jpg
 blurbs:
   blocks:
@@ -57,5 +57,8 @@ blurbs:
 
 
         [^1]: The explanation.
+
+
+        [^2]: oh foo.
 ---
 
