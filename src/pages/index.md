@@ -12,7 +12,7 @@ mainpitch:
   title: Zoom zoom
 mainbody:
   content: >-
-    Today we can build faster and smarter website and applications. They are
+    Today we can build faster and smarter websites and applications. They are
     quicker and less costly to build, easier to maintain and support, and more
     flexible than our current status quo. For the youngest and smartest
     generation of web developers, none of this is news. For everybody else,
