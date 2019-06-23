@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: high speed racing
+title: 'high speed racing: building a better web'
 subheading: with citizen tim
 image: /img/jsheader.jpg
 mainpitch:
@@ -12,16 +12,17 @@ mainpitch:
   title: Zoom zoom
 mainbody:
   content: >-
-    Today we can build faster and smarter website and applications. They are
+    Today we can build faster and smarter websites and applications. They are
     quicker and less costly to build, easier to maintain and support, and more
-    flexible than our current status quo. For the youngest generation of web
-    developers, none of this is news. For everybody else, there is a sea change
-    underway. We have officially entered the new era of JavaScript, managed
-    services, microservices, the headless CMS, and the [content
+    flexible than our current status quo. For the youngest and smartest
+    generation of web developers, none of this is news. For everybody else,
+    there is a sea change underway. We have officially entered the new era of
+    JavaScript, managed services, microservices, the headless CMS, and the
+    [content
     mesh](https://www.gatsbyjs.org/blog/2018-10-04-journey-to-the-content-mesh/).
     All of us now face a fundamental shift in how we think about building the
     web \[^1], and it is going to be AWESOME.
-  heading: Let's build a better web
+  heading: Let's have some fun again.
   image1:
     alt: Jumpsuit diagram
     image: /img/jumpsuit.svg
