@@ -9,7 +9,7 @@ mainpitch:
     today our world is more difficult than ever. Our projects are more
     expensive. Harder to manage and maintain. Less fun to build. Slower and more
     complicated to use.
-  title: 'Building a better web '
+  title: ''
 mainbody:
   content: >-
     Today we can build faster and smarter websites and applications. They are
