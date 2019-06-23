@@ -17,7 +17,7 @@ mainbody:
     flexible than our current status quo. Best yet, building this next
     generation of websites and applications is simply fun in way that web
     developers have been missing for a very long time.
-  heading: Building a better web
+  heading: Let's build a better web
   image1:
     alt: Jumpsuit diagram
     image: /img/jumpsuit.svg
@@ -30,7 +30,7 @@ mainbody:
     Revolution](https://en.wikipedia.org/wiki/Second_Industrial_Revolution), we
     now have access to electric light, better ways of making steel, railroads,
     and interchangeable parts.
-full_image: /img/backpack3.jpg
+full_image: /img/backpack4.jpg
 blurbs:
   blocks:
     - heading: 'Super Power: Gatsby'
