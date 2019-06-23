@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
-title: 'high speed racing: building a better web'
-subheading: with citizen tim
+title: high speed racing
+subheading: building a better web with citizen tim
 image: /img/jsheader.jpg
 mainpitch:
   description: >-
