@@ -116,27 +116,50 @@ export const IndexPageTemplate = ({
                       className="maindescription"
                       content={mainbody.content}
                       />
-
-                <LazyHero
-                  imageSrc={fullImage.childImageSharp.fluid.src}
+                    <div
+                      style={{
+                        width: '99.225vw',
+                        position: 'relative',
+                        'margin-left': '-49.59vw',
+                        left: '50%',
+                        marginTop: '2em',
+                        marginBottom: '2em',
+                      }}
+                    >
+                  <LazyHero
+                  imageSrc={fullImage.childImageSharp ? fullImage.childImageSharp.fluid.src : '/home/broeker/Projects/jumpsuit/static/img/boots.jpg'}
                   parallaxOffset={100}
-                  opacity={.1}
-                  color="black"
-                  minHeight="30vh"
-                  style={{
-                    width: '99.225vw',
-                    position: 'relative',
-                    'margin-left': '-49.59vw',
-                    left: '50%',
-                    display: 'flex',
-                    "justify-content": 'center',
-                    "align-items": 'center',
-                    marginBottom: '2em',
-                    marginTop: '2em',
-                  }}
-                  >
-                  <h1>Super Power</h1>
-                </LazyHero>
+                  opacity={.6}
+                  className="lazy"
+                  ><h1
+          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+          style={{
+            boxShadow:
+              '#333 0.5rem 0px 0px, #333 -0.5rem 0px 0px',
+            backgroundColor: '#333',
+            color: 'white',
+            lineHeight: '1',
+            padding: '0.25em',
+          }}
+        >
+              Superpower
+        </h1>
+        <h3
+          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+          style={{
+            boxShadow:
+              'rgb(#333 0.5rem 0px 0px, #333 -0.5rem 0px 0px',
+            backgroundColor: '#333',
+            color: 'white',
+            lineHeight: '1',
+            padding: '0.25em',
+          }}
+        >
+          Level up your skills
+        </h3>
+                  </LazyHero>
+              </div>
+
                 <Features gridItems={blurbs.blocks} />
 
 
@@ -158,6 +181,7 @@ export const IndexPageTemplate = ({
         </div>
       </div>
     </section>
+
   </div>
 )
 
@@ -245,7 +269,7 @@ export const pageQuery = graphql`
         }
         full_image {
           childImageSharp {
-            fluid(maxWidth: 1600, quality: 95) {
+            fluid(maxWidth: 2024, quality: 95) {
               ...GatsbyImageSharpFluid
             }
           }
