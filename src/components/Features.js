@@ -22,7 +22,10 @@ const FeatureGrid = ({ gridItems }) => (
           <MarkdownConvert
                       className="blurb"
                       content={item.text} />
+
+          <a className="button is-link">Learn more</a>
         </section>
+
       </div>
     ))}
   </div>

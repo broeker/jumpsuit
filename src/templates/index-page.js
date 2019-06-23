@@ -122,44 +122,76 @@ export const IndexPageTemplate = ({
                         position: 'relative',
                         'margin-left': '-49.59vw',
                         left: '50%',
-                        marginTop: '2em',
+                        marginTop: '4em',
                         marginBottom: '2em',
                       }}
                     >
                   <LazyHero
                   imageSrc={fullImage.childImageSharp ? fullImage.childImageSharp.fluid.src : '/home/broeker/Projects/jumpsuit/static/img/boots.jpg'}
                   parallaxOffset={100}
-                  opacity={.6}
+                  opacity={.3}
                   className="lazy"
-                  ><h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-          style={{
-            boxShadow:
-              '#333 0.5rem 0px 0px, #333 -0.5rem 0px 0px',
-            backgroundColor: '#333',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
+                  color="#f4f4f4"
+
+                  >
+
+                    <h1
+
+                      className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+                      style={{
+                        boxShadow:
+                          'rgb(#666 0.5rem 0px 0px, #666 -0.5rem 0px 0px',
+                        backgroundColor: '#666',
+                        color: 'white',
+                        lineHeight: '1.2',
+                        padding: '1em',
+                        width: 'auto',
+                        marginRight: '30vw',
+                        marginLeft: '30vw',
+                      }}
+                    >
+                      Rules are made for people who aren’t willing to make up their own.
+                  </h1>
+                    <h3
+                      className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+                      style={{
+                      backgroundColor: '#666',
+                      color: 'white',
+                      lineHeight: '1',
+                      padding: '0.25em',
+                        marginRight: '30vw',
+                        marginLeft: '30vw',
           }}
         >
-              Superpower
-        </h1>
-        <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            boxShadow:
-              'rgb(#333 0.5rem 0px 0px, #333 -0.5rem 0px 0px',
-            backgroundColor: '#333',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          Level up your skills
+          &mdash; Chuck Yeager, test pilot
         </h3>
                   </LazyHero>
               </div>
+                <p>
+                  [^footnote]
+                  Bla bla <sup name="a1">[1](#f1)</sup>
+                  From day one the web has been pushed forward by explorers and tinkerers who make up our rules as we go. But
+                  we have now been using the same basic rules and techniques
+                  for decades. Vast portions of the web are powered by a monolithic CMS such as <a href="https://drupal.org">Drupal</a> or <a href="https:\\wordpress.org">WordPress</a> (or
+                  one of their propietary competitors.) And in many ways our traditional server-based world is
+                  more powerful and capable than ever. We have automated processes and
+                  devops, advanced  caching mechanisms, and advanced cloud providers. We can build anything.
+                </p>
+                  <p>
+                  But all of this power comes at a high cost: Increasing complexity. Ever-present
+                  security threats. Long build cycles. Painfully slow and cumbersome user interfaces. Laborious and
+                    error prone update processes. Constant battles
+                    with performance, caching, and scaling. And, yes, some real limitations (Drupal or Wordpress
+                    are both extremely great, until they are not.)
 
+                </p>
+                <p>
+
+
+                  Thanks to rule breakers like Ryan Dahl (Node.js) and Jordan Walke (React) and Kyle Matthews (Gatsby) and
+                  long list of pioneers before them, we now have a new path that promises a great
+                  leap forward in how we work, what we build, and the value we provide to our clients and to the web.
+                </p>
                 <Features gridItems={blurbs.blocks} />
 
 
@@ -179,6 +211,10 @@ export const IndexPageTemplate = ({
             </div>
           </div>
         </div>
+      </div>
+      <div>
+        <b id="f1">1</b> Footnote content here. [↩](#a1)
+        <a name="myfootnote1">1</a>: Footnote content goes here
       </div>
     </section>
 

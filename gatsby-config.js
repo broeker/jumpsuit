@@ -53,6 +53,18 @@ module.exports = {
             },
           },
           {
+            resolve: `gatsby-remark-footnotes`,
+            options: {
+              footnoteBackRefPreviousElementDisplay: "inline",
+              footnoteBackRefDisplay: "inline",
+              footnoteBackRefInnerText: "^", // Defaults to: "↩"
+              //use if you want the Wikipedia style ^ link without an underline beneath it
+              footnoteBackRefAnchorStyle: `text-decoration: none;`,
+              //use "front" for Wikipedia style ^ links
+              footnoteBackRefInnerTextStartPosition: "front"
+            }
+          },
+          {
             resolve: 'gatsby-remark-copy-linked-files',
             options: {
               destinationDir: 'static',
@@ -61,6 +73,7 @@ module.exports = {
         ],
       },
     },
+
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
@@ -75,6 +88,18 @@ module.exports = {
       },
     }, // must be after other CSS plugins
     'gatsby-plugin-netlify', // make sure to keep it last in the array
+    {
+      resolve: 'gatsby-source-airtable',
+      options: {
+        apiKey: 'keyOL0wdRbPvunssI', // may instead specify via env, see below
+        tables: [
+          {
+            baseId: 'apphnYsTmtls5dZTi',
+            tableName: 'Sites',
+          },
+        ]
+      }
+    }
   ],
   // for avoiding CORS while developing Netlify Functions locally
   // read more: https://www.gatsbyjs.org/docs/api-proxy/#advanced-proxying
