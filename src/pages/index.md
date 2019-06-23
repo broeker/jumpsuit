@@ -56,6 +56,6 @@ blurbs:
 
 
 
-        \[^1]: The explanation.
+        [^1]: The explanation.
 ---
 
