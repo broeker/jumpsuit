@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: high speed racing
+title: 'high speed racing: building a better web'
 subheading: with citizen tim
 image: /img/jsheader.jpg
 mainpitch:
@@ -22,7 +22,7 @@ mainbody:
     mesh](https://www.gatsbyjs.org/blog/2018-10-04-journey-to-the-content-mesh/).
     All of us now face a fundamental shift in how we think about building the
     web \[^1], and it is going to be AWESOME.
-  heading: Let's build a better web
+  heading: Let's have some fun again.
   image1:
     alt: Jumpsuit diagram
     image: /img/jumpsuit.svg
