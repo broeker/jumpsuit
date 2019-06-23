@@ -30,7 +30,7 @@ mainbody:
     Revolution](https://en.wikipedia.org/wiki/Second_Industrial_Revolution), we
     now have access to electric light, better ways of making steel, railroads,
     and interchangeable parts.
-full_image: /img/backpack3.jpg
+full_image: /img/backpack4.jpg
 blurbs:
   blocks:
     - heading: 'Super Power: Gatsby'
