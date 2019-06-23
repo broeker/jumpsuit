@@ -12,12 +12,13 @@ mainpitch:
   title: Zoom zoom
 mainbody:
   content: >-
-    Today we can build faster and smarter web applications. They are quicker and
-    less costly to build, easier to maintain and support, and more flexible than
-    our current status quo. For the youngest generation of web developers, none
-    of this is news. For everybody else, there is a sea change underway. It is
-    not related to any specific tools or platforms; instead there has been a
-    fundamental shift in how build the web.
+    Today we can build faster and smarter website and applications. They are
+    quicker and less costly to build, easier to maintain and support, and more
+    flexible than our current status quo. For the youngest generation of web
+    developers, none of this is news. For everybody else, there is a sea change
+    underway. It is not related to any specific tool or platform; it is about
+    the rise of JavaScript, managed services, microservices, headless CMS, and a
+    fundamental shift in how we think about building the web.
   heading: Let's build a better web
   image1:
     alt: Jumpsuit diagram
