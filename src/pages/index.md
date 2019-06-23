@@ -16,7 +16,7 @@ mainbody:
     quicker and less costly to build, easier to maintain and support, and more
     flexible than our current status quo. For the youngest and smartest
     generation of web developers, none of this is news. For everybody else,
-    there is a sea change underway. We have officially entered the new era of
+    there is a sea change underway. We have officially entered the era of
     JavaScript, managed services, microservices, the headless CMS, and the
     [content
     mesh](https://www.gatsbyjs.org/blog/2018-10-04-journey-to-the-content-mesh/).
