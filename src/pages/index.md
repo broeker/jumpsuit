@@ -35,6 +35,18 @@ mainbody:
     Revolution](https://en.wikipedia.org/wiki/Second_Industrial_Revolution), we
     now have access to electric light, better ways of making steel, railroads,
     and interchangeable parts.
+
+
+
+
+    This is normal body copy.\[^also] It includes a couple footnotes.\[^thing]
+
+
+    [^also]:
+      This is a footnote.
+
+    [^thing]:
+      This is another footnote.
 full_image: /img/chuck.jpg
 blurbs:
   blocks:
