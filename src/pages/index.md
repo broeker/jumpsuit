@@ -12,20 +12,22 @@ mainpitch:
   title: Zoom zoom
 mainbody:
   content: >-
-    Today we can build faster and smarter web applications that are quicker and
-    less costly to build, easier to maintain and support, and more infinitely
-    more flexible than our current status quo. Best yet, building this next
-    generation of websites and applications is simply fun in way that web
-    developers have been missing for a very long time.
+    Today we can build faster and smarter web applications. They are quicker and
+    less costly to build, easier to maintain and support, and more flexible than
+    our current status quo. For the youngest generation of web developers, none
+    of this is news. For everybody else, there is a sea change underway. It is
+    not related to any specific tools or platforms; instead there has been a
+    fundamental shift in how build the web.
   heading: Let's build a better web
   image1:
     alt: Jumpsuit diagram
     image: /img/jumpsuit.svg
   intro: >-
     There is a new and smarter way to build the web. Led by frameworks such as
-    Gatsby JS and Reactd along with dynamic platforms like Netlify and the rise
-    of the JAMstack we are quickly and dramatically changing how and what we
-    build. Similar to the real-life [Second Industrial
+    [Gatsby](https://www.gatsbyjs.org/) and [React](https://reactjs.org/) along
+    with modern platforms like [Netlify](https://www.netlify.com/) and the rise
+    of the [JAMstack](https://jamstack.org/), we are quickly and dramatically
+    changing how and what we build. Similar to the real-life [Second Industrial
     Revolution](https://en.wikipedia.org/wiki/Second_Industrial_Revolution), we
     now have access to electric light, better ways of making steel, railroads,
     and interchangeable parts.
