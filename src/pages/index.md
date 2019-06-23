@@ -17,9 +17,10 @@ mainbody:
     flexible than our current status quo. For the youngest generation of web
     developers, none of this is news. For everybody else, there is a sea change
     underway. We have officially entered the new era of JavaScript, managed
-    services, microservices, the headless CMS. All of us now face a fundamental
-    shift in how we think about building the web \[^1], and it is going to be
-    AWESOME.
+    services, microservices, the headless CMS, and the [content
+    mesh](https://www.gatsbyjs.org/blog/2018-10-04-journey-to-the-content-mesh/).
+    All of us now face a fundamental shift in how we think about building the
+    web \[^1], and it is going to be AWESOME.
   heading: Let's build a better web
   image1:
     alt: Jumpsuit diagram
