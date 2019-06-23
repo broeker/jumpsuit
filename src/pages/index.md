@@ -28,7 +28,7 @@ mainbody:
     image: /img/jumpsuit.svg
   intro: >-
     There is a new and smarter way to build the web. Led by frameworks such as
-    [Gatsby](https://www.gatsbyjs.org/) and [React](https://reactjs.org/) along
+    [Gatsby](https://www.gatsbyjs.org/) and [React](https://reactjs.org/), along
     with modern platforms like [Netlify](https://www.netlify.com/) and the rise
     of the [JAMstack](https://jamstack.org/), we are quickly and dramatically
     changing how and what we build. Similar to the real-life [Second Industrial
