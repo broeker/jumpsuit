@@ -168,8 +168,6 @@ export const IndexPageTemplate = ({
                   </LazyHero>
               </div>
                 <p>
-                  [^footnote]
-                  Bla bla <sup name="a1">[1](#f1)</sup>
                   From day one the web has been pushed forward by explorers and tinkerers who make up our rules as we go. But
                   we have now been using the same basic rules and techniques
                   for decades. Vast portions of the web are powered by a monolithic CMS such as <a href="https://drupal.org">Drupal</a> or <a href="https:\\wordpress.org">WordPress</a> (or
@@ -212,9 +210,8 @@ export const IndexPageTemplate = ({
           </div>
         </div>
       </div>
-      <div>
-        <b id="f1">1</b> Footnote content here. [↩](#a1)
-        <a name="myfootnote1">1</a>: Footnote content goes here
+      <div className={footnotes``}>
+        {footnotes}
       </div>
     </section>
 
@@ -238,6 +235,7 @@ const IndexPage = ({ data }) => {
         description={frontmatter.description}
         blurbs={frontmatter.blurbs}
         fullImage={frontmatter.full_image}
+        footnotes={frontmatter.footnotes}
       />
     </Layout>
   )
@@ -267,6 +265,7 @@ export const pageQuery = graphql`
         }
         heading
         subheading
+        footnotes 
         mainpitch {
           title
           description
