@@ -27,16 +27,15 @@ mainbody:
     alt: Jumpsuit diagram
     image: /img/jumpsuit.svg
   intro: >-
-    Some word or something that needs explaining \[^1] <a name="fn1"></a>. There
+    Some word or something that needs explaining [^1] <a name="fn1"></a>. There
     is a new and smarter way to build the web. Led by frameworks such as
-    \[Gatsby](https://www.gatsbyjs.org/) and \[React](https://reactjs.org/),
-    along with modern platforms like \[Netlify](https://www.netlify.com/) and
-    the rise of the \[JAMstack](https://jamstack.org/), we are quickly and
-    dramatically changing how and what we build. Similar to the real-life
-    \[Second Industrial
+    [Gatsby](https://www.gatsbyjs.org/) and [React](https://reactjs.org/), along
+    with modern platforms like [Netlify](https://www.netlify.com/) and the rise
+    of the [JAMstack](https://jamstack.org/), we are quickly and dramatically
+    changing how and what we build. Similar to the real-life [Second Industrial
     Revolution](https://en.wikipedia.org/wiki/Second_Industrial_Revolution), we
     now have access to electric light, better ways of making steel, railroads,
-    and interchangeable parts. \[^2]
+    and interchangeable parts.
 full_image: /img/chuck.jpg
 blurbs:
   blocks:
