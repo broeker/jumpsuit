@@ -48,9 +48,13 @@ blurbs:
         discussion.
     - heading: 'Super Power: React'
       image: /img/react.png
-      text: >+
+      text: >
         Gatsby is a modern marvel, and it is based on React. This is a good
         thing, and Gatsby is actually an ideal way to begin learning React.
         Anything you can do in React, you can do in Gatsby.
+footnotes: |-
+  [^1]: The explanation.
+
+  [^2]: oh foo.
 ---
 
