@@ -27,8 +27,8 @@ mainbody:
     alt: Jumpsuit diagram
     image: /img/jumpsuit.svg
   intro: >-
-    Some word or something that needs explaining [^1] <a name="fn1"></a>. There
-    is a new and smarter way to build the web. Led by frameworks such as
+    Some word or something that needs explaining. There is a new and smarter way
+    to build the web. Led by frameworks such as
     [Gatsby](https://www.gatsbyjs.org/) and [React](https://reactjs.org/), along
     with modern platforms like [Netlify](https://www.netlify.com/) and the rise
     of the [JAMstack](https://jamstack.org/), we are quickly and dramatically
@@ -52,10 +52,6 @@ blurbs:
         Gatsby is a modern marvel, and it is based on React. This is a good
         thing, and Gatsby is actually an ideal way to begin learning React.
         Anything you can do in React, you can do in Gatsby.
-footnotes: |-
-  [^1]: 
-    The explanation. 
-
-    More explanation <a href=#fn1">↩</a>
+footnotes: ''
 ---
 
