@@ -53,7 +53,7 @@ blurbs:
         thing, and Gatsby is actually an ideal way to begin learning React.
         Anything you can do in React, you can do in Gatsby.
 footnotes: |-
-  [^1]: The explanation. <a href=#fn1">back</a>
+  [^1]: The explanation. <a href=#fn1">↩</a>
 
   [^2]: oh foo.
 ---
