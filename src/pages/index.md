@@ -12,13 +12,13 @@ mainpitch:
   title: ''
 mainbody:
   content: >-
-    Today we can build faster and smarter websites and applications. They are
-    quicker and less costly to build, easier to maintain and support, and
-    infinitely more flexible than our current status quo. For the youngest and
-    smartest generation of web developers, none of this is news. For everybody
-    else, there is a sea change underway. We have officially entered the era of
-    JavaScript, managed services, microservices, the headless CMS, and the
-    [content
+    This change is not about any one technology or JavaScript framework. Instead
+    it is a fundamental shift in how we think (thanks largely to the tools and
+    infrastructure we now have available.) Today we can build faster and smarter
+    websites that are less costly to build, easier to maintain and support, and
+    infinitely more flexible than our current status quo. We have officially
+    entered the era of JavaScript, managed services, microservices, the headless
+    CMS, and the [content
     mesh](https://www.gatsbyjs.org/blog/2018-10-04-journey-to-the-content-mesh/).
     It is going to be AWESOME.
   heading: Zoom zoom.
@@ -26,11 +26,12 @@ mainbody:
     alt: Jumpsuit diagram
     image: /img/jumpsuit.svg
   intro: >-
-    There is a new and smarter way to build the web. Led by frameworks such as
-    [Gatsby](https://www.gatsbyjs.org/) and [React](https://reactjs.org/), along
-    with modern platforms like [Netlify](https://www.netlify.com/) and the rise
-    of the [JAMstack](https://jamstack.org/), we are quickly and dramatically
-    changing how and what we build. Similar to the real-life [Second Industrial
+    Finally there is a new and smarter way to build the web. Led by frameworks
+    such as [Gatsby](https://www.gatsbyjs.org/) and
+    [React](https://reactjs.org/), along with modern platforms like
+    [Netlify](https://www.netlify.com/) and the rise of the
+    [JAMstack](https://jamstack.org/), we are quickly and dramatically changing
+    how and what we build. Similar to the real-life [Second Industrial
     Revolution](https://en.wikipedia.org/wiki/Second_Industrial_Revolution), we
     now have access to electric light, better ways of making steel, railroads,
     and interchangeable parts.
