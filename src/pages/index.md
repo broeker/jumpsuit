@@ -7,7 +7,7 @@ mainpitch:
   description: >-
     From the dawn of time, web developers have sought to make things better. But
     today our world is more difficult than ever. Our projects are more
-    expensive. Harder to manage and maintain. Less fun to build. Slower and more
+    expensive. Harder to manage and secure. Less fun to build. Slower and more
     complicated to use.
   title: ''
 mainbody:
@@ -15,7 +15,7 @@ mainbody:
     This change is not about any one technology or JavaScript framework. Instead
     it is a fundamental shift in how we think (thanks largely to the tools and
     infrastructure we now have available.) Today we can build faster and smarter
-    websites that are less costly to build, easier to maintain and support, and
+    websites that are less costly to build, easier to maintain and secure, and
     infinitely more flexible than our current status quo. We have officially
     entered the era of JavaScript, managed services, microservices, the headless
     CMS, and the [content
@@ -26,12 +26,11 @@ mainbody:
     alt: Jumpsuit diagram
     image: /img/jumpsuit.svg
   intro: >-
-    Finally there is a new and smarter way to build the web. Led by frameworks
-    such as [Gatsby](https://www.gatsbyjs.org/) and
-    [React](https://reactjs.org/), along with modern platforms like
-    [Netlify](https://www.netlify.com/) and the rise of the
-    [JAMstack](https://jamstack.org/), we are quickly and dramatically changing
-    how and what we build. Similar to the real-life [Second Industrial
+    Finally there is a smarter way to build the web. Led by frameworks such as
+    [Gatsby](https://www.gatsbyjs.org/) and [React](https://reactjs.org/), along
+    with modern platforms like [Netlify](https://www.netlify.com/) and the rise
+    of the [JAMstack](https://jamstack.org/), we are quickly and dramatically
+    changing how and what we build. Similar to the real-life [Second Industrial
     Revolution](https://en.wikipedia.org/wiki/Second_Industrial_Revolution), we
     now have access to electric light, better ways of making steel, railroads,
     and interchangeable parts.
