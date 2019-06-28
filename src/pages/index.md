@@ -34,7 +34,7 @@ mainbody:
     Revolution](https://en.wikipedia.org/wiki/Second_Industrial_Revolution), we
     now have access to electric light, better ways of making steel, railroads,
     and interchangeable parts.
-full_image: /img/chuck2.jpg
+full_image: /img/chuck.jpg
 blurbs:
   blocks:
     - heading: 'Super Power: Gatsby'
@@ -50,6 +50,7 @@ blurbs:
         Gatsby is a modern marvel, and it is based on React. This is a good
         thing, and Gatsby is actually an ideal way to begin learning React.
         Anything you can do in React, you can do in Gatsby.
+full_image2: /img/chuck2.jpg
 footnotes: ''
 ---
 
