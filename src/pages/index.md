@@ -12,7 +12,7 @@ mainpitch:
   title: ''
 mainbody:
   content: >-
-    This change is not about any one technology or JavaScript framework.\[^2] 
+    This change is not about any one technology or JavaScript framework.[^2] 
     Instead it is a fundamental shift in how we think (thanks largely to the
     tools and infrastructure we now have available.) Today we can build faster
     and smarter websites that are less costly to build, easier to maintain and
