@@ -12,13 +12,13 @@ mainpitch:
   title: ''
 mainbody:
   content: >-
-    This change is not about any one technology or JavaScript framework. Instead
-    it is a fundamental shift in how we think (thanks largely to the tools and
-    infrastructure we now have available.) Today we can build faster and smarter
-    websites that are less costly to build, easier to maintain and secure, and
-    infinitely more flexible than our current status quo. We have officially
-    entered the era of JavaScript, managed services, microservices, the headless
-    CMS, and the [content
+    This change is not about any one technology or JavaScript framework.\[^2] 
+    Instead it is a fundamental shift in how we think (thanks largely to the
+    tools and infrastructure we now have available.) Today we can build faster
+    and smarter websites that are less costly to build, easier to maintain and
+    secure, and infinitely more flexible than our current status quo. We have
+    officially entered the era of JavaScript, managed services, microservices,
+    the headless CMS, and the [content
     mesh](https://www.gatsbyjs.org/blog/2018-10-04-journey-to-the-content-mesh/).
     It is going to be AWESOME.
   heading: Zoom zoom.
@@ -54,5 +54,10 @@ full_image2: /img/chuck2.jpg
 footnotes: >-
   [^1]: Please know that every word written on this website is written in the
   spirit of goodness, and in acknowledgment of the absurd,
+
+
+  [^2]: This website focuses on Gatsby and React, because I think they are best.
+  But if you love Vue I'd encourage to explore Gridsome. I am unaware of any
+  Angular equivalents.
 ---
 
