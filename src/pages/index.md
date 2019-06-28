@@ -5,8 +5,8 @@ subheading: with citizen tim
 image: /img/jsheader.jpg
 mainpitch:
   description: >-
-    From the dawn of time, web developers hath sought to make things better. But
-    today our world is more difficult than ever. Our projects are more
+    From the dawn of time, web developers hath sought to make things better.[^1]
+    But today our world is more difficult than ever. Our projects are more
     expensive. Harder to manage and secure. Less fun to build. Slower and more
     complicated to use.
   title: ''
@@ -51,6 +51,8 @@ blurbs:
         thing, and Gatsby is actually an ideal way to begin learning React.
         Anything you can do in React, you can do in Gatsby.
 full_image2: /img/chuck2.jpg
-footnotes: ''
+footnotes: >-
+  [^1]: Please know that every word written on this website is written in the
+  spirit of goodness, and in acknowledgment of the absurd,
 ---
 
