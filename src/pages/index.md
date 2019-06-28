@@ -32,8 +32,8 @@ mainbody:
     of the [JAMstack](https://jamstack.org/), we are quickly and dramatically
     changing how and what we build. Similar to the real-life [Second Industrial
     Revolution](https://en.wikipedia.org/wiki/Second_Industrial_Revolution), we
-    now have access to electric light, better ways of making steel, railroads,
-    and interchangeable parts.
+    now have widespread access to electric light, improved ways of making steel,
+    railroad networks, and interchangeable parts.
 full_image: /img/chuck.jpg
 blurbs:
   blocks:
