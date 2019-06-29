@@ -12,13 +12,13 @@ mainpitch:
   title: ''
 mainbody:
   content: >-
-    This change is not about any one technology or JavaScript framework.[^2] 
-    Instead it is a fundamental shift in how we think and build (thanks largely
-    to the tools and infrastructure we now have available.) Today we can build
-    faster and smarter websites that are less costly to build, easier to
-    maintain and secure, and infinitely more flexible than our current status
-    quo. We have officially entered the era of JavaScript, managed services,
-    microservices, the headless CMS, and the [content
+    The world you are about to enter is not about any one technology or
+    JavaScript framework or cool new kid on the block.\[^2]  Instead it is a
+    fundamental shift in how we think and build. Today we can build faster and
+    smarter websites that are less costly to build, easier to maintain and
+    secure, and infinitely more flexible than our current status quo. We have
+    officially entered the era of JavaScript, managed services, microservices,
+    the headless CMS, and the [content
     mesh](https://www.gatsbyjs.org/blog/2018-10-04-journey-to-the-content-mesh/).
     It is going to be AWESOME.
   heading: Zoom zoom.
