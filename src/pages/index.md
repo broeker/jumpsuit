@@ -58,6 +58,12 @@ blurbs:
         hosting and deployment, making simplicity and power the normal state of
         affairs in what is otherwise a typically complicated and expensive world
         to navigate.
+    - heading: 'Headless CMS '
+      image: /img/headless.png
+      text: >-
+        Content is king and for many projects you are still going to require
+        some method to manage all of your content, images, and data. Welcome to
+        the exploding world of the Headless CMS.
 full_image2: /img/chuck2.jpg
 footnotes: >-
   [^1]: Please know that every word written on this website is written in the
