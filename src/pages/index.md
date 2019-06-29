@@ -38,19 +38,26 @@ mainbody:
 full_image: /img/chuck.jpg
 blurbs:
   blocks:
-    - heading: 'Super Power: Gatsby'
+    - heading: Meet Gatsby
       image: /img/gatsby.png
       text: >-
         I was first introduced to [Gatsby JS](https://www.gatsbyjs.org) at a
         BadCamp session in 2018 by Gatsby founder Kyle Matthews. This site is
         powered by Gatsby, and it is also one of its primary topics of
         discussion.
-    - heading: 'Super Power: React'
+    - heading: React JS
       image: /img/react.png
       text: >
         Gatsby is a modern marvel, and it is based on React. This is a good
         thing, and Gatsby is actually an ideal way to begin learning React.
         Anything you can do in React, you can do in Gatsby.
+    - heading: Netlify (and friends)
+      image: /img/logomark.svg
+      text: >-
+        Netlify represents one of the newest and most well-known solutions for
+        hosting and deployment, making simplicity and power the normal state of
+        affairs in what is otherwise a typically complicated and expensive world
+        to navigate.
 full_image2: /img/chuck2.jpg
 footnotes: >-
   [^1]: Please know that every word written on this website is written in the
