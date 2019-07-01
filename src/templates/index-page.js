@@ -258,18 +258,17 @@ export const pageQuery = graphql`
         blurbs {
           blocks {
             image2 {
-            alt
-            image {
-             childImageSharp {
-              fluid(maxWidth: 800, quality: 94) {
-                ...GatsbyImageSharpFluid
+              alt
+              image2 {
+                childImageSharp {
+                  fluid(maxWidth: 800, quality: 94) {
+                  ...GatsbyImageSharpFluid
+                }
               }
-              
-             }
              extension
              publicURL
             } 
-           }
+           
           }
             heading
             text

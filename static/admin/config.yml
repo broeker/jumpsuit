@@ -64,7 +64,7 @@ collections:
           - {label: Full_image, name: full_image, widget: image}
           - {label: Blurbs, name: blurbs, widget: object, fields: [
               {label: Blocks, name: blocks, widget: list, fields: [
-                {label: Image, name: image2, widget: object,fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]},
+                {label: Image, name: image2, widget: object,fields: [{label: Image, name: image2, widget: image}, {label: Alt, name: alt, widget: string}]},
                 {label: Heading, name: heading, widget: string},
                 {label: Text, name: text, widget: markdown}]}]}
           - {label: Full_image2, name: full_image2, widget: image}
