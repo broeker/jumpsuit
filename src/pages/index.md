@@ -39,27 +39,35 @@ full_image: /img/chuck.jpg
 blurbs:
   blocks:
     - heading: Meet Gatsby
-      image: /img/gatsby.png
+      image2: 
+        alt: Gatsby
+        image: /img/gatsby.png
       text: >-
         I was first introduced to [Gatsby JS](https://www.gatsbyjs.org) at a
         BadCamp session in 2018 by Gatsby founder Kyle Matthews. This site is
         powered by Gatsby, and it is also one of its primary topics of
         discussion.
     - heading: React JS
-      image: /img/react.png
+      image2: 
+        alt: React
+        image: /img/react.png
       text: >
         Gatsby is a modern marvel, and it is based on React. This is a good
         thing, and Gatsby is actually an ideal way to begin learning React.
         Anything you can do in React, you can do in Gatsby.
     - heading: Netlify (and friends)
-      image: /img/logomark.svg
+      image2: 
+        alt: Netlify
+        image: /img/logomark.svg
       text: >-
         Netlify represents one of the newest and most well-known solutions for
         hosting and deployment, making simplicity and power the normal state of
         affairs in what is otherwise a typically complicated and expensive world
         to navigate.
     - heading: 'Headless CMS '
-      image: /img/headless.png
+      image2: 
+        alt: Headless CMS
+        image: /img/headless.png
       text: >-
         Content is king and for many projects you are still going to require
         some method to manage all of your content, images, and data. Welcome to

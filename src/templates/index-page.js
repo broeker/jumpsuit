@@ -1,13 +1,50 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
-
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import MarkdownConvert from '../components/MarkdownConvert'
-import LazyHero from 'react-lazy-hero';
+import PageHeader from '../components/PageHeader'
+import InlineHero from '../components/InlineHero'
+import ResponsiveModal from '../components/ResponsiveModal'
+
+
+
+class IndexPage extends React.Component {
+
+  renderElement() {
+    const { data } = this.props;
+    const { frontmatter } = data.markdownRemark
+
+    if (  data  ) {
+      return (
+        <IndexPageTemplate
+          image={frontmatter.image}
+          title={frontmatter.title}
+          heading={frontmatter.heading}
+          subheading={frontmatter.subheading}
+          mainpitch={frontmatter.mainpitch}
+          mainbody={frontmatter.mainbody}
+          description={frontmatter.description}
+          blurbs={frontmatter.blurbs}
+          fullImage={frontmatter.full_image}
+          fullImage2={frontmatter.full_image2}
+          footnotes={frontmatter.footnotes}
+        />
+      );
+    }
+  }
+  render() {
+    return (
+      <Layout>
+
+        { this.renderElement() }
+
+      </Layout>
+    )
+  }
+}
 
 export const IndexPageTemplate = ({
   image,
@@ -17,57 +54,15 @@ export const IndexPageTemplate = ({
   mainbody,
   blurbs,
   fullImage,
-
+  fullImage2,
+  footnotes,
 }) => (
   <div>
-    <div
-      className="full-width-image margin-top-0"
-      style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
-        backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`,
-      }}
-    >
-      <div
-        style={{
-          display: 'flex',
-          height: '150px',
-          lineHeight: '1',
-          justifyContent: 'space-around',
-          alignItems: 'left',
-          flexDirection: 'column',
-        }}
-      >
-        <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-          style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {title}
-        </h1>
-        <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {subheading}
-        </h3>
-      </div>
-    </div>
+   <PageHeader
+    title={title}
+    subheading={subheading}
+    image={image}
+   />
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
@@ -99,7 +94,6 @@ export const IndexPageTemplate = ({
                       />
                   </div>
                 </div>
-
                 <div className="has-text-centered">
                   <div
                     style={{
@@ -108,91 +102,69 @@ export const IndexPageTemplate = ({
                     margin: '2em 0',
                   }}
                   >
-                    <PreviewCompatibleImage imageInfo={mainbody.image1} />
-                  </div>
+                  <PreviewCompatibleImage imageInfo={mainbody.image1} />
                 </div>
-
-                <MarkdownConvert
-                      className="maindescription"
-                      content={mainbody.content}
-                      />
-                    <div
-                      style={{
-                        width: '99.225vw',
-                        position: 'relative',
-                        'margin-left': '-49.59vw',
-                        left: '50%',
-                        marginTop: '4em',
-                        marginBottom: '2em',
-                      }}
-                    >
-                  <LazyHero
-                  imageSrc={fullImage.childImageSharp ? fullImage.childImageSharp.fluid.src : '/home/broeker/Projects/jumpsuit/static/img/boots.jpg'}
-                  parallaxOffset={100}
-                  opacity={.3}
-                  className="lazy"
-                  color="#f4f4f4"
-
-                  >
-
-                    <h1
-
-                      className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-                      style={{
-                        boxShadow:
-                          'rgb(#666 0.5rem 0px 0px, #666 -0.5rem 0px 0px',
-                        backgroundColor: '#666',
-                        color: 'white',
-                        lineHeight: '1.2',
-                        padding: '1em',
-                        width: 'auto',
-                        marginRight: '30vw',
-                        marginLeft: '30vw',
-                      }}
-                    >
-                      Rules are made for people who aren’t willing to make up their own.
-                  </h1>
-                    <h3
-                      className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-                      style={{
-                      backgroundColor: '#666',
-                      color: 'white',
-                      lineHeight: '1',
-                      padding: '0.25em',
-                        marginRight: '30vw',
-                        marginLeft: '30vw',
-          }}
-        >
-          &mdash; Chuck Yeager, test pilot
-        </h3>
-                  </LazyHero>
               </div>
+              <MarkdownConvert
+                className="maindescription"
+                content={mainbody.content}
+              />
+
+
+              <InlineHero
+                image={fullImage.childImageSharp ? fullImage.childImageSharp.fluid.src : null}
+                title="Rules are made for people who aren’t willing to make up their own."
+                subheading="&mdash; Chuck Yeager, test pilot"
+              />
                 <p>
-                  From day one the web has been pushed forward by explorers and tinkerers who make up our rules as we go. But
-                  we have now been using the same basic rules and techniques
-                  for decades. Vast portions of the web are powered by a monolithic CMS such as <a href="https://drupal.org">Drupal</a> or <a href="https:\\wordpress.org">WordPress</a> (or
-                  one of their propietary competitors.) And in many ways our traditional server-based world is
-                  more powerful and capable than ever. We have automated processes and
-                  devops, advanced  caching mechanisms, and advanced cloud providers. We can build anything.
+                  From day one the web has been pushed forward by explorers and tinkerers who make up our own rules as we go. Yet
+
+
+                  if you look around, vast portions of the web are now powered by a monolithic CMS such as <a href="https://drupal.org">Drupal</a> or <a href="https:\\wordpress.org">WordPress</a> (or
+                  one of their many competitors both OSS and propietary.)[^3] We have now been using the same basic rules and techniques
+                  for decades (thanks in no small part to tinkerers like <a href="#">Dries Buytaert</a> and <a href="#">Matt Mullenweg</a>.)  And there is no dispute that these tools are
+                  more powerful and capable than ever. We can build anything.
                 </p>
-                  <p>
-                  But all of this power comes at a high cost: Increasing complexity. Ever-present
+                <p>
+                  But all of this power comes at a high price: Increasing complexity and cost. Ever-present
                   security threats. Long build cycles. Painfully slow and cumbersome user interfaces. Laborious and
-                    error prone update processes. Constant battles
-                    with performance, caching, and scaling. And, yes, some real limitations (Drupal or Wordpress
+                    error prone update processes. Constant battles with performance, caching, and scaling. And, yes, some real limitations (Drupal or WordPress
                     are both extremely great, until they are not.)
-
                 </p>
                 <p>
-
-
-                  Thanks to rule breakers like Ryan Dahl (Node.js) and Jordan Walke (React) and Kyle Matthews (Gatsby) and
-                  long list of pioneers before them, we now have a new path that promises a great
-                  leap forward in how we work, what we build, and the value we provide to our clients and to the web.
+                  Drupal and WordPress will likely be around for a long time. But thanks to a new generation of rule breakers like <a href="https://en.wikipedia.org/wiki/Ryan_Dahl">Ryan Dahl (Node)</a> and <a href="https://en.wikipedia.org/wiki/React_(JavaScript_library)">Jordan Walke (React)</a> and <a href="https://www.gatsbyjs.org/contributors/kyle-mathews/">Kyle Matthews (Gatsby)</a> and a
+                  long list of pioneers before them, we now have a path forward that promises fundamental improvements in how we
+                  work, what we build, and the value we provide to our clients and to the web.
                 </p>
+
+
+                <h3 className="has-text-weight-semibold is-size-2">Join the force today.</h3>
+                <p>
+                For the youngest and smartest of the new generation of web developers, none of this is news. But for the rest
+                  of us, we are now firmly in the middle of an unavoidable sea change that is going
+                  to turn everything upside down, again. Thankfully, the barrier to entry is approaching zero.
+                </p>
+                <p>
+                  My life-long fascination with the World Wide Web began in mid-1994. Armed with a fresh install of the Mosiac browser and a 14K internet connection, I pushed my first index.html file up
+                  to a univeristy-provided FTP server in mid-1994. I have been "viewing source" and slinging DIVs and configuring ODBC connections and helping make the the web work
+                  since that day forward.
+                </p>
+
+                <p>
+                  When I pushed up my first single page web app in the form a single index.html to a mysterious boomboox.umn.edu FTP server
+                  in 1994, myself and the rest of the world learned almost exclusivley by viewing the source.
+                  The best part of this of this new world is how easy it is to get started, and to experiment and learn.
+                  to s
+                </p>
+
+
                 <Features gridItems={blurbs.blocks} />
 
-
+                <InlineHero
+                image={fullImage2.childImageSharp ? fullImage2.childImageSharp.fluid.src : fullImage2}
+                title="There is no such thing as a natural born pilot. For the best pilots, flying is an obsession, the one thing in life they must do continually."
+                subheading="&mdash; Chuck Yeager, jumpsuit enthusiast"
+              />
 
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
@@ -205,14 +177,23 @@ export const IndexPageTemplate = ({
                     </Link>
                   </div>
                 </div>
+                {footnotes ?
+                  <div className="footnotes">
+                    <h3>Footnotes</h3>
+                    <MarkdownConvert
+                      content={footnotes}
+                    />
+
+                  </div>
+                    :
+                    null
+                }
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className={footnotes``}>
-        {footnotes}
-      </div>
+
     </section>
 
   </div>
@@ -220,37 +201,22 @@ export const IndexPageTemplate = ({
 
 
 
-const IndexPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
 
-  return (
-    <Layout>
-      <IndexPageTemplate
-        image={frontmatter.image}
-        title={frontmatter.title}
-        heading={frontmatter.heading}
-        subheading={frontmatter.subheading}
-        mainpitch={frontmatter.mainpitch}
-        mainbody={frontmatter.mainbody}
-        description={frontmatter.description}
-        blurbs={frontmatter.blurbs}
-        fullImage={frontmatter.full_image}
-        footnotes={frontmatter.footnotes}
-      />
-    </Layout>
-  )
-}
 
-IndexPage.propTypes = {
-  data: PropTypes.shape({
-    markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object,
-    }),
-  }),
-}
+
+
+
+
+
+// const IndexPageTemplate = ({ data }) => {
+//   const { frontmatter } = data.markdownRemark
+//
+//   return (
+//
+//   )
+// }
 
 export default IndexPage
-
 export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
@@ -291,13 +257,20 @@ export const pageQuery = graphql`
           }
         blurbs {
           blocks {
+            image2 {
+            alt
             image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
+             childImageSharp {
+              fluid(maxWidth: 800, quality: 94) {
+                ...GatsbyImageSharpFluid
               }
-            }
+              
+             }
+             extension
+             publicURL
+            } 
+           }
+          }
             heading
             text
           }
@@ -309,8 +282,16 @@ export const pageQuery = graphql`
             }
           }
         }
+        full_image2 {
+          childImageSharp {
+            fluid(maxWidth: 2024, quality: 95) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }
 `
+
 

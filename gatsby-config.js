@@ -18,6 +18,14 @@ module.exports = {
       },
     },
     {
+      // keep as first gatsby-source-filesystem plugin for gatsby image support
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/static`,
+        name: 'static',
+      },
+    },
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/pages`,
@@ -33,6 +41,14 @@ module.exports = {
     },
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
+    {
+      resolve: `gatsby-plugin-remote-images`,
+      options: {
+        nodeType: 'Airtable',
+        imagePath: 'URL',
+        name: 'fooker',
+      },
+    },
     {
       resolve: 'gatsby-transformer-remark',
       options: {
@@ -54,15 +70,7 @@ module.exports = {
           },
           {
             resolve: `gatsby-remark-footnotes`,
-            options: {
-              footnoteBackRefPreviousElementDisplay: "inline",
-              footnoteBackRefDisplay: "inline",
-              footnoteBackRefInnerText: "^", // Defaults to: "↩"
-              //use if you want the Wikipedia style ^ link without an underline beneath it
-              footnoteBackRefAnchorStyle: `text-decoration: none;`,
-              //use "front" for Wikipedia style ^ links
-              footnoteBackRefInnerTextStartPosition: "front"
-            }
+
           },
           {
             resolve: 'gatsby-remark-copy-linked-files',
@@ -96,6 +104,7 @@ module.exports = {
           {
             baseId: 'apphnYsTmtls5dZTi',
             tableName: 'Sites',
+            mapping: { Images: `fileNode` },
           },
         ]
       }

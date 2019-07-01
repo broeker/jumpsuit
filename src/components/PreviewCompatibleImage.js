@@ -13,7 +13,8 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
   }
   // svg support
   if (image && image.extension === 'svg') {
-    return <img style={imageStyle} src={image.publicURL} alt={alt} />
+    //return <img style={imageStyle} src={image.publicURL} alt={alt} />
+    return 'fook'
   }
   // svg support hack for preview
   if (image && image.public_path) {
@@ -27,7 +28,8 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
   if (!!image && typeof image === 'string')
     return <img style={imageStyle} src={image} alt={alt} />
 
-  return null
+  //return null
+  return 'fooker'
 }
 
 PreviewCompatibleImage.propTypes = {
