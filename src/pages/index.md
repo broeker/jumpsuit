@@ -39,8 +39,8 @@ full_image: /img/chuck.jpg
 blurbs:
   blocks:
     - heading: Meet Gatsby
-      image2: 
-        alt: Gatsby
+      image2:
+        alt: Gatsbyff
         image2: /img/gatsby.png
       text: >-
         I was first introduced to [Gatsby JS](https://www.gatsbyjs.org) at a
@@ -48,7 +48,7 @@ blurbs:
         powered by Gatsby, and it is also one of its primary topics of
         discussion.
     - heading: React JS
-      image2: 
+      image2:
         alt: React
         image2: /img/react.png
       text: >
@@ -56,7 +56,7 @@ blurbs:
         thing, and Gatsby is actually an ideal way to begin learning React.
         Anything you can do in React, you can do in Gatsby.
     - heading: Netlify (and friends)
-      image2: 
+      image2:
         alt: Netlify
         image2: /img/logomark.svg
       text: >-
@@ -65,7 +65,7 @@ blurbs:
         affairs in what is otherwise a typically complicated and expensive world
         to navigate.
     - heading: 'Headless CMS '
-      image2: 
+      image2:
         alt: Headless CMS
         image2: /img/headless.png
       text: >-
