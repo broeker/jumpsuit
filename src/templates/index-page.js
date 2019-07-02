@@ -259,17 +259,17 @@ export const pageQuery = graphql`
           blocks {
             image2 {
               alt
-              image2 {
+              image {
                 childImageSharp {
                   fluid(maxWidth: 800, quality: 94) {
                   ...GatsbyImageSharpFluid
+                  }
+              
                 }
+                extension
+                publicURL
               }
-             extension
-             publicURL
-            } 
-           
-          }
+            }
             heading
             text
           }
