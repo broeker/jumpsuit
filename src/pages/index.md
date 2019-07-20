@@ -8,7 +8,7 @@ mainpitch:
     From the dawn of time, web developers hath sought to make things better.
     [^1] But today our world is more difficult than ever. Our projects are more
     expensive. Harder to manage and secure. Less fun to build. Slower and more
-    complicated to use.
+    complicated to use. [^also]
   title: ''
 mainbody:
   content: >-
@@ -137,5 +137,8 @@ footnotes: >-
   [^2]: This website focuses on Gatsby and React, because I think they are best.
   But if you love Vue I'd encourage to explore Gridsome. I am unaware of any
   Angular equivalents.
+
+
+  [^also]: i am the eggman.
 ---
 
