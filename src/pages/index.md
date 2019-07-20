@@ -72,6 +72,63 @@ blurbs:
         some method to manage all of your content, images, and data. Welcome to
         the exploding world of the Headless CMS.
 full_image2: /img/chuck2.jpg
+secondarycontent:
+  block:
+    - content: >-
+        From day one the web has been pushed forward by explorers and tinkerers
+        who make up our own rules as we go. Yet if you look around, vast
+        portions of the web are now powered by a monolithic CMS such as
+        [Drupal](https://drupal.org) or [WordPress](https:\\wordpress.org) (or
+        one of their many competitors both OSS and propietary.) We have now been
+        using the same basic rules and techniques for decades (thanks in no
+        small part to tinkerers like Dries Buytaert and Matt Mullenweg..)  And
+        there is no dispute that these tools are more powerful and capable than
+        ever. We can build anything.
+
+
+        But all of this power comes at a high price: Increasing complexity and
+        cost. Ever-present security threats. Long build cycles. Painfully slow
+        and cumbersome user interfaces. Laborious and error prone update
+        processes. Constant battles with performance, caching, and scaling. And,
+        yes, some real limitations (Drupal or WordPress are both extremely
+        great, until they are not.)
+
+
+        Drupal and WordPress will likely be around for a long time. But thanks
+        to a new generation of rule breakers like [Ryan Dahl
+        (Node)](https://en.wikipedia.org/wiki/Ryan_Dahl) and [Jordan Walke
+        (React)](https://en.wikipedia.org/wiki/React_(JavaScript_library)) and[
+        Kyle Matthews
+        (Gatsby)](https://www.gatsbyjs.org/contributors/kyle-mathews/) and a
+        long list of pioneers before them, we now have a path forward that
+        promises fundamental improvements in how we work, what we build, and the
+        value we provide to our clients and to the web.
+
+
+        For the youngest and smartest of the new generation of web developers,
+        none of this is news. But for the rest of us, we are now firmly in the
+        middle of an unavoidable sea change that is going to turn everything
+        upside down, again. Thankfully, the barrier to entry is approaching
+        zero.
+
+
+        My life-long fascination with the World Wide Web began in mid-1994.
+        Armed with a fresh install of the Mosiac browser and a 14K internet
+        connection, I pushed my first index.html file up to a
+        univeristy-provided FTP server in mid-1994. I have been "viewing source"
+        and slinging DIVs and configuring ODBC connections and helping make the
+        the web work since that day forward.
+
+
+        When I pushed up my first single page web app in the form a single
+        index.html to a mysterious boomboox.umn.edu FTP server in 1994, myself
+        and the rest of the world learned almost exclusivley by viewing the
+        source.
+
+
+        The best part of this of this new world is how easy it is to get
+        started, and to experiment and learn.
+      heading: I am the eggman
 footnotes: >-
   [^1]: Please know that every word written on this website is written in the
   spirit of goodness, and in acknowledgment of the absurd. <a href="#1">^</a>
