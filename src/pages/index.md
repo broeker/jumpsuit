@@ -13,10 +13,10 @@ mainpitch:
 mainbody:
   content: >-
     The future is not about any one technology or JavaScript framework.[^2]<a
-    name=2> Instead we are facing a fundamental shift in how we think and build.
-    Today we can build faster and smarter websites that are less costly to
-    build, easier to maintain and secure, and infinitely more flexible than our
-    current status quo. We have officially entered the era of JavaScript,
+    name=2></a> Instead we are facing a fundamental shift in how we think and
+    build. Today we can build faster and smarter websites that are less costly
+    to build, easier to maintain and secure, and infinitely more flexible than
+    our current status quo. We have officially entered the era of JavaScript,
     managed services, microservices, the headless CMS, and the [content
     mesh](https://www.gatsbyjs.org/blog/2018-10-04-journey-to-the-content-mesh/).
     It is going to be AWESOME.
