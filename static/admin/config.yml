@@ -68,6 +68,10 @@ collections:
                 {label: Heading, name: heading, widget: string},
                 {label: Text, name: text, widget: markdown}]}]}
           - {label: Full_image2, name: full_image2, widget: image}
+          - {label: Secondary Content, name: secondarycontent, widget: object, fields: [
+              {label: Block, name: blocks, widget: list, fields: [
+                {label: Heading, name: heading, widget: string},
+                {label: Content, name: content, widget: markdown}]}]}
           - {label: Footnotes, name: footnotes, widget: markdown, required: false}
       - file: "src/pages/about/index.md"
         label: "About"

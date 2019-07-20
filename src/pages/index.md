@@ -73,7 +73,7 @@ blurbs:
         the exploding world of the Headless CMS.
 full_image2: /img/chuck2.jpg
 secondarycontent:
-  block:
+  blocks:
     - content: >-
         From day one the web has been pushed forward by explorers and tinkerers
         who make up our own rules as we go. Yet if you look around, vast
