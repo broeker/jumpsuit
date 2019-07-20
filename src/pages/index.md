@@ -24,7 +24,7 @@ mainbody:
   heading: Zoom zoom.
   image1:
     alt: Jumpsuit diagram
-    image: /img/jumpsuit.svg
+    image: /img/apple-touch-icon.png
   intro: >-
     Finally there is a smarter way to build the web. Led by frameworks such as
     [Gatsby](https://www.gatsbyjs.org/) and [React](https://reactjs.org/), along
