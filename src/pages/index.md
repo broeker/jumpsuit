@@ -5,10 +5,10 @@ subheading: with citizen tim
 image: /img/jsheader.jpg
 mainpitch:
   description: >-
-    From the dawn of time, web developers hath sought to make things better.[^1]
-    But today our world is more difficult than ever. Our projects are more
-    expensive. Harder to manage and secure. Less fun to build. Slower and more
-    complicated to use.
+    From the dawn of time, web developers hath sought to make things
+    better.[^1]<a name=1></a> But today our world is more difficult than ever.
+    Our projects are more expensive. Harder to manage and secure. Less fun to
+    build. Slower and more complicated to use.
   title: ''
 mainbody:
   content: >-
@@ -74,12 +74,12 @@ blurbs:
         the exploding world of the Headless CMS.
 full_image2: /img/chuck2.jpg
 footnotes: >-
-  [^1]: Please know that every word written on this website is written in the
-  spirit of goodness, and in acknowledgment of the absurd,
+  \[^1]: Please know that every word written on this website is written in the
+  spirit of goodness, and in acknowledgment of the absurd. <a href="#1">^</a>
 
 
-  [^2]: This website focuses on Gatsby and React, because I think they are best.
-  But if you love Vue I'd encourage to explore Gridsome. I am unaware of any
-  Angular equivalents.
+  \[^2]: This website focuses on Gatsby and React, because I think they are
+  best. But if you love Vue I'd encourage to explore Gridsome. I am unaware of
+  any Angular equivalents.
 ---
 
