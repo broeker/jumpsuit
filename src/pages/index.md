@@ -6,13 +6,13 @@ image: /img/jsheader.jpg
 mainpitch:
   description: >-
     From the dawn of time, web developers hath sought to make things better.
-    \[^1] But today our world is more difficult than ever. Our projects are more
+    [^1] But today our world is more difficult than ever. Our projects are more
     expensive. Harder to manage and secure. Less fun to build. Slower and more
     complicated to use.
   title: ''
 mainbody:
   content: >-
-    The future is not about any one technology or JavaScript framework.\[^2]
+    The future is not about any one technology or JavaScript framework. [^2]
     Instead we are facing a fundamental shift in how we think and build. Today
     we can build faster and smarter websites that are less costly to build,
     easier to maintain and secure, and infinitely more flexible than our current
