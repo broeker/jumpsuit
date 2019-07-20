@@ -130,12 +130,12 @@ secondarycontent:
         started, and to experiment and learn.
       heading: I am the eggman
 footnotes: >-
-  \[^1]: Please know that every word written on this website is written in the
+  [^1]: Please know that every word written on this website is written in the
   spirit of goodness, and in acknowledgment of the absurd.
 
 
-  \[^2]: This website focuses on Gatsby and React, because I think they are
-  best. But if you love Vue I'd encourage to explore Gridsome. I am unaware of
-  any Angular equivalents.
+  [^2]: This website focuses on Gatsby and React, because I think they are best.
+  But if you love Vue I'd encourage to explore Gridsome. I am unaware of any
+  Angular equivalents.
 ---
 
