@@ -5,19 +5,19 @@ subheading: with citizen tim
 image: /img/jsheader.jpg
 mainpitch:
   description: >-
-    From the dawn of time, web developers hath sought to make things
-    better.[^1]<a name=1></a> But today our world is more difficult than ever.
-    Our projects are more expensive. Harder to manage and secure. Less fun to
-    build. Slower and more complicated to use.
+    From the dawn of time, web developers hath sought to make things better.
+    \[^1] But today our world is more difficult than ever. Our projects are more
+    expensive. Harder to manage and secure. Less fun to build. Slower and more
+    complicated to use.
   title: ''
 mainbody:
   content: >-
-    The future is not about any one technology or JavaScript framework.[^2]<a
-    name=2></a> Instead we are facing a fundamental shift in how we think and
-    build. Today we can build faster and smarter websites that are less costly
-    to build, easier to maintain and secure, and infinitely more flexible than
-    our current status quo. We have officially entered the era of JavaScript,
-    managed services, microservices, the headless CMS, and the [content
+    The future is not about any one technology or JavaScript framework.\[^2]
+    Instead we are facing a fundamental shift in how we think and build. Today
+    we can build faster and smarter websites that are less costly to build,
+    easier to maintain and secure, and infinitely more flexible than our current
+    status quo. We have officially entered the era of JavaScript, managed
+    services, microservices, the headless CMS, and the [content
     mesh](https://www.gatsbyjs.org/blog/2018-10-04-journey-to-the-content-mesh/).
     It is going to be AWESOME.
   heading: Zoom zoom.
@@ -130,12 +130,12 @@ secondarycontent:
         started, and to experiment and learn.
       heading: I am the eggman
 footnotes: >-
-  [^1]: Please know that every word written on this website is written in the
-  spirit of goodness, and in acknowledgment of the absurd. <a href="#1">^</a>
+  \[^1]: Please know that every word written on this website is written in the
+  spirit of goodness, and in acknowledgment of the absurd.
 
 
-  [^2]: This website focuses on Gatsby and React, because I think they are best.
-  But if you love Vue I'd encourage to explore Gridsome. I am unaware of any
-  Angular equivalents.<a href="#2">^</a>
+  \[^2]: This website focuses on Gatsby and React, because I think they are
+  best. But if you love Vue I'd encourage to explore Gridsome. I am unaware of
+  any Angular equivalents.
 ---
 
