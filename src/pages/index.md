@@ -12,19 +12,18 @@ mainpitch:
   title: ''
 mainbody:
   content: >-
-    The world you are about to enter is not about any one technology or
-    JavaScript framework or cool new kid on the block.\[^2]  Instead it is a
-    fundamental shift in how we think and build. Today we can build faster and
-    smarter websites that are less costly to build, easier to maintain and
-    secure, and infinitely more flexible than our current status quo. We have
-    officially entered the era of JavaScript, managed services, microservices,
-    the headless CMS, and the [content
+    The future is not about any one technology or JavaScript framework.[^2]<a
+    name=2> Instead we are facing a fundamental shift in how we think and build.
+    Today we can build faster and smarter websites that are less costly to
+    build, easier to maintain and secure, and infinitely more flexible than our
+    current status quo. We have officially entered the era of JavaScript,
+    managed services, microservices, the headless CMS, and the [content
     mesh](https://www.gatsbyjs.org/blog/2018-10-04-journey-to-the-content-mesh/).
     It is going to be AWESOME.
   heading: Zoom zoom.
   image1:
     alt: Jumpsuit diagram
-    image: /img/apple-touch-icon.png
+    image: /img/jumpsuit.svg
   intro: >-
     Finally there is a smarter way to build the web. Led by frameworks such as
     [Gatsby](https://www.gatsbyjs.org/) and [React](https://reactjs.org/), along
@@ -74,12 +73,12 @@ blurbs:
         the exploding world of the Headless CMS.
 full_image2: /img/chuck2.jpg
 footnotes: >-
-  \[^1]: Please know that every word written on this website is written in the
+  [^1]: Please know that every word written on this website is written in the
   spirit of goodness, and in acknowledgment of the absurd. <a href="#1">^</a>
 
 
-  \[^2]: This website focuses on Gatsby and React, because I think they are
-  best. But if you love Vue I'd encourage to explore Gridsome. I am unaware of
-  any Angular equivalents.
+  [^2]: This website focuses on Gatsby and React, because I think they are best.
+  But if you love Vue I'd encourage to explore Gridsome. I am unaware of any
+  Angular equivalents.<a href="#2">^</a>
 ---
 
