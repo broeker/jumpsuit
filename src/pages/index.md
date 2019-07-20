@@ -8,7 +8,7 @@ mainpitch:
     From the dawn of time, web developers hath sought to make things better.
     [^1] But today our world is more difficult than ever. Our projects are more
     expensive. Harder to manage and secure. Less fun to build. Slower and more
-    complicated to use. [^also]
+    complicated to use.[^also]
   title: ''
 mainbody:
   content: >-
@@ -139,6 +139,7 @@ footnotes: >-
   Angular equivalents.
 
 
-  [^also]: i am the eggman.
+  [^also]: 
+    i am the eggman.
 ---
 
