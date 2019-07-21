@@ -25,19 +25,7 @@ mainbody:
     Here is a footnote reference,[^1] and another.[^longnote]
 
 
-    [^1]: Here is the footnote.
 
-
-    [^longnote]: Here's one with multiple blocks.
-
-        Subsequent paragraphs are indented to show that they
-    belong to the previous footnote.
-
-            { some.code }
-
-        The whole paragraph can be indented, or just the first
-        line.  In this way, multi-paragraph footnotes work like
-        multi-paragraph list items.
 
     This paragraph won't be part of the note, because it
 
@@ -151,13 +139,18 @@ secondarycontent:
         The best part of this of this new world is how easy it is to get
         started, and to experiment and learn.
       heading: I am the eggman
-footnotes: >-
-  [^1]: Please know that every word written on this website is written in the
-  spirit of goodness, and in acknowledgment of the absurd.
+footnotes: |-
+  [^1]: Here is the footnote.
 
+  [^longnote]: Here's one with multiple blocks.
 
-  [^2]: This website focuses on Gatsby and React, because I think they are best.
-  But if you love Vue I'd encourage to explore Gridsome. I am unaware of any
-  Angular equivalents.
+      Subsequent paragraphs are indented to show that they
+  belong to the previous footnote.
+
+          { some.code }
+
+      The whole paragraph can be indented, or just the first
+      line.  In this way, multi-paragraph footnotes work like
+      multi-paragraph list items.
 ---
 
