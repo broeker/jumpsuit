@@ -22,12 +22,12 @@ mainbody:
     alt: Jumpsuit diagram
     image: /img/jumpsuit.svg
   intro: >-
-    Today there is a smarter way to build the web. Led by frameworks such as
+    Maybe there is a smarter way to build the web. Led by frameworks such as
     [Gatsby](https://www.gatsbyjs.org/) and [React](https://reactjs.org/), along
     with modern platforms like [Netlify](https://www.netlify.com/), the rise of
-    the [JAMstack](https://jamstack.org/), and the headless CMS, we are quickly
-    and dramatically changing how and what we build. Similar to the real-life
-    [Second Industrial
+    the [JAMstack](https://jamstack.org/), and the [headless
+    CMS](https://headlesscms.org/), we are quickly and dramatically changing how
+    and what we build. Similar to the real-life [Second Industrial
     Revolution](https://en.wikipedia.org/wiki/Second_Industrial_Revolution), we
     now have widespread access to electric light, improved ways of making steel,
     interchangeable parts, and a growing network of railroads.
