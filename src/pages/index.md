@@ -5,21 +5,43 @@ subheading: with citizen tim
 image: /img/jsheader.jpg
 mainpitch:
   description: >-
-    From the dawn of time, web developers hath sought to make things better.
-    [^1] But today our world is more difficult than ever. Our projects are more
+    From the dawn of time, web developers hath sought to make things better.But
+    today our world is more difficult than ever. Our projects are more
     expensive. Harder to manage and secure. Less fun to build. Slower and more
     complicated to use.
   title: ''
 mainbody:
   content: >-
-    The future is not about any one technology or JavaScript framework. [^2]
-    Instead we are facing a fundamental shift in how we think and build. Today
-    we can build faster and smarter websites that are less costly to build,
-    easier to maintain and secure, and infinitely more flexible than our current
-    status quo. We have officially entered the era of JavaScript, managed
-    services, microservices, the headless CMS, and the [content
+    The future is not about any one technology or JavaScript framework.Instead
+    we are facing a fundamental shift in how we think and build. Today we can
+    build faster and smarter websites that are less costly to build, easier to
+    maintain and secure, and infinitely more flexible than our current status
+    quo. We have officially entered the era of JavaScript, managed services,
+    microservices, the headless CMS, and the [content
     mesh](https://www.gatsbyjs.org/blog/2018-10-04-journey-to-the-content-mesh/).
     It is going to be AWESOME.
+
+
+    Here is a footnote reference,[^1] and another.[^longnote]
+
+
+    [^1]: Here is the footnote.
+
+
+    [^longnote]: Here's one with multiple blocks.
+
+        Subsequent paragraphs are indented to show that they
+    belong to the previous footnote.
+
+            { some.code }
+
+        The whole paragraph can be indented, or just the first
+        line.  In this way, multi-paragraph footnotes work like
+        multi-paragraph list items.
+
+    This paragraph won't be part of the note, because it
+
+    isn't indented.
   heading: Zoom zoom.
   image1:
     alt: Jumpsuit diagram
