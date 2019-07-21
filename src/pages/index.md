@@ -77,7 +77,7 @@ secondarycontent:
         who make up the rules as they go. Many of the tools and techniques we
         have access to in 2019 were not even conceivable even five short years
         ago. And yet many of use are still relying on the same basic tools and
-        techniques that have been in place for decades.\[^4]
+        techniques that have been in place for decades.[^3]
 
 
         Thankfully  a new generation of rule breakers like [Ryan Dahl
@@ -103,15 +103,11 @@ footnotes: >-
   [^2]: Here's one with multiple blocks.
 
 
-  [^3]: According to XXX WordPress now powers x% of the entire web. More than
-  60% of the entire web is powered by a monolithic CMS. 
-
-
-  [^4]: Vast portions of the web are now powered by a monolithic CMS such as
+  [^3]: Vast portions of the web are now powered by a monolithic CMS such as
   Drupal or WordPress (or one of their many competitors both open source and
-  proprietary.)[^3] And there is no dispute that these tools are more powerful
-  and capable than ever. We can almost build anything, and there is a reason for
-  the rise and ongoing success of the traditional CMS model.
+  proprietary.) And there is no dispute that these tools are more powerful and
+  capable than ever. We can almost build anything, and there is a reason for the
+  rise and ongoing success of the traditional CMS model.
 
   But all of this power comes at a high price: 
 
