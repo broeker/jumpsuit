@@ -12,11 +12,12 @@ mainpitch:
   title: ''
 mainbody:
   content: >-
-    The future is not about any one technology or JavaScript framework.[^2]  
-    Instead, we are facing a fundamental shift in how we build and think about
-    the web. And it means that we can create faster and smarter websites and
-    applications that are less costly to build, easier to maintain and secure,
-    and infinitely more flexible than our current status quo. 
+    Be sure that the future is not about any one technology or JavaScript
+    framework or cool new hosting platform.[^2]   Instead, we are facing a
+    fundamental shift in how we build and think about the web. And it means that
+    we can create faster and smarter websites and applications that are less
+    costly to build, easier to maintain and secure, and infinitely more flexible
+    than our current status quo. 
   heading: Zoom zoom.
   image1:
     alt: Jumpsuit diagram
@@ -30,7 +31,7 @@ mainbody:
     and what we build. Similar to the real-life [Second Industrial
     Revolution](https://en.wikipedia.org/wiki/Second_Industrial_Revolution), we
     now have widespread access to electric light, improved ways of making steel,
-    interchangeable parts, and a growing network of railroads.
+    interchangeable parts, and a growing network of railroads at our disposal.
 full_image: /img/chuck.jpg
 blurbs:
   blocks:
