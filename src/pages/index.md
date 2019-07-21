@@ -95,7 +95,7 @@ secondarycontent:
         middle of an unavoidable sea change that is going to turn everything
         upside down, again. Thankfully, the barrier to entry is approaching
         zero.
-      heading: Developing at the speed of sound
+      heading: Supersonic flight and the World Wide Web
 footnotes: >-
   [^1]: Here is the footnote.
 
