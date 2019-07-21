@@ -55,7 +55,7 @@ blurbs:
     - heading: Netlify (and friends)
       image2:
         alt: Netlify
-        image: /img/apple-touch-icon.png
+        image: /img/logomark.svg
       text: >-
         Netlify represents one of the newest and most well-known solutions for
         hosting and deployment, making simplicity and power the normal state of
