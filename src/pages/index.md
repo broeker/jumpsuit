@@ -22,7 +22,7 @@ mainbody:
     It is going to be AWESOME.
 
 
-    Here is a footnote reference,[^1] and another.[^longnote]
+    Here is a footnote reference,[^2] and another.
 
 
 
@@ -35,10 +35,10 @@ mainbody:
     alt: Jumpsuit diagram
     image: /img/jumpsuit.svg
   intro: >-
-    Finally there is a smarter way to build the web. Led by frameworks such as
-    [Gatsby](https://www.gatsbyjs.org/) and [React](https://reactjs.org/), along
-    with modern platforms like [Netlify](https://www.netlify.com/) and the rise
-    of the [JAMstack](https://jamstack.org/) and the headless CMS, we are
+    Finally there is a smarter way to build the web.[^1] Led by frameworks such
+    as [Gatsby](https://www.gatsbyjs.org/) and [React](https://reactjs.org/),
+    along with modern platforms like [Netlify](https://www.netlify.com/) and the
+    rise of the [JAMstack](https://jamstack.org/) and the headless CMS, we are
     quickly and dramatically changing how and what we build. Similar to the
     real-life [Second Industrial
     Revolution](https://en.wikipedia.org/wiki/Second_Industrial_Revolution), we
@@ -142,7 +142,7 @@ secondarycontent:
 footnotes: |-
   [^1]: Here is the footnote.
 
-  [^longnote]: Here's one with multiple blocks.
+  [^2]: Here's one with multiple blocks.
 
       Subsequent paragraphs are indented to show that they
   belong to the previous footnote.
