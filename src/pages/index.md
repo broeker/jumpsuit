@@ -12,29 +12,25 @@ mainpitch:
   title: ''
 mainbody:
   content: >-
-    The web of the future is not about any one technology or JavaScript
-    framework. Instead we are facing a fundamental shift in how we think and
-    build.[^2] Today we can build faster and smarter websites that are less
-    costly to build, easier to maintain and secure, and infinitely more flexible
-    than our current status quo. We have officially entered the era of
-    JavaScript, managed services, microservices, the headless CMS, and the
-    [content
-    mesh](https://www.gatsbyjs.org/blog/2018-10-04-journey-to-the-content-mesh/).
-    It is going to be AWESOME.
+    The future is not about any one technology or JavaScript framework.[^2]  
+    Instead, we are facing a fundamental shift in how we build and think about
+    the web. And it means that we can create faster and smarter websites and
+    applications that are less costly to build, easier to maintain and secure,
+    and infinitely more flexible than our current status quo. 
   heading: Zoom zoom.
   image1:
     alt: Jumpsuit diagram
     image: /img/jumpsuit.svg
   intro: >-
-    Finally there is a smarter way to build the web. Led by frameworks such as
+    Today there is a smarter way to build the web. Led by frameworks such as
     [Gatsby](https://www.gatsbyjs.org/) and [React](https://reactjs.org/), along
-    with modern platforms like [Netlify](https://www.netlify.com/) and the rise
-    of the [JAMstack](https://jamstack.org/) and the headless CMS, we are
-    quickly and dramatically changing how and what we build. Similar to the
-    real-life [Second Industrial
+    with modern platforms like [Netlify](https://www.netlify.com/), the rise of
+    the [JAMstack](https://jamstack.org/), and the headless CMS, we are quickly
+    and dramatically changing how and what we build. Similar to the real-life
+    [Second Industrial
     Revolution](https://en.wikipedia.org/wiki/Second_Industrial_Revolution), we
     now have widespread access to electric light, improved ways of making steel,
-    railroad networks, and interchangeable parts.
+    interchangeable parts, and a growing network of railroads.
 full_image: /img/chuck.jpg
 blurbs:
   blocks:
@@ -130,9 +126,18 @@ secondarycontent:
         The best part of this of this new world is how easy it is to get
         started, and to experiment and learn.
       heading: I am the eggman
-footnotes: |-
+footnotes: >-
   [^1]: Here is the footnote.
 
+
   [^2]: Here's one with multiple blocks.
+
+
+
+
+  We have officially entered the era of JavaScript, managed services,
+  microservices, the headless CMS, and the [content
+  mesh](https://www.gatsbyjs.org/blog/2018-10-04-journey-to-the-content-mesh/).
+  It is going to be AWESOME.
 ---
 
