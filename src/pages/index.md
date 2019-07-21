@@ -22,7 +22,7 @@ mainbody:
     alt: Jumpsuit diagram
     image: /img/jumpsuit.svg
   intro: >-
-    Maybe there is a smarter way to build the web. Led by frameworks such as
+    Now there is a smarter way to build the web. Led by frameworks such as
     [Gatsby](https://www.gatsbyjs.org/) and [React](https://reactjs.org/), along
     with modern platforms like [Netlify](https://www.netlify.com/), the rise of
     the [JAMstack](https://jamstack.org/), and the [headless
@@ -123,7 +123,7 @@ secondarycontent:
         middle of an unavoidable sea change that is going to turn everything
         upside down, again. Thankfully, the barrier to entry is approaching
         zero.
-      heading: Web at the  speed of sound
+      heading: Developing at the speed of sound
 footnotes: >-
   [^1]: Here is the footnote.
 
