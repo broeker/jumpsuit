@@ -72,27 +72,43 @@ full_image2: /img/chuck2.jpg
 secondarycontent:
   blocks:
     - content: >-
-        From day one the web has been pushed forward by explorers and tinkerers
-        who make up our own rules as we go. Yet if you look around, vast
-        portions of the web are now powered by a monolithic CMS such as
-        [Drupal](https://drupal.org) or [WordPress](https:\\wordpress.org) (or
-        one of their many competitors both OSS and propietary.) We have now been
-        using the same basic rules and techniques for decades (thanks in no
-        small part to tinkerers like Dries Buytaert and Matt Mullenweg..)  And
-        there is no dispute that these tools are more powerful and capable than
-        ever. We can build anything.
+        From day one the web, has been pushed forward by explorers and tinkerers
+        who make up the own rules as they go. Many of the tools and techniques
+        we have access to in 2019 were not even conceivable even five short
+        years ago. And yet many of use are still relying on the same basic tools
+        and techniques that have been in place for decades.
 
 
-        But all of this power comes at a high price: Increasing complexity and
-        cost. Ever-present security threats. Long build cycles. Painfully slow
-        and cumbersome user interfaces. Laborious and error prone update
-        processes. Constant battles with performance, caching, and scaling. And,
-        yes, some real limitations (Drupal or WordPress are both extremely
-        great, until they are not.)
+        Vast portions of the web are now powered by a monolithic CMS such as
+        [Drupal](https://drupal.org) or [WordPress](https:\wordpress.org) (or
+        one of their many competitors both open source and proprietary.)\[^3]
+        And there is no dispute that these tools are more powerful and capable
+        than ever. We can almost build anything, and there is a reason for the
+        rise and ongoing success of the traditional CMS model.
 
 
-        Drupal and WordPress will likely be around for a long time. But thanks
-        to a new generation of rule breakers like [Ryan Dahl
+        But all of this power comes at a high price: 
+
+
+        * Increasing complexity and cost. 
+
+        * Ever-present security threats. 
+
+        * Long build cycles. 
+
+        * Slow and cumbersome user interfaces. 
+
+        * Laborious and error prone update processes. 
+
+        * Constant battles with performance, caching, and scaling. 
+
+
+        And, yes, some real limitations in terms of flexibility or the ability
+        to expand beyond the world of your chosen CMS (Drupal or WordPress are
+        both extremely great, until they are not.)
+
+
+        Thankfully  a new generation of rule breakers like [Ryan Dahl
         (Node)](https://en.wikipedia.org/wiki/Ryan_Dahl) and [Jordan Walke
         (React)](https://en.wikipedia.org/wiki/React_(JavaScript_library)) and[
         Kyle Matthews
@@ -107,30 +123,16 @@ secondarycontent:
         middle of an unavoidable sea change that is going to turn everything
         upside down, again. Thankfully, the barrier to entry is approaching
         zero.
-
-
-        My life-long fascination with the World Wide Web began in mid-1994.
-        Armed with a fresh install of the Mosiac browser and a 14K internet
-        connection, I pushed my first index.html file up to a
-        univeristy-provided FTP server in mid-1994. I have been "viewing source"
-        and slinging DIVs and configuring ODBC connections and helping make the
-        the web work since that day forward.
-
-
-        When I pushed up my first single page web app in the form a single
-        index.html to a mysterious boomboox.umn.edu FTP server in 1994, myself
-        and the rest of the world learned almost exclusivley by viewing the
-        source.
-
-
-        The best part of this of this new world is how easy it is to get
-        started, and to experiment and learn.
-      heading: I am the eggman
+      heading: Web at the  speed of sound
 footnotes: >-
   [^1]: Here is the footnote.
 
 
   [^2]: Here's one with multiple blocks.
+
+
+  [^3]: According to XXX WordPress now powers x% of the entire web. More than
+  60% of the entire web is powered by a monolithic CMS. 
 
 
 
@@ -139,5 +141,23 @@ footnotes: >-
   microservices, the headless CMS, and the [content
   mesh](https://www.gatsbyjs.org/blog/2018-10-04-journey-to-the-content-mesh/).
   It is going to be AWESOME.
+
+
+
+
+  My life-long fascination with the World Wide Web began in mid-1994. Armed with
+  a fresh install of the Mosiac browser and a 14K internet connection, I pushed
+  my first index.html file up to a univeristy-provided FTP server in mid-1994. I
+  have been "viewing source" and slinging DIVs and configuring ODBC connections
+  and helping make the the web work since that day forward.
+
+
+  When I pushed up my first single page web app in the form a single index.html
+  to a mysterious boomboox.umn.edu FTP server in 1994, myself and the rest of
+  the world learned almost exclusivley by viewing the source.
+
+
+  The best part of this of this new world is how easy it is to get started, and
+  to experiment and learn.
 ---
 
