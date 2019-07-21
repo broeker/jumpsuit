@@ -49,9 +49,11 @@ module.exports = {
         name: 'fooker',
       },
     },
+
     {
+
       resolve: 'gatsby-transformer-remark',
-      options: {
+        options: {
         plugins: [
           {
             resolve: 'gatsby-remark-relative-images',
@@ -70,7 +72,6 @@ module.exports = {
           },
           {
             resolve: `gatsby-remark-footnotes`,
-
           },
           {
             resolve: 'gatsby-remark-copy-linked-files',
@@ -80,6 +81,7 @@ module.exports = {
           },
         ],
       },
+
     },
 
     {

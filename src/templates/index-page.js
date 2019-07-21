@@ -8,14 +8,13 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import MarkdownConvert from '../components/MarkdownConvert'
 import PageHeader from '../components/PageHeader'
 import InlineHero from '../components/InlineHero'
-import ResponsiveModal from '../components/ResponsiveModal'
 
 
 
 class IndexPage extends React.Component {
 
   renderElement() {
-    const { data } = this.props;
+    const { data } = this.props
     const { frontmatter } = data.markdownRemark
 
     if (  data  ) {
@@ -121,6 +120,7 @@ export const IndexPageTemplate = ({
               />
 
 
+                <SecondaryContent contentItems={secondarycontent.blocks} />
 
                 <Features gridItems={blurbs.blocks} />
 
@@ -130,7 +130,6 @@ export const IndexPageTemplate = ({
                 subheading="&mdash; Chuck Yeager, jumpsuit enthusiast"
               />
 
-                <SecondaryContent contentItems={secondarycontent.blocks} />
 
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
@@ -188,6 +187,7 @@ export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
+        templateKey
         title
         image {
           childImageSharp {
