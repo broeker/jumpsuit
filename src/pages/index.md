@@ -72,10 +72,10 @@ full_image2: /img/chuck2.jpg
 secondarycontent:
   blocks:
     - content: >-
-        From day one the web, has been pushed forward by explorers and tinkerers
-        who make up the rules as they go. Many of the tools and techniques we
-        have access to in 2019 were not even conceivable even five short years
-        ago. And yet many of use are still relying on the same basic tools and
+        From day one, the web has been pushed forward by explorers and tinkerers
+        who make up rules as they go. Many of the tools and techniques we have
+        access to in 2019 were not even conceivable even five short years ago.
+        And yet many of use are still relying on the same basic tools and
         techniques that have been in place for decades.[^3]
 
 
@@ -94,7 +94,7 @@ secondarycontent:
         middle of an unavoidable sea change that is going to turn everything
         upside down, again. Thankfully, the barrier to entry is approaching
         zero.
-      heading: Supersonic flight and the World Wide Web
+      heading: Supersonic flight
 footnotes: >-
   [^1]: Here is the footnote.
 
