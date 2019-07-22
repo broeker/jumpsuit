@@ -31,6 +31,9 @@ mainbody:
     Revolution](https://en.wikipedia.org/wiki/Second_Industrial_Revolution), we
     now have widespread access to electric light, improved ways of making steel,
     interchangeable parts, and a growing network of railroads at our disposal.
+
+
+    **Exhibit A: Modern web (circa 2019)**
 full_image: /img/chuck.jpg
 blurbs:
   blocks:
