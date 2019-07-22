@@ -88,6 +88,13 @@ secondarycontent:
         promises fundamental improvements in how we work, what we build, and the
         value we provide to our clients and to the web.
       heading: Supersonic flight
+    - content: >-
+        For the youngest and smartest of the new generation of web developers,
+        none of this is news. But for the rest of us, everything thing is about
+        to turn upside down, again. Thankfully, the barrier to entry is
+        approaching zero. There are many paths forward, but the tools and
+        concepts outlined below are a good place to start.
+      heading: Test Pilot Training School
 footnotes: >-
   [^1]: Here is the footnote.
 
