@@ -87,13 +87,6 @@ secondarycontent:
         long list of pioneers before them, we now have a path forward that
         promises fundamental improvements in how we work, what we build, and the
         value we provide to our clients and to the web.
-
-
-        For the youngest and smartest of the new generation of web developers,
-        none of this is news. But for the rest of us, we are now firmly in the
-        middle of an unavoidable sea change that is going to turn everything
-        upside down, again. Thankfully, the barrier to entry is approaching
-        zero.
       heading: Supersonic flight
 footnotes: >-
   [^1]: Here is the footnote.
