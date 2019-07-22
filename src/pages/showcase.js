@@ -1,4 +1,3 @@
-
 import React from 'react'
 import { StaticQuery, graphql } from "gatsby"
 import Layout from '../components/Layout'
@@ -91,13 +90,13 @@ const ShowcaseLinks = ({links}) => (
         <div className="section">
           { links.map(({ node: item }) => (
             <>
-             FOPO {item.data.Images.localFiles[0].childImageSharp.fluid.src}
-
+              <h3>{item.data.Name}</h3>
 
                 <div class="columns">
             <div class="column">
 
             <a href={item.data.URL}>
+              {item.data.Name}
             </a>
             </div>
               <div class="column">
