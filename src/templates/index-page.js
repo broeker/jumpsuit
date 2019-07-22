@@ -39,9 +39,7 @@ class IndexPage extends React.Component {
   render() {
     return (
       <Layout>
-
         { this.renderElement() }
-
       </Layout>
     )
   }

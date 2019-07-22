@@ -71,9 +71,6 @@ module.exports = {
             },
           },
           {
-            resolve: `gatsby-remark-footnotes`,
-          },
-          {
             resolve: 'gatsby-remark-copy-linked-files',
             options: {
               destinationDir: 'static',

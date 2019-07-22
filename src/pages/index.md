@@ -5,7 +5,7 @@ subheading: with citizen tim
 image: /img/jsheader.jpg
 mainpitch:
   description: >-
-    From the dawn of time, web developers hath sought to make things better.[^1]
+    From the dawn of time, web developers hath sought to make things better.
     But today our world is more difficult than ever. Our projects are more
     expensive. Harder to manage and secure. Less fun to build. Slower and more
     complicated to use.
@@ -13,7 +13,7 @@ mainpitch:
 mainbody:
   content: >-
     Be sure that the future is not about any one technology or JavaScript
-    framework or cool new hosting platform.[^2]   Instead, we are facing a
+    framework or cool new hosting platform.   Instead, we are facing a
     fundamental shift in how we build and think about the web. And it means that
     we can create faster and smarter websites and applications that are less
     costly to build, easier to maintain and secure, and infinitely more flexible
@@ -97,60 +97,6 @@ secondarycontent:
         zero.
       heading: Supersonic flight and the World Wide Web
 footnotes: >-
-  [^1]: Here is the footnote.
-
-
-  [^2]: Here's one with multiple blocks.
-
-
-  [^3]: Vast portions of the web are now powered by a monolithic CMS such as
-  Drupal or WordPress (or one of their many competitors both open source and
-  proprietary.) And there is no dispute that these tools are more powerful and
-  capable than ever. We can almost build anything, and there is a reason for the
-  rise and ongoing success of the traditional CMS model.
-
-  But all of this power comes at a high price: 
-
-  Increasing complexity and cost. 
-
-  Ever-present security threats. 
-
-  Long build cycles. 
-
-  Slow and cumbersome user interfaces. 
-
-  Laborious and error prone update processes. 
-
-  Constant battles with performance, caching, and scaling. 
-
-  And, yes, some real limitations in terms of flexibility or the ability to
-  expand beyond the world of your chosen CMS (Drupal or WordPress are both
-  extremely great, until they are not.)
-
-
-
-
-  We have officially entered the era of JavaScript, managed services,
-  microservices, the headless CMS, and the [content
-  mesh](https://www.gatsbyjs.org/blog/2018-10-04-journey-to-the-content-mesh/).
-  It is going to be AWESOME.
-
-
-
-
-  My life-long fascination with the World Wide Web began in mid-1994. Armed with
-  a fresh install of the Mosiac browser and a 14K internet connection, I pushed
-  my first index.html file up to a univeristy-provided FTP server in mid-1994. I
-  have been "viewing source" and slinging DIVs and configuring ODBC connections
-  and helping make the the web work since that day forward.
-
-
-  When I pushed up my first single page web app in the form a single index.html
-  to a mysterious boomboox.umn.edu FTP server in 1994, myself and the rest of
-  the world learned almost exclusivley by viewing the source.
-
-
-  The best part of this of this new world is how easy it is to get started, and
-  to experiment and learn.
+  foo
 ---
 
