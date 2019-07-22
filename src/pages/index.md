@@ -14,10 +14,9 @@ mainbody:
   content: >-
     The future is not about any one technology or JavaScript framework or cool
     new hosting platform.[^2]   Instead, we are facing a fundamental shift in
-    how we build and think about the web. And it means that we can create faster
-    and smarter websites and applications that are less costly to build, easier
-    to maintain and secure, and infinitely more flexible than our current status
-    quo. 
+    how we build and think about the web. We can now create faster and smarter
+    websites and applications that are less costly to build, easier to maintain
+    and secure, and infinitely more flexible than our current status quo. 
   heading: Zoom zoom.
   image1:
     alt: Jumpsuit diagram
