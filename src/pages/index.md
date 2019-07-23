@@ -8,7 +8,7 @@ mainpitch:
     From the dawn of time, web developers hath sought to make things better.[^1]
     But today our world is more difficult than ever. Our projects are more
     expensive. Harder to manage and secure. Less fun to build. Slower and more
-    complicated to use.
+    complicated to use. And way less fun to fly.
   title: ''
 mainbody:
   content: >-
