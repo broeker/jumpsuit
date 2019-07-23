@@ -74,7 +74,7 @@ blurbs:
 full_image2: /img/chuck2.jpg
 secondarycontent:
   blocks:
-    - content: >-
+    - content: >+
         From day one, the web has been pushed forward by explorers and tinkerers
         who make up rules as they go. Many of the tools and techniques we have
         access to in 2019 were not even conceivable even five short years ago.
@@ -82,21 +82,57 @@ secondarycontent:
         techniques that have been in place for decades.[^3]
 
 
-        Thankfully  a new generation of rule breakers like [Ryan Dahl
+        Thanks to a new generation of rule breakers like [Ryan Dahl
         (Node)](https://en.wikipedia.org/wiki/Ryan_Dahl) and [Jordan Walke
         (React)](https://en.wikipedia.org/wiki/React_(JavaScript_library)) and[
         Kyle Matthews
-        (Gatsby)](https://www.gatsbyjs.org/contributors/kyle-mathews/) and a
-        long list of pioneers before them, we now have a path forward that
-        promises fundamental improvements in how we work, what we build, and the
-        value we provide to our clients and to the web.
+        (Gatsby)](https://www.gatsbyjs.org/contributors/kyle-mathews/)[^4], we
+        have a path forward that promises fundamental improvements in how we
+        work, what we build, and the value we provide to our users, and to the
+        World Wide Web at large. 
+
+
+        The barrier to entry into this universe is approaching zero. With little
+        effort, you can now build and launch a website or a simple application
+        that will scale to millions of users in less than an hour, for
+        free.[^5] 
+
       heading: Supersonic flight
     - content: >-
-        For the youngest and smartest of the new generation of web developers,
-        none of this is news. But for the rest of us, everything thing is about
-        to turn upside down, again. Thankfully, the barrier to entry is
-        approaching zero. There are many paths forward, but the tools and
-        concepts outlined below are a good place to start.
+        There are many paths forward, but the tools and concepts outlined below
+        are a good place to start. My own path here began in 1994 during the
+        web's infancy, and I have now survived:
+
+
+        * Mosiac, Gopher, Archie, Veronica, and Usenet
+
+        * The invention of TABLES, CSS (and early JavaScript)
+
+        * The Browser Wars
+
+        * The rise of blogging and the indie web
+
+        * The Box Model
+
+        * Spacer GIFs
+
+        * The Platform Wars (Java vs Flash vs ASP.NET vs Cold Fusion vs. PHP vs
+        Rails)
+
+        * The Rise and Domination of the Open Source CMS
+
+        * The invention of Gmail (along with AJAX, and subsequently JQuery)
+
+        * The rise of mobile, and mobile applications 
+
+        * The invention of the Cloud and SaaS
+
+
+        I have loved every minute of it, largely because the airplanes keep
+        getting better, and the because both the promise and the realities of
+        the web continues to evolve at the speed of the sound. I encountered
+        Gatsby JS and the concept of the JAMStack for the first time at Badcamp
+        2018, and...
       heading: Test Pilot Training School
 footnotes: >-
   [^1]: Here is the footnote.
@@ -129,6 +165,13 @@ footnotes: >-
   expand beyond the world of your chosen CMS (Drupal or WordPress are both
   extremely great, until they are not.)
 
+
+  [^4] I only mention these three because they are so relevant to this website,
+  and to many websites. Dries Buytaert. Linus Torvalds. Matt Mulli. Dave Winer.
+  etc etc we owe them all. 
+
+
+  [^5] spinups, glitch, netlify cms, etc.
 
 
 
