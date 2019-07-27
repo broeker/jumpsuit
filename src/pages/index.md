@@ -23,13 +23,11 @@ mainbody:
     But the truth is that we are no longer building websites. 
 
 
-    Our job today is building user interfaces. 
-
-
-    We are here to create delightful tools and user experiences that help people
-    on their journey through the massively complicated array of websites and
-    apps and digital signage and the Internet of Things we have woven over the
-    past 25 years. The backend has been solved, and is now fully commoditized.
+    Our job today is building user interfaces, and creating delightful tools and
+    user experiences that help people on their journey through the massively
+    complicated array of websites and apps and digital signage and the Internet
+    of Things we have woven over the past 25 years. The backend has been solved,
+    and is now fully commoditized.
   heading: Zoom zoom.
   image1:
     alt: Jumpsuit diagram
