@@ -5,8 +5,8 @@ subheading: with citizen tim
 image: /img/jsheader.jpg
 mainpitch:
   description: >-
-    From the dawn of time, web developers hath sought to make things better.[^1]
-    But today our world is more difficult than ever. Our projects are more
+    From the dawn of time, web developers hath sought to make things better. But
+    today our world is more difficult than ever. Our projects are more
     expensive. Harder to manage and secure. Less fun to build. Slower and more
     complicated to use. And way less fun to fly.
   title: ''
@@ -22,7 +22,7 @@ mainbody:
     alt: Jumpsuit diagram
     image: /img/jumpsuit.svg
   intro: >-
-    Now there is a smarter way to build the web. Led by frameworks such as
+    Today there is a smarter way to build the web. Led by frameworks such as
     [Gatsby](https://www.gatsbyjs.org/) and [React](https://reactjs.org/), along
     with modern platforms like [Netlify](https://www.netlify.com/), the rise of
     the [JAMstack](https://jamstack.org/), and the [headless
@@ -33,7 +33,7 @@ mainbody:
     interchangeable parts, and a growing network of railroads at our disposal.
 
 
-    **Exhibit A: Modern web (circa 2019)**
+    **Exhibit A: The modern web circa 2019**[^1]
 full_image: /img/chuck.jpg
 blurbs:
   blocks:
@@ -135,13 +135,13 @@ secondarycontent:
         2018, and...
       heading: Test Pilot Training School
 footnotes: >-
-  [^1]: Here is the footnote.
+  \[^1]: Here is the footnote.
 
 
-  [^2]: Here's one with multiple blocks.
+  \[^2]: Here's one with multiple blocks.
 
 
-  [^3]: Vast portions of the web are now powered by a monolithic CMS such as
+  \[^3]: Vast portions of the web are now powered by a monolithic CMS such as
   Drupal or WordPress (or one of their many competitors both open source and
   proprietary.) And there is no dispute that these tools are more powerful and
   capable than ever. We can almost build anything, and there is a reason for the
@@ -166,21 +166,18 @@ footnotes: >-
   extremely great, until they are not.)
 
 
-  [^4] I only mention these three because they are so relevant to this website,
+  \[^4] I only mention these three because they are so relevant to this website,
   and to many websites. Dries Buytaert. Linus Torvalds. Matt Mulli. Dave Winer.
   etc etc we owe them all. 
 
 
-  [^5] spinups, glitch, netlify cms, etc.
-
+  \[^5] spinups, glitch, netlify cms, etc.
 
 
   We have officially entered the era of JavaScript, managed services,
   microservices, the headless CMS, and the [content
   mesh](https://www.gatsbyjs.org/blog/2018-10-04-journey-to-the-content-mesh/).
   It is going to be AWESOME.
-
-
 
 
   My life-long fascination with the World Wide Web began in mid-1994. Armed with
@@ -197,5 +194,13 @@ footnotes: >-
 
   The best part of this of this new world is how easy it is to get started, and
   to experiment and learn.
+
+
+
+
+  For more than a quarter of a century, the vast majority our effort has been
+  focused almost entirely on the backend: early CGI scripts led to the first
+  "database-driven" websites and finally to the rise of the content management
+  systems.
 ---
 
