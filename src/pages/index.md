@@ -11,12 +11,25 @@ mainpitch:
     complicated to use. And way less fun to fly.
   title: ''
 mainbody:
-  content: >
+  content: >-
     The future is not about any one technology or JavaScript framework or a cool
     new hosting platform. Instead, we are facing a fundamental shift in how we
     build and think about the web.[^2] We can now create faster and smarter
     websites and applications that are less costly to build, easier to maintain
     and secure, and infinitely more flexible than our current status quo.
+
+
+
+    But the truth is that we are no longer building websites. 
+
+
+    Our job today is building user interfaces. 
+
+
+    We are here to create delightful tools and user experiences that help people
+    on their journey through the massively complicated array of websites and
+    apps and digital signage and the Internet of Things we have woven over the
+    past 25 years. The backend has been solved, and is now fully commoditized.
   heading: Zoom zoom.
   image1:
     alt: Jumpsuit diagram
@@ -83,15 +96,22 @@ secondarycontent:
         techniques that have been in place for decades.[^3]
 
 
-        But we are no longer building websites. 
+        For more than a quarter of a century, the vast majority our effort has
+        been focused almost entirely on the backend: our early CGI scripts led
+        to the first "database-driven" websites and finally to the rise of
+        content management systems and the vast backend infrastructures that
+        hold it all together.
 
 
-        Our job today is building user interfaces, full stop. We are here to
-        create delightful user experiences that help our users on their journey
-        through the massively complicated array of websites and apps and digital
-        signage and Internet of Things we have woven over the past 25 years.
-        While no less important, the other hard problems have been solved and
-        commoditized:    
+        But thanks to a new generation of rule breakers like [Ryan Dahl
+        (Node)](https://en.wikipedia.org/wiki/Ryan_Dahl) and [Jordan Walke
+        (React)](https://en.wikipedia.org/wiki/React_(JavaScript_library)) and[
+        Kyle Matthews
+        (Gatsby)](https://www.gatsbyjs.org/contributors/kyle-mathews/)\[^4], we
+        have a path forward that promises fundamental improvements in how we
+        work, what we build, and the value we provide to our users.
+
+
 
 
 
