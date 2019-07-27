@@ -11,21 +11,22 @@ mainpitch:
     complicated to use. And way less fun to fly.
   title: ''
 mainbody:
-  content: >-
-    The future is not about any one technology or JavaScript framework or cool
+  content: >
+    The future is not about any one technology or JavaScript framework or a cool
     new hosting platform. Instead, we are facing a fundamental shift in how we
     build and think about the web.[^2] We can now create faster and smarter
     websites and applications that are less costly to build, easier to maintain
-    and secure, and infinitely more flexible than our current status quo. 
+    and secure, and infinitely more flexible than our current status quo.
   heading: Zoom zoom.
   image1:
     alt: Jumpsuit diagram
     image: /img/jumpsuit.svg
   intro: >-
-    Today there is a smarter way to build the web. Led by frameworks such as
-    [Gatsby](https://www.gatsbyjs.org/) and [React](https://reactjs.org/), along
-    with modern platforms like [Netlify](https://www.netlify.com/), the rise of
-    the [JAMstack](https://jamstack.org/), and the [headless
+    Thankfully, the game is afoot. Today there is a smarter way to build the
+    web. Led by frameworks such as [Gatsby](https://www.gatsbyjs.org/) and
+    [React](https://reactjs.org/), along with modern platforms like
+    [Netlify](https://www.netlify.com/), the rise of the
+    [JAMstack](https://jamstack.org/), and the [headless
     CMS](https://headlesscms.org/), we are quickly and dramatically changing how
     and what we build. Similar to the real-life [Second Industrial
     Revolution](https://en.wikipedia.org/wiki/Second_Industrial_Revolution), we
@@ -76,28 +77,25 @@ secondarycontent:
   blocks:
     - content: >+
         From day one, the web has been pushed forward by explorers and tinkerers
-        who make up rules as they go. Many of the tools and techniques we have
-        access to in 2019 were not even conceivable even five short years ago.
-        And yet many of us are still relying on the same basic tools and
+        who make up the rules as they go. Many of the tools and techniques we
+        have access to in 2019 were not even conceivable even five short years
+        ago. And yet many of us are still relying on the same basic tools and
         techniques that have been in place for decades.[^3]
 
 
-        Thanks to a new generation of rule breakers like [Ryan Dahl
-        (Node)](https://en.wikipedia.org/wiki/Ryan_Dahl) and [Jordan Walke
-        (React)](https://en.wikipedia.org/wiki/React_(JavaScript_library)) and[
-        Kyle Matthews
-        (Gatsby)](https://www.gatsbyjs.org/contributors/kyle-mathews/)[^4], we
-        have a path forward that promises fundamental improvements in how we
-        work, what we build, and the value we provide to our users, and to the
-        World Wide Web at large. 
+        But we are no longer building websites. 
 
 
-        The barrier to entry into this universe is approaching zero. With little
-        effort, you can now build and launch a website or a simple application
-        that will scale to millions of users in less than an hour, for
-        free.[^5] 
+        Our job today is building user interfaces, full stop. We are here to
+        create delightful user experiences that help our users on their journey
+        through the massively complicated array of websites and apps and digital
+        signage and Internet of Things we have woven over the past 25 years.
+        While no less important, the other hard problems have been solved and
+        commoditized:    
 
-      heading: Supersonic flight
+
+
+      heading: Breaking barriers
     - content: >-
         There are many paths forward, but the tools and concepts outlined below
         are a good place to start. My own path here began in 1994 during the
