@@ -12,19 +12,22 @@ mainpitch:
   title: ''
 mainbody:
   content: >-
-    The age of the monolithic CMS and traditional server-based solutions is dead
-    or dying. We can now create faster and smarter websites and applications
-    that are less costly to build, easier to maintain and secure, and infinitely
-    more flexible than our current status quo.
+    The age of the monolithic CMS is dead. The backend has been solved (and
+    fully commoditized.) As a result, we can now create faster and smarter
+    websites and applications that are less costly to build, easier to maintain
+    and secure, and infinitely more flexible than our current server-based
+    status quo.
 
 
-    The reason is that we are no longer building websites. 
+    Because the truth is that we are no longer building websites at all. We are
+    building user interfaces.
 
 
-    We are building user interfaces. Modern day web developers (and the clients
-    we serve) should now have a singular focus on creating fast and effective
-    user experiences that are accessible, interactive, and device-agnostic. The
-    backend has been solved and commoditized.[^6] 
+    The job of the modern web developer is simple. We are here to create amazing
+    user experiences that are accessible, responsive, and device agnostic. The
+    data, the CMS, and all of the rules and business logic necessary to manage a
+    modern website or mobile application is now mostly irrelevant to the real
+    job at hand. 
   heading: Zoom zoom.
   image1:
     alt: Jumpsuit diagram
@@ -41,7 +44,7 @@ mainbody:
     interchangeable parts, and a growing network of railroads at our disposal.
 
 
-    **Exhibit A: The modern web circa 2019**[^1]
+    **Exhibit A: Modern WWW (circa 2019)**[^1]
 full_image: /img/chuck.jpg
 blurbs:
   blocks:
