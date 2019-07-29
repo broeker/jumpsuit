@@ -11,24 +11,20 @@ mainpitch:
     complicated to use. And way less fun to fly.
   title: ''
 mainbody:
-  content: >
-    The age of the monolithic CMS and our traditional server-based solutions are
-    dead or dying. Modern-day web developers (and the clients we serve) are in
-    the middle of a fundamental shift in how we build and think about the
-    web.[^2] We can now create faster and smarter websites and applications that
-    are less costly to build, easier to maintain and secure, and infinitely more
-    flexible than our current status quo.
+  content: >-
+    The age of the monolithic CMS and traditional server-based solutions is dead
+    or dying. We can now create faster and smarter websites and applications
+    that are less costly to build, easier to maintain and secure, and infinitely
+    more flexible than our current status quo.
 
 
-    We are no longer building websites. We are building user interfaces. 
+    The reason is that we are no longer building websites. 
 
 
-    The backend has been solved and commoditized.[^6] Our primary focus is now
-    on creating fast and delightful user experiences that are accessible,
-    device-agnostic, and useful. Those who fail to recognize and embrace this
-    massive shift in how and what we build will wake up someday soon to find
-    themselves behind the wheel of a horse and carriage as the rest of the world
-    zips by in speedy cars.    
+    We are building user interfaces. Modern day web developers (and the clients
+    we serve) should now have a singular focus on creating fast and effective
+    user experiences that are accessible, interactive, and device-agnostic. The
+    backend has been solved and commoditized.[^6] 
   heading: Zoom zoom.
   image1:
     alt: Jumpsuit diagram
