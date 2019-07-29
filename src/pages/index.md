@@ -11,23 +11,24 @@ mainpitch:
     complicated to use. And way less fun to fly.
   title: ''
 mainbody:
-  content: >-
-    The future is not about any one technology or JavaScript framework or a cool
-    new hosting platform. Instead, we are facing a fundamental shift in how we
-    build and think about the web.[^2] We can now create faster and smarter
-    websites and applications that are less costly to build, easier to maintain
-    and secure, and infinitely more flexible than our current status quo.
+  content: >
+    The age of the monolithic CMS and our traditional server-based solutions are
+    dead or dying. Modern-day web developers (and the clients we serve) are in
+    the middle of a fundamental shift in how we build and think about the
+    web.[^2] We can now create faster and smarter websites and applications that
+    are less costly to build, easier to maintain and secure, and infinitely more
+    flexible than our current status quo.
 
 
+    We are no longer building websites. We are building user interfaces. 
 
-    But the truth is that we are no longer building websites. 
 
-
-    Our job today is building user interfaces, and creating delightful tools and
-    user experiences that help people on their journey through the massively
-    complicated array of websites and apps and digital signage and the Internet
-    of Things we have woven over the past 25 years. The backend has been solved,
-    and is now fully commoditized.
+    The backend has been solved and commoditized.[^6] Our primary focus is now
+    on creating fast and delightful user experiences that are accessible,
+    device-agnostic, and useful. Those who fail to recognize and embrace this
+    massive shift in how and what we build will wake up someday soon to find
+    themselves behind the wheel of a horse and carriage as the rest of the world
+    zips by in speedy cars.    
   heading: Zoom zoom.
   image1:
     alt: Jumpsuit diagram
@@ -149,11 +150,12 @@ secondarycontent:
         Gatsby JS and the concept of the JAMStack for the first time at Badcamp
         2018, and...
       heading: Test Pilot Training School
-footnotes: >-
+footnotes: >
   \[^1]: Here is the footnote.
 
 
-  \[^2]: Here's one with multiple blocks.
+  \[^2]:GThe future is not about any one technology or JavaScript framework or a
+  cool new hosting platform.
 
 
   \[^3]: Vast portions of the web are now powered by a monolithic CMS such as
@@ -217,5 +219,11 @@ footnotes: >-
   focused almost entirely on the backend: early CGI scripts led to the first
   "database-driven" websites and finally to the rise of the content management
   systems.
+
+
+  , and the delightful tools and user experiences that help people on their
+  journey through the massively complicated array of websites and apps and
+  digital signage and the Internet of Things we have woven over the past 25
+  years.
 ---
 
