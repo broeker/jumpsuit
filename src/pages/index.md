@@ -12,11 +12,6 @@ mainpitch:
   title: ''
 mainbody:
   content: >
-    Similar to the real-life [Second Industrial
-    Revolution](https://en.wikipedia.org/wiki/Second_Industrial_Revolution), we
-    now have widespread access to electric light, improved ways of making steel,
-    interchangeable parts, and a growing network of railroads at our disposal.
-
 
     Drupal and other content management systems may play a central role in this
     new world, but they are now a secondary concern. On the modern web, data
@@ -44,12 +39,16 @@ mainbody:
     management system. 
 
 
+    Similar to the real-life [Second Industrial
+    Revolution](https://en.wikipedia.org/wiki/Second_Industrial_Revolution), we
+    now have widespread access to electric light, improved ways of making steel,
+    interchangeable parts, and a growing network of railroads at our disposal.
     Led by frameworks such as [Gatsby](https://www.gatsbyjs.org/),
     [Next](https://www.nextjs.org/), and [React](https://reactjs.org/), along
     with modern platforms like [Netlify](https://www.netlify.com/), the rise of
     the [JAMstack](https://jamstack.org/), and the [headless
     CMS](https://headlesscms.org/), things that were very difficult even 2-3
-    years ago are now easy.
+    years ago are now easy. 
 
 
     **Exhibit A: Modern WWW (circa 2019)**[^1]
