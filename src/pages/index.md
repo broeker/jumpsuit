@@ -101,12 +101,13 @@ secondarycontent:
   blocks:
     - content: >-
         From day one, the web has been pushed forward by explorers and tinkerers
-        who make up the rules as they go. Thanks to a new generation of rule
-        breakers, we can now create faster and smarter web applications that are
-        less costly to build, easier to maintain and secure, and infinitely more
-        flexible than our current server-based status quo. This website is
-        dedicated to the jumpsuit life, to the learners, the curious, the test
-        pilots, and anybody else with a passion for building a better web.
+        who make up the rules as they go. This website and blog is dedicated to
+        the learners, the thinkers, the curious, and the test pilots with an
+        incurable passion for building a better web.  Thanks to a new generation
+        of rule breakers, we can now create faster and smarter web applications
+        that are less costly to build, easier to maintain and secure, and
+        infinitely more flexible than our current server-based status quo. Let's
+        do this thing.
       heading: ''
 footnotes: >
   \[^1]: Here is the footnote.
