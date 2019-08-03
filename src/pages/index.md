@@ -28,7 +28,8 @@ mainbody:
     time in history, our singular focus is on the `frontend.` Our job is the
     `user interface.` Nothing more. We are here to create fast, `effective
     digital experiences` regardless of the device, the content, or the context.
-    This is our only job, and the only thing that matters.
+    This is our only job, and the only thing that matters. Everything else is
+    easy.
   heading: Zoom zoom.
   image1:
     alt: Jumpsuit diagram
