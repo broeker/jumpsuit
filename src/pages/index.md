@@ -99,7 +99,7 @@ blurbs:
 full_image2: /img/chuck2.jpg
 secondarycontent:
   blocks:
-    - content: >+
+    - content: >-
         From day one, the web has been pushed forward by explorers and tinkerers
         who make up the rules as they go. Thanks to a new generation of rule
         breakers, we now have a path forward that promises fundamental
@@ -112,15 +112,10 @@ secondarycontent:
         more flexible than our current server-based status quo. 
 
 
-        This website is dedicated to the jumpsuit life, to the brave souls, the
-        learners, the curious, and the test pilots who continue to break
-        barriers on our never-ending journey toward a better web.
-
-
-
-
-
-
+        Nobody on earth has ever set out to build a slow website, or one that is
+        frustrating to use or maintain. This website is dedicated to the
+        jumpsuit life, to the learners, the curious, the test pilots, and
+        anybody else with a passion for building a better web.
       heading: ''
 footnotes: >
   \[^1]: Here is the footnote.
