@@ -39,9 +39,9 @@ mainbody:
     the obvious or default solutions. 
 
 
-    It is now just a matter of time before MOST websites and web applications
-    are built on something other than a traditional, server-based content
-    management system. 
+    We can do better, and it is now just a matter of time before MOST websites
+    and web applications are built on something other than a traditional,
+    server-based content management system. 
 
 
     Similar to the real-life [Second Industrial
