@@ -11,13 +11,13 @@ mainpitch:
     And way less fun to fly.
   title: ''
 mainbody:
-  content: >
-
-    For more than a quarter of a century, the vast majority our effort has been
-    focused almost entirely on the backend: early CGI scripts led to the first
-    "database-driven" websites and finally to the rise of the content management
-    system. Drupal and other next generation backend frameworks may play a
-    central role in this new world, but they are now a secondary concern. 
+  content: >-
+    For more than a quarter of a century, the vast majority of our effort has
+    been focused almost entirely on the backend: early CGI scripts led to the
+    first "database-driven" websites and finally to the rise of the content
+    management system. Drupal and other next generation backend frameworks may
+    play a central role in this new world, but they are now a secondary
+    concern. 
 
 
     On the modern web, data comes not only from Drupal or WordPress but from
@@ -25,12 +25,11 @@ mainbody:
     matter. 
 
 
-
     The backend has been solved, and is now fully commoditized. For the first
     time in history, our singular focus is on the frontend. Our job is the user
     interface, and nothing more. We are here to create fast, effective digital
     experiences regardless of the device, the content, or the context. This is
-    our only job, and the only thing that matters. 
+    our only job, and the only thing that matters.
   heading: Zoom zoom.
   image1:
     alt: Jumpsuit diagram
@@ -122,8 +121,8 @@ secondarycontent:
 
 
 
-      heading: Embrace the impossible
-footnotes: >+
+      heading: ''
+footnotes: >
   \[^1]: Here is the footnote.
 
 
