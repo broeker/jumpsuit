@@ -15,7 +15,7 @@ mainbody:
     For more than a quarter of a century, the vast majority of our effort has
     been focused almost entirely on the backend: early `CGI scripts` led to the
     first `database-driven websites` and finally to the rise of the `CMS`, and
-    the `web-as-a-service`. Drupal and other backend frameworks may play a
+    the `web-as-a-service.` Drupal and other backend frameworks may play a
     central role in this new world, but they are now a secondary concern. 
 
 
@@ -25,10 +25,10 @@ mainbody:
 
 
     The backend has been solved, and is now fully commoditized. For the first
-    time in history, our singular focus is on the frontend. `Our job is the user
-    interface.` Nothing more. We are here to create fast, effective digital
-    experiences regardless of the device, the content, or the context. This is
-    our only job, and the only thing that matters.
+    time in history, our singular focus is on the `frontend.` Our job is the
+    `user interface.` Nothing more. We are here to create fast, `effective
+    digital experiences` regardless of the device, the content, or the context.
+    This is our only job, and the only thing that matters.
   heading: Zoom zoom.
   image1:
     alt: Jumpsuit diagram
