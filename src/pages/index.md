@@ -6,42 +6,50 @@ image: /img/jsheader.jpg
 mainpitch:
   description: >-
     From the dawn of time, web developers have sought to make things better. But
-    today our world is more difficult than ever. Our projects are more
-    expensive. Harder to manage and secure. Less fun to build. Slower and more
-    complicated to use. And way less fun to fly.
+    today our world is more difficult than ever. Our projects are more expensive
+    and harder to manage. Less fun to build. Slower and more complicated to use.
+    And way less fun to fly.
   title: ''
 mainbody:
-  content: >-
-    The age of the monolithic CMS is dead. The backend has been solved (and
-    fully commoditized.) As a result, we can now create faster and smarter
-    websites and applications that are less costly to build, easier to maintain
-    and secure, and infinitely more flexible than our current server-based
-    status quo.
+  content: >
+    Similar to the real-life [Second Industrial
+    Revolution](https://en.wikipedia.org/wiki/Second_Industrial_Revolution), we
+    now have widespread access to electric light, improved ways of making steel,
+    interchangeable parts, and a growing network of railroads at our disposal.
 
 
-    Because the truth is that we are no longer building websites at all. We are
-    building user interfaces.
+    Drupal and other content management systems may play a central role in this
+    new world, but they are now a secondary concern. On the modern web, data
+    comes not only from Drupal or WordPress but from external APIs, managed web
+    services, spreadsheets, and more. It does not matter. 
 
 
-    The job of the modern web developer is simple. We are here to create amazing
-    user experiences that are accessible, responsive, and device agnostic. The
-    data, the CMS, and all of the rules and business logic necessary to manage a
-    modern website or mobile application is now mostly irrelevant to the real
-    job at hand. 
+    The backend has been solved, and is now fully commoditized. Today our job is
+    the user interface, and nothing more. We are here to create fast, effective
+    digital experiences regardless of the device, the content, or the context.
+    This is our only job, and the only thing that matters. 
   heading: Zoom zoom.
   image1:
     alt: Jumpsuit diagram
     image: /img/jumpsuit.svg
   intro: >-
-    Thankfully, the game is afoot. Led by frameworks such as
-    [Gatsby](https://www.gatsbyjs.org/) and [React](https://reactjs.org/), along
+    But in just the last 5 years, the landscape has changed dramatically in ways
+    that are fundamentally changing how and what we build. Traditional and
+    monolithic platforms like Drupal and WordPress are no longer the obvious or
+    default solutions. 
+
+
+    It is now just a matter of time before MOST websites and web applications
+    are built on something other than a traditional, server-based content
+    management system. 
+
+
+    Led by frameworks such as [Gatsby](https://www.gatsbyjs.org/),
+    [Next](https://www.nextjs.org/), and [React](https://reactjs.org/), along
     with modern platforms like [Netlify](https://www.netlify.com/), the rise of
     the [JAMstack](https://jamstack.org/), and the [headless
-    CMS](https://headlesscms.org/), we are quickly and dramatically changing how
-    and what we build. Similar to the real-life [Second Industrial
-    Revolution](https://en.wikipedia.org/wiki/Second_Industrial_Revolution), we
-    now have widespread access to electric light, improved ways of making steel,
-    interchangeable parts, and a growing network of railroads at our disposal.
+    CMS](https://headlesscms.org/), things that were very difficult even 2-3
+    years ago are now easy.
 
 
     **Exhibit A: Modern WWW (circa 2019)**[^1]
@@ -87,10 +95,9 @@ secondarycontent:
   blocks:
     - content: >+
         From day one, the web has been pushed forward by explorers and tinkerers
-        who make up the rules as they go. Many of the tools and techniques we
-        have access to in 2019 were not even conceivable even five short years
-        ago. And yet many of us are still relying on the same basic tools and
-        techniques that have been in place for decades.[^3]
+        who make up the rules as they go. And yet many of us are still relying
+        on the same basic tools and techniques that have been in place for
+        decades.[^3]
 
 
         For more than a quarter of a century, the vast majority our effort has
@@ -100,19 +107,15 @@ secondarycontent:
         hold it all together.
 
 
-        But thanks to a new generation of rule breakers like [Ryan Dahl
-        (Node)](https://en.wikipedia.org/wiki/Ryan_Dahl) and [Jordan Walke
-        (React)](https://en.wikipedia.org/wiki/React_(JavaScript_library)) and[
-        Kyle Matthews
-        (Gatsby)](https://www.gatsbyjs.org/contributors/kyle-mathews/)\[^4], we
-        have a path forward that promises fundamental improvements in how we
-        work, what we build, and the value we provide to our users.
+        But thanks to a new generation of rule breakers, we have a path forward
+        that promises fundamental improvements in how we work, what we build,
+        and the value we provide to our users.
 
 
 
 
 
-      heading: Breaking barriers
+      heading: What was impossible yesterday is possible today
     - content: >-
         There are many paths forward, but the tools and concepts outlined below
         are a good place to start. My own path here began in 1994 during the
@@ -211,6 +214,23 @@ footnotes: >
   The best part of this of this new world is how easy it is to get started, and
   to experiment and learn.
 
+
+
+
+  As a result, we can now create faster and smarter websites and applications
+  that are less costly to build, easier to maintain and secure, and infinitely
+  more flexible than our current server-based status quo.
+
+
+  Because the truth is that we are no longer building websites at all. We are
+  building user interfaces.
+
+
+  The job of the modern web developer is simple. We are here to create amazing
+  user experiences that are accessible, responsive, and device agnostic. The
+  data, the CMS, and all of the rules and business logic necessary to manage a
+  modern website or mobile application is now mostly irrelevant to the real job
+  at hand. 
 
 
 
