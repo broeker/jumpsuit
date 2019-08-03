@@ -102,27 +102,27 @@ secondarycontent:
   blocks:
     - content: >+
         From day one, the web has been pushed forward by explorers and tinkerers
-        who make up the rules as they go. And yet many of us are still relying
-        on the same basic tools and techniques that have been in place for
-        decades.[^3]
+        who make up the rules as they go. Thanks to a new generation of rule
+        breakers, we now have a path forward that promises fundamental
+        improvements in how we work, what we build, and the experience we
+        provide to our users. 
 
 
-        For more than a quarter of a century, the vast majority our effort has
-        been focused almost entirely on the backend: our early CGI scripts led
-        to the first "database-driven" websites and finally to the rise of
-        content management systems and the vast backend infrastructures that
-        hold it all together.
+        As a result, we can now create faster and smarter web applications that
+        are less costly to build, easier to maintain and secure, and infinitely
+        more flexible than our current server-based status quo. 
 
 
-        But thanks to a new generation of rule breakers, we have a path forward
-        that promises fundamental improvements in how we work, what we build,
-        and the value we provide to our users.
-
-
+        This website is dedicated to the jumpsuit life, to the brave souls, the
+        learners, the curious, and the test pilots who continue to break
+        barriers on our never-ending journey toward a better web.
 
 
 
-      heading: What was impossible yesterday is possible today
+
+
+
+      heading: Embrace the impossible
 footnotes: >+
   \[^1]: Here is the footnote.
 
@@ -188,9 +188,6 @@ footnotes: >+
 
 
 
-  As a result, we can now create faster and smarter websites and applications
-  that are less costly to build, easier to maintain and secure, and infinitely
-  more flexible than our current server-based status quo.
 
 
   Because the truth is that we are no longer building websites at all. We are
