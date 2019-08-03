@@ -102,20 +102,11 @@ secondarycontent:
     - content: >-
         From day one, the web has been pushed forward by explorers and tinkerers
         who make up the rules as they go. Thanks to a new generation of rule
-        breakers, we now have a path forward that promises fundamental
-        improvements in how we work, what we build, and the experience we
-        provide to our users. 
-
-
-        As a result, we can now create faster and smarter web applications that
-        are less costly to build, easier to maintain and secure, and infinitely
-        more flexible than our current server-based status quo. 
-
-
-        Nobody on earth has ever set out to build a slow website, or one that is
-        frustrating to use or maintain. This website is dedicated to the
-        jumpsuit life, to the learners, the curious, the test pilots, and
-        anybody else with a passion for building a better web.
+        breakers, we can now create faster and smarter web applications that are
+        less costly to build, easier to maintain and secure, and infinitely more
+        flexible than our current server-based status quo. This website is
+        dedicated to the jumpsuit life, to the learners, the curious, the test
+        pilots, and anybody else with a passion for building a better web.
       heading: ''
 footnotes: >
   \[^1]: Here is the footnote.
