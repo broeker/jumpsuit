@@ -58,7 +58,7 @@ mainbody:
     years ago are now easy. 
 
 
-    **Exhibit A: WWW (circa 2019)**
+    ## **Exhibit A: WWW (circa 2019)**
 full_image: /img/chuck.jpg
 blurbs:
   blocks:
