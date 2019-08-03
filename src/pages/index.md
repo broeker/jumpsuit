@@ -115,42 +115,6 @@ secondarycontent:
 
 
       heading: What was impossible yesterday is possible today
-    - content: >-
-        There are many paths forward, but the tools and concepts outlined below
-        are a good place to start. My own path here began in 1994 during the
-        web's infancy, and I have now survived:
-
-
-        * Mosiac, Gopher, Archie, Veronica, and Usenet
-
-        * The invention of TABLES, CSS (and early JavaScript)
-
-        * The Browser Wars
-
-        * The rise of blogging and the indie web
-
-        * The Box Model
-
-        * Spacer GIFs
-
-        * The Platform Wars (Java vs Flash vs ASP.NET vs Cold Fusion vs. PHP vs
-        Rails)
-
-        * The Rise and Domination of the Open Source CMS
-
-        * The invention of Gmail (along with AJAX, and subsequently JQuery)
-
-        * The rise of mobile, and mobile applications 
-
-        * The invention of the Cloud and SaaS
-
-
-        I have loved every minute of it, largely because the airplanes keep
-        getting better, and the because both the promise and the realities of
-        the web continues to evolve at the speed of the sound. I encountered
-        Gatsby JS and the concept of the JAMStack for the first time at Badcamp
-        2018, and...
-      heading: Test Pilot Training School
 footnotes: >
   \[^1]: Here is the footnote.
 
@@ -243,5 +207,39 @@ footnotes: >
   journey through the massively complicated array of websites and apps and
   digital signage and the Internet of Things we have woven over the past 25
   years.
+
+
+  There are many paths forward, but the tools and concepts outlined below are a
+  good place to start. My own path here began in 1994 during the web's infancy,
+  and I have now survived:
+
+
+  * Mosiac, Gopher, Archie, Veronica, and Usenet
+
+  * The invention of TABLES, CSS (and early JavaScript)
+
+  * The Browser Wars
+
+  * The rise of blogging and the indie web
+
+  * The Box Model
+
+  * Spacer GIFs
+
+  * The Platform Wars (Java vs Flash vs ASP.NET vs Cold Fusion vs. PHP vs Rails)
+
+  * The Rise and Domination of the Open Source CMS
+
+  * The invention of Gmail (along with AJAX, and subsequently JQuery)
+
+  * The rise of mobile, and mobile applications 
+
+  * The invention of the Cloud and SaaS
+
+
+  I have loved every minute of it, largely because the airplanes keep getting
+  better, and the because both the promise and the realities of the web
+  continues to evolve at the speed of the sound. I encountered Gatsby JS and the
+  concept of the JAMStack for the first time at Badcamp 2018, and...
 ---
 
