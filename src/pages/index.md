@@ -35,7 +35,7 @@ mainbody:
     alt: Jumpsuit diagram
     image: /img/jumpsuit.svg
   intro: >-
-    We can do better. And in just the last 5 years, the landscape has changed
+    We can do better. In just the last 5 years, the landscape has changed
     dramatically in ways that are fundamentally changing how and what we build.
     Traditional and monolithic platforms like Drupal and WordPress are no longer
     the obvious or default solutions. 
