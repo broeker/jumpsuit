@@ -26,10 +26,11 @@ mainbody:
 
 
 
-    The backend has been solved, and is now fully commoditized. Today our job is
-    the user interface, and nothing more. We are here to create fast, effective
-    digital experiences regardless of the device, the content, or the context.
-    This is our only job, and the only thing that matters. 
+    The backend has been solved, and is now fully commoditized. For the first
+    time in history, our singular focus is on the frontend. Our job is the user
+    interface, and nothing more. We are here to create fast, effective digital
+    experiences regardless of the device, the content, or the context. This is
+    our only job, and the only thing that matters. 
   heading: Zoom zoom.
   image1:
     alt: Jumpsuit diagram
