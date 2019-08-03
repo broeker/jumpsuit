@@ -28,10 +28,10 @@ mainbody:
     alt: Jumpsuit diagram
     image: /img/jumpsuit.svg
   intro: >-
-    But in just the last 5 years, the landscape has changed dramatically in ways
-    that are fundamentally changing how and what we build. Traditional and
-    monolithic platforms like Drupal and WordPress are no longer the obvious or
-    default solutions. 
+    The game is afoot. In just the last 5 years, the landscape has changed
+    dramatically in ways that are fundamentally changing how and what we build.
+    Traditional and monolithic platforms like Drupal and WordPress are no longer
+    the obvious or default solutions. 
 
 
     It is now just a matter of time before MOST websites and web applications
