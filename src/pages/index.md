@@ -106,8 +106,8 @@ secondarycontent:
         incurable passion for building a better web.  Thanks to a new generation
         of rule breakers, we can now create faster and smarter web applications
         that are less costly to build, easier to maintain and secure, and
-        infinitely more flexible than our current server-based status quo. Let's
-        do this thing.
+        infinitely more flexible than our current server-based status quo. The
+        barrier to entry is near zero, and the future is bright.
       heading: ''
 footnotes: >
   \[^1]: Here is the footnote.
