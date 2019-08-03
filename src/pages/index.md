@@ -13,11 +13,10 @@ mainpitch:
 mainbody:
   content: >-
     For more than a quarter of a century, the vast majority of our effort has
-    been focused almost entirely on the backend: early CGI scripts led to the
-    first "database-driven" websites and finally to the rise of the content
-    management system. Drupal and other next generation backend frameworks may
-    play a central role in this new world, but they are now a secondary
-    concern. 
+    been focused almost entirely on the backend: early `CGI scripts` led to the
+    first `database-driven websites` and finally to the rise of the `CMS`, and
+    the `web-as-a-service`. Drupal and other backend frameworks may play a
+    central role in this new world, but they are now a secondary concern. 
 
 
     On the modern web, data comes not only from Drupal or WordPress but from
@@ -26,8 +25,8 @@ mainbody:
 
 
     The backend has been solved, and is now fully commoditized. For the first
-    time in history, our singular focus is on the frontend. Our job is the user
-    interface, and nothing more. We are here to create fast, effective digital
+    time in history, our singular focus is on the frontend. `Our job is the user
+    interface.` Nothing more. We are here to create fast, effective digital
     experiences regardless of the device, the content, or the context. This is
     our only job, and the only thing that matters.
   heading: Zoom zoom.
@@ -37,8 +36,8 @@ mainbody:
   intro: >-
     We can do better. In just the last 5 years, the landscape has changed
     dramatically in ways that are fundamentally changing how and what we build.
-    Traditional and monolithic platforms like Drupal and WordPress are no longer
-    the obvious or default solutions. 
+    Traditional and `monolithic platforms` like Drupal and WordPress are no
+    longer the obvious or default solutions. 
 
 
     It is now just a matter of time before MOST websites and web applications
@@ -103,13 +102,13 @@ secondarycontent:
         From day one, the web has been pushed forward by explorers and tinkerers
         who make up the rules as they go. This website and blog is dedicated to
         the learners, the thinkers, the curious, and the test pilots with an
-        incurable passion for building a better web.  Thanks to a new generation
-        of rule breakers, we can now create faster and smarter web applications
-        that are less costly to build, easier to maintain and secure, and
-        infinitely more flexible than our current server-based status quo. The
-        barrier to entry is near zero, and the future is bright.
+        unbreakable passion for `building a better web`.  Thanks to a new
+        generation of rule breakers, we can now create faster and smarter web
+        applications that are less costly to build, easier to maintain and
+        secure, and infinitely more flexible than our current server-based
+        status quo. The barrier to entry is near zero, and the future is bright.
       heading: ''
-footnotes: >
+footnotes: >-
   \[^1]: Here is the footnote.
 
 
@@ -156,11 +155,18 @@ footnotes: >
   It is going to be AWESOME.
 
 
+
+
+
+
+
+
   My life-long fascination with the World Wide Web began in mid-1994. Armed with
-  a fresh install of the Mosiac browser and a 14K internet connection, I pushed
-  my first index.html file up to a univeristy-provided FTP server in mid-1994. I
-  have been "viewing source" and slinging DIVs and configuring ODBC connections
-  and helping make the the web work since that day forward.
+  a copy of the Whole Internet Catalog, a fresh install of the Mosiac browser,
+  and a painfully configured 14K dial-up internet connection, I pushed my first
+  index.html file up to a univeristy-provided FTP server in mid-1994. I have
+  been `viewing source` and slinging DIVs and configuring ODBC connections and
+  helping make the the web work since that day forward.
 
 
   When I pushed up my first single page web app in the form a single index.html
@@ -172,10 +178,6 @@ footnotes: >
   to experiment and learn.
 
 
-
-
-
-
   Because the truth is that we are no longer building websites at all. We are
   building user interfaces.
 
@@ -185,7 +187,6 @@ footnotes: >
   data, the CMS, and all of the rules and business logic necessary to manage a
   modern website or mobile application is now mostly irrelevant to the real job
   at hand. 
-
 
 
   For more than a quarter of a century, the vast majority our effort has been
