@@ -36,15 +36,15 @@ mainbody:
     alt: Jumpsuit diagram
     image: /img/jumpsuit.svg
   intro: >-
-    The game is afoot. In just the last 5 years, the landscape has changed
+    We can do better. And in just the last 5 years, the landscape has changed
     dramatically in ways that are fundamentally changing how and what we build.
     Traditional and monolithic platforms like Drupal and WordPress are no longer
     the obvious or default solutions. 
 
 
-    We can do better, and it is now just a matter of time before MOST websites
-    and web applications are built on something other than a traditional,
-    server-based content management system. 
+    It is now just a matter of time before MOST websites and web applications
+    are built on something other than a traditional, server-based content
+    management system. 
 
 
     Similar to the real-life [Second Industrial
