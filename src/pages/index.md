@@ -109,6 +109,16 @@ secondarycontent:
         secure, and infinitely more flexible than our current server-based
         status quo. The barrier to entry is near zero, and the future is bright.
       heading: ''
+tertiary:
+  content: >+
+    My life-long fascination with the World Wide Web began in mid-1994. Armed
+    with a fresh install of the Mosiac browser and a 14K internet connection, I
+    pushed my first index.html file up to a univeristy-provided FTP server in
+    mid-1994. I have been "viewing source" and slinging DIVs and configuring
+    ODBC connections and helping make the the web work since that day forward. I
+    am a better flier than you, because I fly more.
+
+  heading: Let's ride
 footnotes: >-
   \[^1]: Here is the footnote.
 
