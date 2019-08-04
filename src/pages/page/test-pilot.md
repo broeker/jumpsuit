@@ -1,7 +1,7 @@
 ---
 templateKey: content-page
-title: Test Pilot
-subheading: I shall fly.
+title: Experiments in Living
+subheading: test facility 101
 image: /img/jsheader.jpg
 mainpitch:
   title: And together.
