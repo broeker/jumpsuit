@@ -111,22 +111,16 @@ secondarycontent:
       heading: ''
 tertiary:
   content: >+
-    The barrier to entry into this new world is near zero. The future is bright
-    whether you are a seasoned Drupal or WordPress developer, a custom Laravel
-    or Rails developer, or an aspiring new developer who wants to start 
+    The barrier to entry is near zero, and building the web has never been more
+    fun. You don't need a college degree or an expensive bootcamp, only the
+    drive to learn. The future is bright whether you are a seasoned Drupal or
+    WordPress developer, a custom Laravel or Rails developer, or an aspiring new
+    developer. 
 
-    building the web. 
 
+    The Fundamentals of HTML and CSS
 
-
-    My life-long fascination with the World Wide Web began in mid-1994. Armed
-    with a fresh install of the Mosiac browser and a 14K internet connection, I
-    pushed my first index.html file up to a univeristy-provided FTP server in
-    mid-1994. I have been "viewing source" and slinging DIVs and configuring
-    ODBC connections and helping make the the web work since that day forward. I
-    am a better flier than you, because I fly more.
-
-  heading: Hello World
+  heading: 'Hello, world.'
 footnotes: >-
   \[^1]: Here is the footnote.
 
