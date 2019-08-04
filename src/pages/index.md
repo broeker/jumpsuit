@@ -107,10 +107,18 @@ secondarycontent:
         generation of rule breakers, we can now create faster and smarter web
         applications that are less costly to build, easier to maintain and
         secure, and infinitely more flexible than our current server-based
-        status quo. The barrier to entry is near zero, and the future is bright.
+        status quo.
       heading: ''
 tertiary:
   content: >+
+    The barrier to entry into this new world is near zero. The future is bright
+    whether you are a seasoned Drupal or WordPress developer, a custom Laravel
+    or Rails developer, or an aspiring new developer who wants to start 
+
+    building the web. 
+
+
+
     My life-long fascination with the World Wide Web began in mid-1994. Armed
     with a fresh install of the Mosiac browser and a 14K internet connection, I
     pushed my first index.html file up to a univeristy-provided FTP server in
