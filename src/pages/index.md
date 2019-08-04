@@ -126,7 +126,7 @@ tertiary:
     ODBC connections and helping make the the web work since that day forward. I
     am a better flier than you, because I fly more.
 
-  heading: Let's ride
+  heading: Hello World
 footnotes: >-
   \[^1]: Here is the footnote.
 
