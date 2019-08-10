@@ -37,8 +37,8 @@ mainbody:
   intro: >-
     We can do better. In just the last 5 years, the landscape has changed
     dramatically in ways that are fundamentally changing how and what we build.
-    Traditional and `monolithic platforms` like Drupal and WordPress are no
-    longer the obvious or default solutions. 
+    Traditional and monolithic platforms like Drupal and WordPress are no longer
+    the obvious or default solutions. 
 
 
     It is now just a matter of time before MOST websites and web applications
@@ -60,6 +60,31 @@ mainbody:
 
     ## **Exhibit A: WWW (circa 2019)**
 full_image: /img/chuck.jpg
+full_image2: /img/chuck2.jpg
+secondarycontent:
+  blocks:
+    - content: >-
+        From day one, the web has been pushed forward by explorers and tinkerers
+        who make up the rules as they go. This website and blog is dedicated to
+        the learners, the thinkers, the curious, and the test pilots with an
+        unbreakable passion for `building a better web`.  Thanks to a new
+        generation of rule breakers, we can now create faster and smarter web
+        applications that are less costly to build, easier to maintain and
+        secure, and infinitely more flexible than our current server-based
+        status quo.
+      heading: ''
+tertiary:
+  content: >+
+    The barrier to entry is near zero, and building the web has never been more
+    fun. You don't need a college degree or an expensive bootcamp, only the
+    drive to learn. The future is bright whether you are a seasoned Drupal or
+    WordPress developer, a custom Laravel or Rails developer, or an aspiring new
+    developer. 
+
+
+    The Fundamentals of HTML and CSS
+
+  heading: 'Hello, world.'
 blurbs:
   blocks:
     - heading: Meet Gatsby
@@ -96,31 +121,6 @@ blurbs:
         Content is king and for many projects you are still going to require
         some method to manage all of your content, images, and data. Welcome to
         the exploding world of the Headless CMS.
-full_image2: /img/chuck2.jpg
-secondarycontent:
-  blocks:
-    - content: >-
-        From day one, the web has been pushed forward by explorers and tinkerers
-        who make up the rules as they go. This website and blog is dedicated to
-        the learners, the thinkers, the curious, and the test pilots with an
-        unbreakable passion for `building a better web`.  Thanks to a new
-        generation of rule breakers, we can now create faster and smarter web
-        applications that are less costly to build, easier to maintain and
-        secure, and infinitely more flexible than our current server-based
-        status quo.
-      heading: ''
-tertiary:
-  content: >+
-    The barrier to entry is near zero, and building the web has never been more
-    fun. You don't need a college degree or an expensive bootcamp, only the
-    drive to learn. The future is bright whether you are a seasoned Drupal or
-    WordPress developer, a custom Laravel or Rails developer, or an aspiring new
-    developer. 
-
-
-    The Fundamentals of HTML and CSS
-
-  heading: 'Hello, world.'
 footnotes: >-
   \[^1]: Here is the footnote.
 
