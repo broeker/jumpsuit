@@ -5,10 +5,10 @@ subheading: with citizen tim
 image: /img/jsheader.jpg
 mainpitch:
   description: >-
-    From the dawn of time, web developers have sought to make things better. But
-    today our world is more difficult than ever. Our projects are more expensive
-    and harder to manage. Less fun to build. Slower and more complicated to use.
-    And way less fun to fly.
+    From the dawn of time, web developers have tried to to make things better.
+    But today our world is more difficult than ever. Our projects are more
+    expensive and harder to manage. Less fun to build. Slower and more
+    complicated to use. And way less fun to fly.
   title: ''
 mainbody:
   content: >-
