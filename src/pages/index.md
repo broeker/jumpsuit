@@ -35,7 +35,7 @@ mainbody:
     alt: Jumpsuit diagram
     image: /img/jumpsuit.svg
   intro: >-
-    But in just the last 5 years, the landscape has changed dramatically in ways
+    But in just the last 5 years, the landscape has shifted dramatically in ways
     that are fundamentally changing how and what we build. Monolithic platforms
     like Drupal and WordPress are no longer the obvious or default solution (nor
     are traditional applications built on .NET, Rails, or Laravel.)
