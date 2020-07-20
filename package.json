@@ -23,7 +23,7 @@
     "gatsby-transformer-remark": "^2.3.4",
     "gatsby-transformer-remark-frontmatter": "^0.1.0",
     "gatsby-transformer-sharp": "^2.1.9",
-    "lodash": "^4.17.5",
+    "lodash": "^4.17.19",
     "lodash-webpack-plugin": "^0.11.4",
     "markdown-it": "^9.0.1",
     "markdown-it-footnote": "^3.0.2",
