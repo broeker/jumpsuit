@@ -45,7 +45,7 @@
     "remark": "^10.0.1",
     "remark-html": "^9.0.0",
     "remarkable": "^1.7.1",
-    "showdown": "^1.9.0",
+    "showdown": "^1.9.1",
     "showdown-footnotes": "git+ssh://git@github.com:broeker/showdown-footnotes.git#backlinks",
     "styled-components": "^4.3.2",
     "uuid": "^3.2.1"
