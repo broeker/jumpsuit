@@ -43,7 +43,7 @@
     "react-responsive-modal": "^4.0.1",
     "react-super-responsive-table": "^5.0.0",
     "remark": "^10.0.1",
-    "remark-html": "^9.0.0",
+    "remark-html": "^13.0.2",
     "remarkable": "^1.7.1",
     "showdown": "^1.9.0",
     "showdown-footnotes": "git+ssh://git@github.com:broeker/showdown-footnotes.git#backlinks",
